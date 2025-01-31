@@ -3,7 +3,7 @@ title: Luanti Privacy Policy
 description: Privacy policy for the Luanti application.
 small: |
   Last updated: 2024-08-17
-  (<a href="https://github.com/minetest/minetest.github.io/commits/master/app-privacy-policy.md">View updates</a>)
+  (<a href="https://github.com/luanti-org/luanti-org.github.io/commits/master/app-privacy-policy.md">View updates</a>)
 layout: page_subtitle
 ---
 

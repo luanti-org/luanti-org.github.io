@@ -1,6 +1,6 @@
 # [Luanti Website](https://www.luanti.org)
 
-[![Build status](https://github.com/minetest/minetest.github.io/workflows/build/badge.svg)](https://github.com/minetest/minetest.github.io/actions)\
+[![Build status](https://github.com/luanti-org/luanti-org.github.io/workflows/build/badge.svg)](https://github.com/luanti-org/luanti-org.github.io/actions)\
 The official Luanti website, living at [www.luanti.org](https://www.luanti.org).
 
 ## Features
