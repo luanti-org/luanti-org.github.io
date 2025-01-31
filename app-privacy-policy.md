@@ -15,7 +15,7 @@ layout: page_subtitle
 
 Luanti may connect to the following services during its operation:
 
-* The main website (www.minetest.net): used to get the most recent version
+* The main website (www.luanti.org): used to get the most recent version
 * The server list: used to load the server list in "Play Online"
 * ContentDB: used to install/update content in the main menu
 * Game servers: third-party servers when playing online
@@ -79,11 +79,11 @@ The server list is currently located in the Netherlands.
 ## ContentDB
 
 You can find more information on
-[ContentDB's privacy policy](https://content.minetest.net/privacy_policy/).
+[ContentDB's privacy policy](https://content.luanti.org/privacy_policy/).
 
 ### Information collected
 
-Requests to [ContentDB](https://content.minetest.net) will be made in the main
+Requests to [ContentDB](https://content.luanti.org) will be made in the main
 menu when using the ContentDB feature. This includes checking for updates when
 you have packages from ContentDB installed. The following information will be
 transferred or included:
@@ -96,7 +96,7 @@ transferred or included:
 for example:
 
 ```
-11.22.33.44 content.minetest.net - [06/July/2024:10:05:00 +0200] "GET /packages/Wuzzy/glitch/releases/18414/download/?reason=new HTTP/2.0" 302 233 "-" "Luanti/5.8.0 (Windows/10.0.19041 x86_64)"
+11.22.33.44 content.luanti.org - [06/July/2024:10:05:00 +0200] "GET /packages/Wuzzy/glitch/releases/18414/download/?reason=new HTTP/2.0" 302 233 "-" "Luanti/5.8.0 (Windows/10.0.19041 x86_64)"
 ```
 
 ### How it is used
@@ -132,14 +132,14 @@ data to be moved within the United Kingdom and/or EU.
 
 ### Removal requests
 
-See [ContentDB's privacy policy](https://content.minetest.net/privacy_policy/#removal-requests).
+See [ContentDB's privacy policy](https://content.luanti.org/privacy_policy/#removal-requests).
 
 
 ## Version checking
 
 ### Information collected
 
-When you open Luanti, it may contact www.minetest.net to fetch information
+When you open Luanti, it may contact www.luanti.org to fetch information
 about the most recent version. The following information will be transferred or
 included:
 

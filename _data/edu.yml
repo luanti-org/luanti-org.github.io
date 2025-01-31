@@ -7,7 +7,7 @@ why:
 
 - title: Modular & Customizable
   para: >-
-    Access [a library of 2000+ free and open source community developed mods](https://content.minetest.net/)
+    Access [a library of 2000+ free and open source community developed mods](https://content.luanti.org/)
     to customize your EDU environment, and an accessible scripting system for
     you and your students to
     [create your own](https://rubenwardy.com/minetest_modding_book/)!
@@ -148,7 +148,7 @@ resources:
   para: >-
     A trove of information, in multiple languages, with a space dedicated to
     education. Looking for more contributions!
-  url: https://wiki.minetest.net/MinetestEDU
+  url: https://wiki.luanti.org/MinetestEDU
 
 - title: ContentDB
   author: Luanti community
@@ -157,7 +157,7 @@ resources:
     A database where modders can submit their mods, games, and texture packs to
     make them easily accessible. Includes features such as a tag system,
     reviews, and more.
-  url:  https://content.minetest.net/packages/?tag=education
+  url:  https://content.luanti.org/packages/?tag=education
 
 - title: BLOCKALOT Server Hosting
   author: Landesmedienzentrum Baden-Württemberg (LMZ)
@@ -180,7 +180,7 @@ resources:
   author: Luanti community
   tag: To host a server by yourself
   para: The basics to host your multiplayer world locally or online.
-  url: https://wiki.minetest.net/Setting_up_a_server
+  url: https://wiki.luanti.org/Setting_up_a_server
 
 - title: Luanti Modding Book
   author: rubenwardy
