@@ -5,7 +5,7 @@ players:
       description: >
         There are many games to choose from. You could survive in a harsh
         environment, build creatively, or fight other players.
-        Just [download a game](https://content.minetest.net/packages/?type=game)
+        Just [download a game](https://content.luanti.org/packages/?type=game)
         or connect to a server.
 
     - title: Enormous Maps
@@ -21,7 +21,7 @@ players:
     - title: Texture Packs
       description: >
         Not happy with the look of the textures?
-        [Change them!](https://content.minetest.net/packages/?type=txp)
+        [Change them!](https://content.luanti.org/packages/?type=txp)
 
     - title: Beautiful Map Generators
       description: >
@@ -34,20 +34,20 @@ developers:
     - title: Make a Game
       description: >
         Create your own voxel game using our
-        [Lua API](https://dev.minetest.net/Modding_Intro).
+        [Lua API](https://dev.luanti.org/Modding_Intro).
         No need to worry about tricky voxel rendering or networking;
         instead, write scripts to add items and control game play.
 
     - title: Modding API
       description: >
         Use the same Lua API to make mods for any Luanti-based game.
-        Publish your mods on [ContentDB](https://content.minetest.net),
+        Publish your mods on [ContentDB](https://content.luanti.org),
         and contribute to others' mods.
 
     - title: Large Collection of Existing Mods
       description: >
         There are over 1100 open source mods on
-        [ContentDB](https://content.minetest.net/),
+        [ContentDB](https://content.luanti.org/),
         which are ready to be used, adapted or learned from.
 
     - title: Friendly Community
@@ -57,5 +57,5 @@ developers:
     - title: Open Source
       description: >
         The engine is open source and transparently developed.
-        [Submit an issue](https://github.com/minetest/minetest/issues)
+        [Submit an issue](https://github.com/luanti-org/luanti/issues)
         for anything you're missing, or get the source code and dig into it yourself.

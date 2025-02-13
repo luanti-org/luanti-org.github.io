@@ -1,13 +1,13 @@
 - name: Wiki
-  url: https://wiki.minetest.net
+  url: https://wiki.luanti.org
   icon: wiki.svg
 
 - name: Forum
-  url: https://forum.minetest.net
+  url: https://forum.luanti.org
   icon: forum.svg
 
 - name: IRC
-  url: https://wiki.minetest.net/IRC
+  url: https://wiki.luanti.org/IRC
   icon: irc.svg
 
 - name: Servers
