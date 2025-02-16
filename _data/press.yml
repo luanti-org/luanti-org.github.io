@@ -2,7 +2,7 @@ resources:
   - title: Flyer / Poster
     author: Zughy
     img: flyer.png
-    para: A flyer to promote Minetest.
+    para: A flyer to promote Luanti.
     url: https://gitlab.com/marco_a/luanti-flyer-poster
 
   - title: Education Leaflet
