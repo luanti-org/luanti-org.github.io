@@ -106,11 +106,29 @@ redirect_from:
           <!-- <li class="has-text-weight-bold">Snap (all distributions) -
               <a href="https://snapcraft.io/minetest">Stable</a></li> -->
           <li>
-            Ubuntu -
-            <a href="https://launchpad.net/~minetestdevs/+archive/ubuntu/stable">Stable PPA</a> or
-            <a href="https://launchpad.net/~minetestdevs/+archive/ubuntu/daily-builds">Daily PPA</a>,
-            as the repos are outdated
+            Ubuntu
           </li>
+          <ul>
+            <li>
+              add the PPA for the <a href="https://launchpad.net/~minetestdevs/+archive/ubuntu/stable">Stable version</a>:
+              <pre>
+sudo add-apt-repository ppa:minetestdevs/stable
+</pre>
+            </li>
+            <li>
+              or for the <a href="https://launchpad.net/~minetestdevs/+archive/ubuntu/daily-builds">Daily PPA</a>, as the repos are outdated: 
+              <pre>
+sudo add-apt-repository ppa:minetestdevs/daily-builds
+              </pre>
+            </li>
+            <li>
+              and install Luanti
+              <pre>
+sudo apt update
+sudo apt-get install minetest
+</pre>
+            </li>
+          </ul>
           <li>
             Debian - use
             <a href="https://flathub.org/apps/details/net.minetest.Minetest">Flatpak</a>
