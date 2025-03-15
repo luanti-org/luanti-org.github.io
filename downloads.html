@@ -18,6 +18,7 @@ redirect_from:
     <h2>Getting started</h2>
     <p>
       Are you a new user?
+
       Have a look at our <a href="https://docs.luanti.org/for-players/getting-started/">Getting Started</a>,
       <a href="https://docs.luanti.org/about/faq/">FAQ</a>,
        and <a href="https://docs.luanti.org/for-players/">For Players</a> pages on our docs.<br>
@@ -106,10 +107,30 @@ redirect_from:
           <!-- <li class="has-text-weight-bold">Snap (all distributions) -
               <a href="https://snapcraft.io/minetest">Stable</a></li> -->
           <li>
-            Ubuntu -
-            <a href="https://launchpad.net/~minetestdevs/+archive/ubuntu/stable">Stable PPA</a> or
-            <a href="https://launchpad.net/~minetestdevs/+archive/ubuntu/daily-builds">Daily PPA</a>,
-            as the repos are outdated
+            Ubuntu and derivatives -
+          </li>
+          <ul>
+            <li>
+              add the PPA (as the repos are outdated) for the <a href="https://launchpad.net/~minetestdevs/+archive/ubuntu/stable">Stable version</a>:
+              <pre>
+sudo add-apt-repository ppa:minetestdevs/stable
+</pre>
+            </li>
+            <li>
+              or for the <a href="https://launchpad.net/~minetestdevs/+archive/ubuntu/daily-builds">Daily Version</a>: 
+              <pre>
+sudo add-apt-repository ppa:minetestdevs/daily-builds
+</pre>
+            </li>
+            <li>
+              and install Luanti
+              <pre>
+sudo apt update
+sudo apt install minetest
+                </pre>
+            </li>
+          </ul>
+          
           </li>
           <li>
             Debian - use
