@@ -1,5 +1,5 @@
-- name: Wiki
-  url: https://wiki.luanti.org
+- name: Docs
+  url: https://docs.luanti.org/
   icon: wiki.svg
 
 - name: Forum
@@ -7,7 +7,7 @@
   icon: forum.svg
 
 - name: IRC
-  url: https://wiki.luanti.org/IRC
+  url: https://docs.luanti.org/about/irc/
   icon: irc.svg
 
 - name: Servers

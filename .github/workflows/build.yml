@@ -26,4 +26,4 @@ jobs:
        bundle exec jekyll build
        bundle exec htmlproofer '_site/' \
          --allow-hash-href --ignore-status-codes 0,403 \
-         --ignore-urls '/.*good\+first\+issue.*/,/.*wiki\.minetest\.net.*/,/.*dev\.minetest\.net.*/,/.*matrix\.to.*/'
+         --ignore-urls '/.*good\+first\+issue.*/,/.*matrix\.to.*/'

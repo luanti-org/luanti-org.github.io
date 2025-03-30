@@ -148,7 +148,7 @@ resources:
   para: >-
     A trove of information, in multiple languages, with a space dedicated to
     education. Looking for more contributions!
-  url: https://wiki.luanti.org/MinetestEDU
+  url: https://docs.luanti.org/about/luanti-edu/
 
 - title: ContentDB
   author: Luanti community
@@ -180,7 +180,7 @@ resources:
   author: Luanti community
   tag: To host a server by yourself
   para: The basics to host your multiplayer world locally or online.
-  url: https://wiki.luanti.org/Setting_up_a_server
+  url: https://docs.luanti.org/for-server-hosts/setup/
 
 - title: Luanti Modding Book
   author: rubenwardy
