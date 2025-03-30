@@ -25,5 +25,5 @@ jobs:
       run: |
        bundle exec jekyll build
        bundle exec htmlproofer '_site/' \
-         --allow-hash-href --check-html --http-status-ignore 0,403 \
-         --url-ignore '/.*good\+first\+issue.*/,/.*wiki\.minetest\.net.*/,/.*dev\.minetest\.net.*/'
+         --allow-hash-href --ignore-status-codes 0,403 \
+         --ignore-urls '/.*good\+first\+issue.*/,/.*wiki\.minetest\.net.*/,/.*dev\.minetest\.net.*/'

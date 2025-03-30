@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 gem 'jekyll'
 gem 'jekyll-redirect-from'
 gem 'jekyll-sitemap'
-gem 'html-proofer', '~> 3.19'
+gem 'html-proofer'
 gem 'json'
 
 # Newer versions have limited libc support
