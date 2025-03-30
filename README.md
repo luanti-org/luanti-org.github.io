@@ -13,7 +13,7 @@ The official Luanti website, living at [www.luanti.org](https://www.luanti.org).
 
 This site uses the [Jekyll](https://jekyllrb.com) static site generator.
 
-- Ensure you have [Ruby](https://www.ruby-lang.org/) 2.4 or later installed.
+- Ensure you have [Ruby](https://www.ruby-lang.org/) 3.1 or later installed.
 - Install [Bundler](https://bundler.io/) by running `gem install bundler`.
   - On Linux, use a Ruby version manager such as [rbenv](https://github.com/rbenv/rbenv)
     to easily switch to any version and avoid permission issues.
