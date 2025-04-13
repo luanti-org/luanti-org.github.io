@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@master
     - name: Read VERSION file
       id: getversion
-      run: echo "{version]=$(cat .ruby-version)" >> $GITHUB_OUTPUT
+      run: echo "version=$(cat .ruby-version)" >> $GITHUB_OUTPUT
     - name: Install Ruby
       uses: ruby/setup-ruby@master
       with:
