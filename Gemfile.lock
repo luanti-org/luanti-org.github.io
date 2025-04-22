@@ -84,7 +84,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     metrics (0.12.2)
-    nokogiri (1.18.6-x86_64-linux-gnu)
+    nokogiri (1.18.8-x86_64-linux-gnu)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
