@@ -1,2 +1,5 @@
+# org.luanti.luanti
+b170b0fb-6b22-4ab0-8540-de7c473e96b4
+
 # net.minetest.minetest
 dad05ddb-480e-459f-8bc7-5ace59007479
