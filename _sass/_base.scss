@@ -70,15 +70,62 @@ a:not(.navbar-item, .no-underline ,.card) {
 }
 
 .iconlist {
+  justify-content: center;
+  
   .image {
     width: 100px;
     height: 120px;
     padding: 10px 0;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   img {
     max-width: 100px;
     max-height: 100px;
+    object-fit: contain;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.75rem 0.5rem;
+    width: 180px !important;
+    flex: none;
+  }
+
+  .title {
+    margin-top: 10px;
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  // Force exactly 4 per row on desktop only
+  @media screen and (min-width: 1024px) {
+    max-width: 720px; // 4 * 180px = 720px
+    margin: 0 auto;
+  }
+
+  // Allow natural flowing on mobile - specifically target small screens
+  @media screen and (max-width: 767px) {
+    .column {
+      flex: 1 1 calc(50% - 1rem) !important;
+      width: auto !important;
+      min-width: 120px;
+      max-width: none;
+    }
+  }
+
+  // Tablet range
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .column {
+      flex: 0 1 auto;
+      width: auto !important;
+      min-width: 140px;
+      max-width: 180px;
+    }
   }
 }

@@ -20,19 +20,19 @@ redirect_from:
 
 <section class="section">
   <div class="container">
-    {% assign rows = "community,social" | split: "," %}
-    {% for row in rows %}
-    <div class="columns is-variable is-8 is-centered iconlist">
-      {% for link in site.data[row] %}
-      <a class="column is-narrow has-text-centered no-underline hover-enlarge" href="{{ link.url }}">
-        <div class="image">
-          <img src="{{ '/media/logos/' | append: link.icon | relative_url }}" alt="{{ link.name }} logo">
-        </div>
-        <span class="title">{{ link.name }}</span>
-      </a>
+    <div class="columns is-multiline is-centered iconlist">
+      {% assign rows = "community,social" | split: "," %}
+      {% for row in rows %}
+        {% for link in site.data[row] %}
+        <a class="column is-narrow has-text-centered no-underline hover-enlarge" href="{{ link.url }}">
+          <div class="image">
+            <img src="{{ '/media/logos/' | append: link.icon | relative_url }}" alt="{{ link.name }} logo">
+          </div>
+          <span class="title">{{ link.name }}</span>
+        </a>
+        {% endfor %}
       {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </section>
 
