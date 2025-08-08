@@ -36,6 +36,12 @@ When working on new features, keep in mind this website only supports
 
 Internet Explorer isn't supported.
 
+## Brand icons
+
+- [Discord](https://discord.com/branding)
+- [Mastodon](https://joinmastodon.org/branding)
+- [Reddit](https://redditbrand.lingoapp.com/s/d9x3n2?v=40)
+
 ## License
 
 Copyright © 2015-2020 Hugo Locurcio and contributors

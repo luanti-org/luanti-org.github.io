@@ -4,7 +4,7 @@
 
 - name: Mastodon
   url: https://floss.social/@Luanti
-  icon: mastodon.png
+  icon: mastodon.svg
 
 - name: Discord
   url: https://discord.gg/minetest
@@ -12,4 +12,4 @@
 
 - name: Reddit
   url: https://reddit.com/r/minetest
-  icon: reddit.png
+  icon: reddit.svg
