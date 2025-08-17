@@ -1,6 +1,16 @@
+@use 'sass:list';
+@use 'sass:math';
+
+$hero-images: [
+  "/media/background-home.webp",
+];
+
+// Selects a random hero image every time the site is built
+$random-hero-image: nth($hero-images, random(length($hero-images)));
+
 // Used for the "hero" header on the homepage
 .section-home {
-  background-image: url("/media/background-home.webp");
+  background-image: url($random-hero-image);
   background-size: cover;
   // Background color is displayed while the image is loading,
   // so that the text is still readable
