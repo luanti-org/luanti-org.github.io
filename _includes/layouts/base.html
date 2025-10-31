@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}" data-theme="light">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		{{ title | i18n }}
+		{% unless page.title_append == false %}- {{ "Luanti" | i18n }}{% endunless %}
+	</title>
+	<link rel="canonical" href="https://www.luanti.org{{ page.url }}">
+	<meta name="og:url" content="https://www.luanti.org{{ page.url }}">
+	<meta name="og:title" content="{{ title | i18n | escape }}">
+	<meta name="og:site_name" content="{{ 'Luanti' | i18n }}">
+	{% if page.description %}
+	<meta name="og:description" content="{{ description | i18n | escape | strip }}">
+	<meta name="description" content="{{ description | i18n | escape | strip }}">
+	{% endif %}
+	{% if page.image %}
+	<meta name="og:image" content="{{ image | absolute_url }}">
+	{% endif %}
+	<link rel="alternate" hreflang="{{ lang }}" href="{{ page.url | absolute_url }}">
+	{%- assign links = page.url | locale_links -%}
+	{%- for link in links %}
+	<link rel="alternate" hreflang="{{ link.lang }}" href="{{ link.url | absolute_url }}">
+	{%- endfor %}
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="apple-touch-icon" sizes="57x57" href="/media/favicon/57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/media/favicon/60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/media/favicon/72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/media/favicon/76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/media/favicon/114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/media/favicon/120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/media/favicon/144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/media/favicon/152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/media/favicon/180x180.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/media/favicon/32x32.png">
+	<link rel="icon" type="image/png" sizes="194x194" href="/media/favicon/194x194.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/media/favicon/96x96.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/media/favicon/192x192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/media/favicon/16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/media/favicon/144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<script defer src="/assets/js/main.js"></script>
+	<script defer>
+	var _paq = _paq || [];
+	_paq.push(["trackPageView"]);
+	_paq.push(["enableLinkTracking"]);
+	(function() {
+		var u="//stats.minetest.net/";
+		_paq.push(["setTrackerUrl", u+"piwik.php"]);
+		_paq.push(["setSiteId", 1]);
+		var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+		g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+	})();
+	</script>
+</head>
+<body>
+	{% include "header.html" %}
+	{{ content }}
+	{% include "footer.html" %}
+</body>
+</html>

@@ -1,0 +1,62 @@
+@use "sass:color";
+@use 'sass:list';
+@use 'sass:math';
+@use "bulma-variables" as *;
+
+$hero-images: [
+  "/media/background-home.webp",
+];
+
+// Selects a random hero image every time the site is built
+$random-hero-image: list.nth($hero-images, math.random(list.length($hero-images)));
+
+// Used for the "hero" header on the homepage
+.section-home {
+  background-image: url($random-hero-image);
+  background-size: cover;
+  // Background color is displayed while the image is loading,
+  // so that the text is still readable
+  background-color: hsl(0, 1%, 13%);
+  font-size: $size-5;
+  text-align: center;
+
+  &, .title {
+    color: $white;
+  }
+
+  .title {
+    font-size: 3.25rem;
+  }
+}
+
+.home-paragraph {
+  font-size: $size-5;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.home-buttons {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+
+  .button {
+    margin: 0.5rem 1rem;
+  }
+}
+
+.feature-title,
+.feature-title:not(:last-child) {
+  color: color.adjust($grey-dark, $lightness: 5%);
+  font-size: $size-5 * 1.1;
+  margin-top: 2.25rem;
+  margin-bottom: 0.9rem;
+}
+
+dl.is-horizontal {
+  display: grid;
+  grid-template-columns: auto 1fr;
+
+  dt, dd {
+    display: block;
+  }
+}

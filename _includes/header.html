@@ -1,34 +1,52 @@
 <noscript>
-  <p>
-    <img src="https://stats.minetest.net/piwik.php?idsite=1" style="border:0;" alt="" data-proofer-ignore>
-  </p>
+	<p>
+		<img src="https://stats.minetest.net/piwik.php?idsite=1" style="border:0;" alt="" data-proofer-ignore>
+	</p>
 </noscript>
 
 <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="container">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="{{ '/' | relative_url }}">
-        <img alt="Luanti logo" src="/media/icon.svg">
-        <div class="has-text-weight-bold navbar-brand-text">Luanti</div>
-      </a>
+	<div class="container">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="{{ '/en/' | locale_url }}">
+				<img alt="Luanti logo" src="/media/icon.svg">
+				<div class="has-text-weight-bold navbar-brand-text">{{ "Luanti" | i18n }}</div>
+			</a>
 
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar" data-proofer-ignore>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
+			<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar"
+				data-proofer-ignore>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
 
-    <div id="navbar" class="navbar-menu">
-      <div class="navbar-start">
-        <a class="navbar-item" href="{{ '/#features' | relative_url }}">Features</a>
-        <a class="navbar-item" href="{{ '/#gallery' | relative_url }}">Gallery</a>
-        <a class="navbar-item" href="{{ '/downloads/' | relative_url }}">Download</a>
-        <a class="navbar-item" href="https://content.luanti.org">ContentDB</a>
-        <a class="navbar-item" href="https://blog.luanti.org/">Blog</a>
-        <a class="navbar-item" href="{{ '/get-involved/' | relative_url }}">Get Involved</a>
-        <a class="navbar-item" href="{{ '/education/' | relative_url }}">Education</a>
-      </div>
-    </div>
-  </div>
+		{% assign langPrefix = "/" | append: lang | append: "/" %}
+		<div id="navbar" class="navbar-menu">
+			<div class="navbar-start">
+				{% for item in navbar %}
+				<a class="navbar-item" href="{{ item.url | replace: '/en/', langPrefix }}">{{ item.title | i18n }}</a>
+				{% endfor %}
+			</div>
+			<div class="navbar-end">
+
+				<div class="navbar-item has-dropdown is-hoverable">
+					<a class="navbar-link">
+						{{ lang | default: "en" | langName }}
+					</a>
+
+					<div class="navbar-dropdown is-right">
+						<a class="navbar-item is-selected" href="{{ page.url }}" lang="{{ lang }}" hreflang="{{ lang }}">
+							{{ lang | default: "en" | langName }}
+						</a>
+						{% assign links = page.url | locale_links %}
+						{%- for link in links %}
+							<a class="navbar-item" href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
+								{{ link.label }}
+							</a>
+						{%- endfor -%}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </nav>

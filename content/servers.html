@@ -1,0 +1,88 @@
+---
+title: Server list
+description: A list of public servers, as shown inside Luanti
+layout: base
+lang: en
+redirect_from:
+  - /servers.html
+---
+
+<script defer>
+	var master = {
+		root: 'https://servers.luanti.org/',
+		no_avgtop: true,
+		no_ping: true,
+		no_uptime: true,
+		limit: 20,
+		clients_min: 1,
+	};
+</script>
+<script defer src="https://servers.luanti.org/list.js"></script>
+
+<section class="section">
+	<div class="container">
+		<div class="content">
+
+			<h1>Servers</h1>
+			<p class="has-text-strong">
+				The server list is also available at <a href="https://servers.luanti.org/"
+					rel="nofollow">servers.luanti.org</a>.
+			</p>
+
+			<!-- Loaded by the script at the top of this page -->
+			<div id="server_list"></div>
+			<noscript>
+				<p class="has-text-centered has-text-weight-semibold">
+					JavaScript is required to view the server list.
+				</p>
+			</noscript>
+
+			<hr>
+			<div class="columns is-desktop">
+
+				<div class="column">
+					<h2 id="flags">Flags</h2>
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th class="has-text-right">Flag</th>
+								<th>Explanation</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="has-text-right">Pwd</td>
+								<td>Players need to set a password at first connect</td>
+							</tr>
+							<tr>
+								<td class="has-text-right">Dmg</td>
+								<td>Damage enabled</td>
+							</tr>
+							<tr>
+								<td class="has-text-right">PvP</td>
+								<td>Players can damage other players</td>
+							</tr>
+							<tr>
+								<td class="has-text-right">Cre</td>
+								<td>Creative mode</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="column">
+					<h2 id="announcing_servers">Announcing Servers</h2>
+					<p>
+						Set this in your server configuration:
+					</p>
+					<pre class="code">
+server_announce = true
+server_name = My server
+server_description = A server that I made.
+server_url = &lt;URL to server homepage or forum topic&gt;
+</pre>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

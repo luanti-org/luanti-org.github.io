@@ -1,0 +1,114 @@
+---
+title: Luanti for Education
+description: Reasons and resources for using Luanti in education
+layout: base
+---
+
+<h1 class="title main-title">{{ title | i18n }}</h1>
+
+<section class="section">
+	<div class="container">
+		<h2 id="why" class="title">{{ "Why Luanti?" | i18n }}</h2>
+		<div class="columns is-multiline">
+			{% for point in edu.why %}
+			<div class="column is-one-third">
+				<h3 class="title is-4">{{ point.title | i18n }}</h3>
+				<p>
+					{{ point.para | i18n | markdownify }}
+				</p>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+<section class="section card-container">
+	<div class="container">
+		<h2 class="title">{{ "Projects" | i18n }}</h2>
+
+		<article id="map" class="card is-clipped mb-5">
+			<h3 class="is-sr-only">{{ "Projects map" | i18n }}</h3>
+			<iframe width="100%" height="450px" frameborder="0" allowfullscreen="" allow="geolocation" class="is-block"
+				title="{{ 'Projects map' | i18n }}" src="{{ edu.projects_map }}"></iframe>
+		</article>
+
+		<div class="columns is-multiline">
+			{% for point in edu.projects %}
+			{% include "edu_card.html", item: point %}
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+<section class="section card-container">
+	<div class="container">
+		<h2 class="title is-3">{{ "Resources" | i18n }}</h2>
+		<div class="columns is-multiline">
+			{% for point in edu.resources %}
+			{% include "edu_card.html", item: point %}
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+
+<section class="section">
+	<div class="container">
+		<h2 class="title is-3">{{ "Get Involved" | i18n }}</h2>
+		<div class="columns">
+			<article class="column is-half">
+				<h2 class="title is-4">{{ "Luanti community" | i18n }}</h2>
+				<p class="my-4">
+					{{ "Get involved with the wider Luanti community by joining one
+					of the official social platforms." | i18n }}
+				</p>
+				<p>
+					<a class="button is-primary" href='/get-involved/'>
+						{{ "Get Involved" | i18n }}
+					</a>
+				</p>
+			</article>
+			<article class="column is-half">
+				<h2 class="title is-4">{{ "Luanti Edu Discord (unofficial)" | i18n }}</h2>
+				<p class="my-4">
+					{{ "There's an educator-led Discord for the discussion of Luanti in
+					education." | i18n }}
+				</p>
+				<p>
+					<a class="button is-primary" href='https://discord.gg/invite/hUs9xT634S'>
+						{{ "Join the Discord" | i18n }}
+					</a>
+				</p>
+			</article>
+		</div>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container">
+		<h2 class="title">{{ "Leaflet" | i18n }}</h2>
+		<p class="my-4">
+			{{ "Need a print version of this page? See the \"Minetest in Education\" leaflet." | i18n }}
+		</p>
+		<p>
+			<a class="button is-primary"
+				href='https://gitlab.com/rubenwardy/fosdem24/-/tree/main/edu_leaflet?ref_type=heads'>
+				{{ '"Minetest in Education" leaflet' | i18n }}
+			</a>
+		</p>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container">
+		<h2 class="title">{{ "Working on an edu project?" | i18n }}</h2>
+		<p>
+			{{ "Contribute back to the community by writing about your project
+			and/or making your learning resources publicly available." | i18n }}
+			{{ "Then,
+			<a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'>
+				create an issue</a> or
+			<a href='https://rubenwardy.com/contact/'>contact rubenwardy</a>." | i18n }}
+		</p>
+	</div>
+</section>

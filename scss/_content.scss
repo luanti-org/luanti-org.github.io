@@ -1,0 +1,20 @@
+@use "bulma-variables" as *;
+
+// .content class overrides
+// See <https://bulma.io/documentation/elements/content/>
+
+.content {
+  h1 {
+    text-align: center;
+    font-size: $size-2;
+  }
+
+  h3 {
+    font-size: $size-5 * 1.05;
+    margin-bottom: 0.8rem;
+  }
+}
+
+.card-container {
+  background-color: #f0f0f0;
+}

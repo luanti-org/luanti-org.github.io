@@ -1,30 +1,29 @@
-{% assign point = include.item %}
+{% assign point = item %}
 <a class="column is-one-third hover-enlarge" href="{{ point.url }}">
-  <article class="card" style="min-height: 100%;">
-    {% if point.img %}
-      <div class="card-image">
-        <figure class="image is-16by9">
-          <img src="/media/edu/{{ point.img }}" style="object-fit: cover;"
-            alt="{{ point.alt }}">
-        </figure>
-      </div>
-    {% endif %}
-    <div class="card-content">
-      {% for country in point.country %}
-        <img class="is-pulled-right" src="/assets/icons/country-{{ country }}.png"
-          alt="{{ site.data.countries[country] }}" title="{{ site.data.countries[country] }}">
-      {% endfor %}
+	<article class="card" style="min-height: 100%;">
+		{% if point.img %}
+		<div class="card-image">
+			<figure class="image is-16by9">
+				<img src="/media/edu/{{ point.img }}" style="object-fit: cover;" alt="{{ point.alt | i18n }}">
+			</figure>
+		</div>
+		{% endif %}
+		<div class="card-content">
+			{% for country in point.country %}
+			<img class="is-pulled-right" src="/assets/icons/country-{{ country }}.png"
+				alt="{{ countries[country] | i18n }}" title="{{ countries[country] | i18n }}">
+			{% endfor %}
 
-      <h3 class="title is-4">{{ point.title }}</h3>
-      <p class="subtitle is-6 {% if point.tag %}mb-0{% endif %}">{{ point.author }}</p>
-      {% if point.tag %}
-        <p class="mt-2 mb-3">
-          <span class="tag is-rounded">{{ point.tag }}</span>
-        </p>
-      {% endif %}
-      <p>
-        {{ point.para | markdownify }}
-      </p>
-    </div>
-  </article>
+			<h3 class="title is-4">{{ point.title | i18n }}</h3>
+			<p class="subtitle is-6 {% if point.tag %}mb-0{% endif %}">{{ point.author }}</p>
+			{% if point.tag %}
+			<p class="mt-2 mb-3">
+				<span class="tag is-rounded">{{ point.tag | i18n }}</span>
+			</p>
+			{% endif %}
+			<p>
+				{{ point.para | i18n | markdownify }}
+			</p>
+		</div>
+	</article>
 </a>

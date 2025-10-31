@@ -1,0 +1,29 @@
+@use "sass:color";
+@use "bulma-variables" as *;
+
+$footer-link-color: $white-ter;
+
+.footer {
+  margin-top: 2rem;
+  color: $grey-light;
+
+  // Needs to end with `:not(.navbar-item)` to override `a:not(.navbar-item)`
+  // from `main.scss`
+  a:not(.navbar-item) {
+    color: $footer-link-color;
+    border-bottom: 1px solid color.adjust($footer-link-color, $alpha: -0.8);
+
+    &:hover {
+      background-color: color.adjust($footer-link-color, $alpha: -0.9);
+    }
+
+    &:active {
+      background-color: color.adjust($footer-link-color, $alpha: -0.8);
+    }
+  }
+}
+
+.footer-copyright {
+  margin-top: 2.25rem;
+  text-align: center;
+}

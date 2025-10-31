@@ -1,6 +1,6 @@
-
 <ul>
-  {% for x in include.people %}
-  <li>{{ x | replace: "<", "&lt;<" | replace: ">", ">&gt;" | markdownify | replace: "[", "<span class='ml-3 has-text-grey'>[" | replace: "]", "]</span>" }}</li>
-  {% endfor %}
+	{% for x in people %}
+	<li>{{ x | replace: "<", "&lt;<" | replace: ">" , ">&gt;" | markdownify | replace: "["
+			, "<span class='ml-3 has-text-grey'>[" | replace: "]" , "]</span>" }}</li>
+			{% endfor %}
 </ul>

@@ -1,69 +1,70 @@
 <footer class="footer">
-  <div class="container">
-    <div class="columns is-multiline">
+	<div class="container">
+		<div class="columns is-multiline">
 
-      <div class="column is-6-mobile">
-        <h5 class="footer-title">Luanti</h5>
-        <ul class="list-unstyled">
-          <li><a href="{{ '/downloads/' | relative_url }}">Downloads</a></li>
-          <li><a href="https://blog.luanti.org/">News</a></li>
-          <li><a href="{{ '/credits/' | relative_url }}">Credits</a></li>
-          <li><a href="{{ '/education/' | relative_url }}">For Education</a></li>
-          <li><a href="/app-privacy-policy/">Privacy Policy</a></li>
-          <li><a href="/press/">Press Kit / Posters</a></li>
-        </ul>
-      </div>
+			<div class="column is-6-mobile">
+				<h5 class="footer-title">{{ "Luanti" | i18n }}</h5>
+				<ul class="list-unstyled">
+					<li><a href="{{ '/downloads/' | locale_url }}">{{ "Downloads" | i18n }}</a></li>
+					<li><a href="https://blog.luanti.org/">{{ "News" | i18n }}</a></li>
+					<li><a href="{{ '/credits/' | locale_url }}">{{ "Credits" | i18n }}</a></li>
+					<li><a href="{{ '/education/' | locale_url }}">{{ "For Education" | i18n }}</a></li>
+					<li><a href="/app-privacy-policy/">{{ "Privacy Policy" | i18n }}</a></li>
+					<li><a href="/press/">{{ "Press Kit / Posters" | i18n }}</a></li>
+				</ul>
+			</div>
 
-      <div class="column is-6-mobile">
-        <h5 class="footer-title">Content</h5>
-        <ul class="list-unstyled">
-          <li><a href="https://content.luanti.org">ContentDB</a></li>
-          <li><a href="https://content.luanti.org/packages/?type=game">Games</a></li>
-          <li><a href="https://content.luanti.org/packages/?type=mod">Mods</a></li>
-          <li><a href="https://content.luanti.org/packages/?type=txp">Texture Packs</a></li>
-        </ul>
-      </div>
+			<div class="column is-6-mobile">
+				<h5 class="footer-title">{{ "Content" | i18n }}</h5>
+				<ul class="list-unstyled">
+					<li><a href="https://content.luanti.org">{{ "ContentDB" | i18n }}</a></li>
+					<li><a href="https://content.luanti.org/packages/?type=game">{{ "Games" | i18n }}</a></li>
+					<li><a href="https://content.luanti.org/packages/?type=mod">{{ "Mods" | i18n }}</a></li>
+					<li><a href="https://content.luanti.org/packages/?type=txp">{{ "Texture Packs" | i18n }}</a></li>
+				</ul>
+			</div>
 
-      <div class="column is-6-mobile">
-        <h5 class="footer-title">Community</h5>
-        <ul class="list-unstyled">
-          <li><a href="https://forum.luanti.org">Forums</a></li>
-          <li><a href="https://docs.luanti.org/about/irc/">IRC</a></li>
-          <li><a href="{{ '/servers/' | relative_url }}">Servers</a></li>
-          <li><a href="https://docs.luanti.org/">Docs</a></li>
-        </ul>
-      </div>
+			<div class="column is-6-mobile">
+				<h5 class="footer-title">{{ "Community" | i18n }}</h5>
+				<ul class="list-unstyled">
+					<li><a href="https://forum.luanti.org">{{ "Forums" | i18n }}</a></li>
+					<li><a href="https://docs.luanti.org/about/irc/">{{ "IRC" | i18n }}</a></li>
+					<li><a href="/servers/">{{ "Servers" | i18n }}</a></li>
+					<li><a href="https://docs.luanti.org/">{{ "Docs" | i18n }}</a></li>
+				</ul>
+			</div>
 
-      <div class="column is-6-mobile">
-        <h5 class="footer-title">Social</h5>
-        <ul class="list-unstyled">
-          <li><a href="https://matrix.to/#/#minetest:tchncs.de">Matrix</a></li>
-          <li><a href="https://floss.social/@Luanti" rel="me">Mastodon</a></li>
-          <li><a href="https://discord.gg/minetest">Discord</a></li>
-          <li><a href="https://reddit.com/r/minetest/">Subreddit</a></li>
-        </ul>
-      </div>
+			<div class="column is-6-mobile">
+				<h5 class="footer-title">{{ "Social" | i18n }}</h5>
+				<ul class="list-unstyled">
+					<li><a href="https://matrix.to/#/#minetest:tchncs.de">{{ "Matrix" | i18n }}</a></li>
+					<li><a href="https://floss.social/@Luanti" rel="me">{{ "Mastodon" | i18n }}</a></li>
+					<li><a href="https://discord.gg/minetest">{{ "Discord" | i18n }}</a></li>
+					<li><a href="https://reddit.com/r/minetest/">{{ "Subreddit" | i18n }}</a></li>
+				</ul>
+			</div>
 
-      <div class="column is-6-mobile">
-        <h5 class="footer-title">Development</h5>
-        <ul class="list-unstyled">
-          <li><a href="https://github.com/luanti-org/luanti">GitHub</a></li>
-          <li><a href="https://docs.luanti.org/about/irc/">#luanti-dev on Libera IRC</a></li>
-          <li><a href="https://docs.luanti.org/">Luanti Documentation</a></li>
-          <li><a href="https://api.luanti.org">Lua API reference</a></li>
-          <li><a href="{{ '/get-involved/#donate' | relative_url }}">Donate</a></li>
-          <li><a href="https://rubenwardy.com/minetest_modding_book/">Luanti Modding Book</a></li>
-        </ul>
-      </div>
+			<div class="column is-6-mobile">
+				<h5 class="footer-title">{{ "Development" | i18n }}</h5>
+				<ul class="list-unstyled">
+					<li><a href="https://github.com/luanti-org/luanti">{{ "GitHub" | i18n }}</a></li>
+					<li><a href="https://docs.luanti.org/about/irc/">{{ "#luanti-dev on Libera IRC" | i18n }}</a></li>
+					<li><a href="https://docs.luanti.org/">{{ "Luanti Documentation" | i18n }}</a></li>
+					<li><a href="https://api.luanti.org">{{ "Lua API reference" | i18n }}</a></li>
+					<li><a href="{{ '/get-involved/' | locale_url }}#donate">{{ "Donate" | i18n }}</a></li>
+					<li><a href="https://rubenwardy.com/minetest_modding_book/">{{ "Luanti Modding Book" | i18n }}</a></li>
+				</ul>
+			</div>
 
-    </div>
-  </div>
+		</div>
+	</div>
 
-  <div class="footer-copyright">
-    © 2015-{{ site.time | date: '%Y' }} The Luanti Team.
-    <a href="https://github.com/luanti-org/luanti-org.github.io">Source</a><br />
-    MIT for code, CC-BY-SA 3.0 for content, media under
-    <a href="https://github.com/luanti-org/luanti-org.github.io/#license">various licenses</a>.
-    Font Awesome icons under <a href="https://fontawesome.com/license">CC-BY 4.0</a>.
-  </div>
+	<div class="footer-copyright">
+		{{ "© 2015-[[build_year]] The Luanti Team." | i18n: "build_year", build_year }}
+		<a href="https://github.com/luanti-org/luanti-org.github.io">
+			{{ "Source" | i18n }}</a><br />
+		{{ "MIT for code, CC-BY-SA 3.0 for content, media under
+		<a href='https://github.com/luanti-org/luanti-org.github.io/#license'>various licenses</a>." | i18n }}
+		{{ "Font Awesome icons under <a href='https://fontawesome.com/license'>CC-BY 4.0</a>." | i18n }}
+	</div>
 </footer>

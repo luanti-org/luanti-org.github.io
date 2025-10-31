@@ -1,0 +1,35 @@
+community:
+
+  - name: Docs
+    url: https://docs.luanti.org/
+    icon: wiki.svg
+
+  - name: Forum
+    url: https://forum.luanti.org
+    icon: forum.svg
+
+  - name: IRC
+    url: https://docs.luanti.org/about/irc/
+    icon: irc.svg
+
+  - name: Servers
+    url: /servers/
+    icon: servers.svg
+
+social:
+
+  - name: Matrix
+    url: https://matrix.to/#/#minetest:tchncs.de
+    icon: matrix.png
+
+  - name: Mastodon
+    url: https://floss.social/@Luanti
+    icon: mastodon.svg
+
+  - name: Discord
+    url: https://discord.gg/minetest
+    icon: discord.svg
+
+  - name: Reddit
+    url: https://reddit.com/r/minetest
+    icon: reddit.svg
