@@ -1,32 +1,64 @@
 name: build
-on: [push, pull_request]
 
-env:
-  global:
-    NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+on:
+  push:
+    branches:
+     - master
+  workflow_dispatch:
+
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@master
-    - name: Read VERSION file
-      id: getversion
-      run: echo "version=$(cat .ruby-version)" >> $GITHUB_OUTPUT
-    - name: Install Ruby
-      uses: ruby/setup-ruby@master
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Install Node
+      uses: actions/setup-node@v6
       with:
-        ruby-version: ${{ steps.getversion.outputs.version }}
-    - name: Install dependencies
-      run: |
-       sudo apt-get update
-       sudo apt-get install libcurl4-openssl-dev
-       bundle config set --local deployment 'true'
-       bundle install --jobs=3 --retry=3
-    - name: Run tests
-      run: |
-       bundle exec jekyll build
-       bundle exec htmlproofer '_site/' \
-         --allow-hash-href --ignore-status-codes 0,403 \
-         --ignore-urls '/.*good\+first\+issue.*/,/.*matrix\.to.*/'
+        node-version: '24.x'
+        cache: 'npm'
+
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v5
+
+    - name: Install npm dependencies
+      run: npm ci
+
+    - name: Build site
+      run: npm run build
+
+    - name: Test site
+      run: npm test
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

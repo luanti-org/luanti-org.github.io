@@ -1,0 +1,30 @@
+---js
+{
+	pagination: {
+		data: "collections.all",
+		size: 1,
+		alias: "redirect",
+		before: function (data) {
+			return data.flatMap(page => {
+				const redirect_from = page.data.redirect_from ?? [];
+				const urls = Array.isArray(redirect_from) ? redirect_from : [redirect_from];
+				return redirect_from.map(url => ({ to: page.url, from: url }));
+			});
+		},
+		addAllPagesToCollections: false,
+	},
+	permalink: "{{ redirect.from }}",
+	eleventyExcludeFromCollections: true,
+}
+---
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="utf-8" />
+	<title>Redirecting&hellip;</title>
+	<link rel="canonical" href="{{ redirect.to | absolute_url }}" />
+	<script>location = '{{ redirect.to | absolute_url }}';</script>
+	<meta http-equiv="refresh" content="0; url={{ redirect.to | absolute_url }}" />
+	<meta name="robots" content="noindex" />
+	<h1>Redirecting&hellip;</h1>
+	<a href="{{ redirect.to | url }}">Click here if you are not redirected.</a>
+</html>

@@ -1,0 +1,269 @@
+---
+title: Downloads
+description: Download the latest version of Luanti
+layout: base
+---
+
+<section class="section">
+	<div class="container content">
+
+		<h1>{{ "Downloads" | i18n }}</h1>
+		<p class="mt-5">
+			{{ "Are you a new user? Have a look at the
+			<a href='https://docs.luanti.org/for-players/getting-started/'>Getting Started</a>
+			guide in our docs." | i18n }}
+			{{ "Otherwise, feel free to look at the
+			<a href='https://docs.luanti.org/changelog/'>changelog</a>." | i18n }}
+		</p>
+
+		<hr>
+		<div class="columns is-multiline">
+
+			<div class="column is-12-tablet is-6-desktop">
+				<h2>{{ "Windows" | i18n }}</h2>
+				<p>
+					{{ "Works on Windows 8, 8.1, 10 and 11." | i18n }}
+					{{ "May work on older versions, but not officially supported." | i18n }}
+				</p>
+				<ul>
+					<li class="has-text-weight-bold">
+						<a href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-win64.zip'>
+							{{ "Luanti [[version]] - portable, 64-bit (recommended)" | i18n: "version", "5.14.0" }}
+						</a>
+					</li>
+					<li>
+						<a href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-win32.zip'>
+							{{ "Luanti [[version]] - portable, 32-bit" | i18n: "version", "5.14.0" }}
+						</a>
+					</li>
+				</ul>
+				<p>
+					{{ "Luanti is distributed as a portable .zip archive on Windows." | i18n }}
+					{{ "Extract it to a folder you have write permissions, and run <code>luanti.exe</code>
+					which can be found in the <code>bin</code> folder." | i18n }}
+				</p>
+				<ul>
+					<li>
+						<a href='https://packages.msys2.org/base/mingw-w64-luanti'>
+							{{ "Luanti MSYS2 package (community-maintained)" | i18n }}
+						</a>
+					</li>
+				</ul>
+				<p>
+					{{ "You can also get the latest development version of Luanti from
+					<a href='https://forum.luanti.org/viewforum.php?f=42'>builds made by community members</a>." | i18n
+					}}
+					{{ "These builds are more recent than the officially released builds
+					and contain new features (at the cost of stability)." | i18n }}
+				</p>
+			</div>
+
+			<div class="column is-12-tablet is-6-desktop">
+				<h2>{{ "Android" | i18n }}</h2>
+				<p>{{ "Android 6 or later is recommended." | i18n }}</p>
+				<a
+					href='https://play.google.com/store/apps/details?id=net.minetest.minetest&utm_source=website&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+					<img style="max-height: 7em;" alt="{{ 'Get it on Google Play' | i18n }}"
+						src="/media/google-play-badge.png" />
+				</a>
+				<a href='https://f-droid.org/packages/net.minetest.minetest'>
+					<img style="max-height: 7em;" alt="{{ 'Get it on F-Droid' | i18n }}"
+						src="/media/fdroid-badge.png" />
+				</a>
+
+				<p>
+					{{ "Alternatively, download the APK:" | i18n }}
+				</p>
+				<ul>
+					<li>
+						{{ "ARM (for most devices):" | i18n }}
+						<a
+							href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-arm64-v8a.apk'>{{
+							"64-bit" | i18n }}</a> -
+						<a
+							href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-armeabi-v7a.apk'>{{
+							"32-bit" | i18n }}</a>
+					</li>
+					<li>
+						x86:
+						<a
+							href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-x86_64.apk'>{{
+							"64-bit" | i18n }}</a> -
+						<a href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-x86.apk'>{{
+							"32-bit" | i18n }}</a>
+					</li>
+				</ul>
+				<p>
+					{{ "<strong>Note:</strong> We advise not to use unofficial builds commonly found on the Play Store."
+					| i18n }}
+					{{ "They may contain excessive advertisements or spyware, or be distributed under proprietary
+					terms." | i18n }}
+				</p>
+			</div>
+
+			<div class="column is-12-tablet is-6-desktop">
+				<h2>Linux</h2>
+				<h3>{{ "Packages" | i18n }}</h3>
+				<p>{{ "These may be out of date at times. If they are too out of date, consider building from source." |
+					i18n }}</p>
+
+				<ul>
+					<li class="has-text-weight-bold">{{ "Flatpak (all distributions)" | i18n }} -
+						<a href='https://flathub.org/apps/org.luanti.luanti'>{{ "Stable" | i18n }}</a>
+					</li>
+					<!-- <li class="has-text-weight-bold">Snap (all distributions)" | i18n }} -
+						<a href='https://snapcraft.io/luanti'>Stable" | i18n }}</a></li> -->
+					<li>
+						{{ "Ubuntu and derivatives" | i18n }} -
+					</li>
+					<ul>
+						<li>
+							{{ "add the PPA (as the repos are outdated) for the <a
+								href='https://launchpad.net/~minetestdevs/+archive/ubuntu/stable'>Stable version</a>:" |
+							i18n }}
+							<pre>
+sudo add-apt-repository ppa:minetestdevs/stable
+</pre>
+						</li>
+						<li>
+							{{ "or for the <a
+								href='https://launchpad.net/~minetestdevs/+archive/ubuntu/daily-builds'>Daily
+								Version</a>:" | i18n }}
+							<pre>
+sudo add-apt-repository ppa:minetestdevs/daily-builds
+</pre>
+						</li>
+						<li>
+							{{ "and install Luanti" | i18n }}
+							<pre>
+sudo apt update
+sudo apt install minetest
+</pre>
+						</li>
+					</ul>
+
+					<li>
+						Debian - {{ "use
+						<a href='https://flathub.org/apps/org.luanti.luanti'>Flatpak</a>
+						or compile from source, as the repos are outdated" | i18n }}
+					</li>
+					<li>Arch Linux -
+						<a href='https://archlinux.org/packages/?q=luanti'>{{ "Stable" | i18n }}</a>,
+						<a href='https://aur.archlinux.org/packages/minetest-git'>{{ "Unstable (AUR)" | i18n }}</a>
+					</li>
+					<li>Fedora -
+						<a href='https://src.fedoraproject.org/rpms/minetest'>{{ "Stable" | i18n }}</a>
+					</li>
+					<li>openSUSE -
+						<a href='https://software.opensuse.org/package/luanti'>{{ "Stable" | i18n }}</a>
+					</li>
+					<li>Mageia -
+						<a href='https://madb.mageialinux-online.org/show?rpm=minetest'>{{ "Stable" | i18n }}</a>
+					</li>
+					<li>Gentoo -
+						<a href='https://packages.gentoo.org/packages/games-engines/minetest'>{{ "Stable" | i18n }}</a>
+					</li>
+					<li>Void Linux -
+						<a href='https://voidlinux.org/packages/?arch=x86_64&q=luanti'>{{ "Stable" | i18n }}</a>
+					</li>
+					<li>Alpine Linux -
+						<a href='https://pkgs.alpinelinux.org/packages?name=luanti'>{{ "Stable" | i18n }}</a>
+					</li>
+					<li>NixOS -
+						<a href='https://search.nixos.org/packages?channel=unstable&type=packages&query=luanti'>{{
+							"Stable" | i18n }}</a>
+					</li>
+					<li>Slackware -
+						<a href='https://slackbuilds.org/repository/15.0/games/luanti/'>{{ "Stable (SBo)" | i18n }}</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="column is-12-tablet is-6-desktop">
+				<h2>FreeBSD</h2>
+				<h3>{{ "Package manager" | i18n }}</h3>
+				<p>{{ "On FreeBSD 9.1 and newer, you can use the official pre-built packages:" | i18n }}
+					<code>pkg install luanti</code>
+				</p>
+				<h3>{{ "Compile using ports" | i18n }}</h3>
+				<p>{{ "You can also compile Luanti and choose build options easily using the FreeBSD port dialogs." |
+					i18n }}</p>
+				<pre>
+cd /usr/ports/games/minetest
+make install
+</pre>
+			</div>
+
+			<div class="column is-12-tablet is-6-desktop">
+				<h2>macOS</h2>
+				<p>{{ "macOS 11.3 or later is recommended. May work on older versions when built from source." | i18n }}
+				</p>
+				<p>
+					<b>
+						{{ "If you experience <a href='https://github.com/luanti-org/luanti/issues/16499'>sound problems
+							on macOS Tahoe 26</a>, try an experimental build with OpenAL-soft." | i18n }}
+						{{ "Please report any problems you find with the experimental builds <a
+							href='https://github.com/luanti-org/luanti/issues/16600'>here</a>." | i18n }}
+					</b>
+				</p>
+				<ul>
+					<li class="has-text-weight-bold">
+						<a
+							href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti_5.14.0-macos11.3_arm64.zip'>
+							{{ "Luanti [[version]] - App (Signed Apple Silicon, stable)" | i18n: "version", "5.14.0" }}
+						</a>
+					</li>
+					<li class="has-text-weight-bold">
+						<a
+							href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti_5.14.0_arm64_experimental_openal-soft.zip'>
+							{{ "Luanti [[version]] - App (Signed Apple Silicon, experimental OpenAL-soft)" | i18n:
+							"version", "5.14.0" }}
+						</a>
+					</li>
+					<li class="has-text-weight-bold">
+						<a
+							href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti_5.14.0-macos11.3_x86_64_flag_O1.zip'>
+							{{ "Luanti [[version]] - App (Signed Intel 64-bit, stable)" | i18n: "version", "5.14.0" }}
+						</a>
+					</li>
+					<li class="has-text-weight-bold">
+						<a
+							href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti_5.14.0_x86_64_experimental_openal-soft.zip'>
+							{{ "Luanti [[version]] - App (Signed Intel 64-bit, experimental OpenAL-soft)" | i18n:
+							"version", "5.14.0" }}
+						</a>
+					</li>
+					<li>
+						{{ "Use <a href='https://brew.sh/'>Homebrew</a> to get the stable version:" | i18n }}<br>
+						<code>brew install --cask luanti</code>
+					</li>
+					<li>
+						{{ "<a href='https://www.macports.org/'>MacPorts</a> also contains a port of the outdated
+						version:" | i18n }}<br>
+						<code>sudo port install minetest</code>
+					</li>
+				</ul>
+			</div>
+
+			<div class="column is-12-tablet is-6-desktop">
+				<h2>{{ "Source code" | i18n }}</h2>
+				<p>
+					{{ "Get the latest <a href='https://github.com/luanti-org/luanti/tree/stable-5'>stable</a>
+					or <a href='https://github.com/luanti-org/luanti'>development</a> source code from
+					<a href='https://github.com/luanti-org'>GitHub</a>." | i18n }}
+				</p>
+				<p>
+					{{ "See the <a href='https://github.com/luanti-org/luanti/blob/master/README.md'>README</a>
+					for details on how to compile Luanti from source." | i18n }}
+				</p>
+			</div>
+		</div>
+		<div>
+			<hr>
+			<p>
+				{{ "Looking for older versions? Check out the <a
+					href='https://github.com/luanti-org/luanti/releases'>list of releases</a> on GitHub!" | i18n }}
+			</p>
+		</div>
+	</div>
+</section>

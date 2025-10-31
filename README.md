@@ -1,6 +1,7 @@
 # [Luanti Website](https://www.luanti.org)
 
-[![Build status](https://github.com/luanti-org/luanti-org.github.io/workflows/build/badge.svg)](https://github.com/luanti-org/luanti-org.github.io/actions)\
+[![Build status](https://github.com/luanti-org/luanti-org.github.io/workflows/build/badge.svg)](https://github.com/luanti-org/luanti-org.github.io/actions) [![Translation status](https://hosted.weblate.org/widget/minetest/luanti-website/svg-badge.svg)](https://hosted.weblate.org/engage/minetest/)
+
 The official Luanti website, living at [www.luanti.org](https://www.luanti.org).
 
 ## Features
@@ -8,20 +9,17 @@ The official Luanti website, living at [www.luanti.org](https://www.luanti.org).
 - Uses the [Bulma](https://bulma.io/) CSS framework.
 - Uses modern Web design techniques: `rem` units, `hsl` colors.
 - Responsive site and favicon.
+- Translation support using [i18next](https://www.i18next.com/).
 
 ## Development workflow
 
-This site uses the [Jekyll](https://jekyllrb.com) static site generator.
+This site uses the [Eleventy](https://www.11ty.dev/) static site generator.
 
-- Ensure you have the specified [Ruby](https://www.ruby-lang.org/) [version](.ruby-version) or later installed.
-- Install [Bundler](https://bundler.io/) by running `gem install bundler`.
-  - On Linux, use a Ruby version manager such as [rbenv](https://github.com/rbenv/rbenv)
-    to easily switch to any version and avoid permission issues.
-- Install dependencies by running `bundle install`.
-- Use `bundle exec jekyll serve` to automatically build the site
-  and serve it locally.
-
-You can also use the provided [Dev Container](https://containers.dev/) configuration to make it easier.
+- Ensure you have [Node](https://nodejs.org/en) 24 or later installed.
+  - We recommend using `nvm`. First install nvm,
+    and then run `nvm use` whenever you open the project.
+- Run `npm install`.
+- Run `npm start` to serve the website locally.
 
 ### Browser support
 
@@ -36,6 +34,31 @@ When working on new features, keep in mind this website only supports
 
 Internet Explorer isn't supported.
 
+### Translation
+
+Luanti.org uses [i18next](https://www.i18next.com/) for translations. This is
+exposed to liquid templates by a custom i18n filter:
+
+```liquid
+{{ "Hello world" | i18n }}
+```
+
+As double curly braces are used by liquid, use double square braces instead:
+
+```liquid
+{{ "Hello [[name]]" | i18n: "name", "Bob" }}
+```
+
+When Eleventy builds the website, it'll update the `locales/en/translation.json`
+file with any new strings it finds. It'll replace `[[name]]` with `{{name}}` to
+match i18next's interpolation syntax:
+
+```json
+{
+	"Hello {{name}}": "Bonjour {{name}}"
+}
+```
+
 ## Brand icons
 
 - [Discord](https://discord.com/branding)
@@ -44,19 +67,10 @@ Internet Explorer isn't supported.
 
 ## License
 
-Copyright © 2015-2020 Hugo Locurcio and contributors
+Copyright © 2015-2025 Hugo Locurcio, rubenwardy, and contributors
 
 Unless otherwise specified, code is licensed under the MIT license.
 Media (except gallery) and content are licensed under
 [CC BY-SA 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/).
 
-Gallery screenshots are by various authors and depict various content
-
-- 1: Backrooms Test (Sumianvoice)
-- 2: Soothing32 (Zughy)
-- 3: i3 (Jean-Patrick Guerrero)
-- 4: Mineclone2 (Wuzzy)
-- 5: Steampunk Blimp (APercy)
-- 6: Animalia (ElCeejo)
-- 7: RPG16 texture pack (Hugues Ross)
-- 8: Minetest Game
+Gallery screenshots are by various authors and are credited on the webpage.

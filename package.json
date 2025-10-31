@@ -1,0 +1,33 @@
+{
+	"name": "luanti_11ty",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx sass --style=compressed scss/main.scss:_site/assets/css/main.css && npx @11ty/eleventy",
+		"watch:sass": "npx sass scss/main.scss:_site/assets/css/main.css --watch",
+		"watch:eleventy": "npx @11ty/eleventy --serve --quiet",
+		"start": "npm run watch:eleventy & npm run watch:sass",
+		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+		"debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+		"test": "hyperlink --canonicalroot https://www.luanti.org -r --internal _site | tap-spot"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"type": "module",
+	"dependencies": {
+		"@11ty/eleventy": "^3.1.2",
+		"i18next": "^25.6.0",
+		"i18next-fs-backend": "^2.6.0",
+		"iso-639-1": "^3.1.5",
+		"luxon": "^3.7.2",
+		"markdown-it": "^14.1.0",
+		"sass": "^1.93.2",
+		"yaml": "^2.8.1"
+	},
+	"devDependencies": {
+		"hyperlink": "^5.0.4",
+		"tap-spot": "^1.1.2"
+	}
+}

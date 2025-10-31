@@ -1,0 +1,61 @@
+---
+title: Credits
+description: Key contributors and developers behind the Luanti project
+layout: base
+---
+
+{% assign langPrefix = "/" | append: lang | append: "/" %}
+
+<section class="section">
+	<div class="container">
+		<div class="columns is-centered">
+			<div class="column is-10 is-9-desktop is-8-widescreen is-7-fullhd content">
+				<h1>{{ "Credits" | i18n }}</h1>
+				<h2>{{ "Core Team" | i18n }}</h2>
+				<p>
+					{{ "The core team consists of contributors with special privileges and
+					responsibilities." | i18n }}
+				</p>
+				<p>
+					{{ "Core developers decide what can be added to Luanti by voting for
+					and against pull requests. They also have commit access to the Luanti
+					team's repositories on GitHub." | i18n }}
+					<a href='https://docs.luanti.org/for-engine-devs/organization/'>{{ "Learn more." | i18n }}</a>
+				</p>
+
+				<h3>{{ "Active Core Developers" | i18n }}</h3>
+				{% include "credits_list.html", people: credits.core_developers %}
+
+				<h3>{{ "Active Core Team Members" | i18n }}</h3>
+				{% include "credits_list.html", people: credits.core_team %}
+
+				<h3>{{ "Previous Core Developers" | i18n }}</h3>
+				{% include "credits_list.html", people: credits.previous_core_developers %}
+
+				<hr>
+				<h2>{{ "Contributors" | i18n }}</h2>
+				<p>
+					{{ "Also see the complete lists of
+					<a href='https://github.com/luanti-org/luanti/graphs/contributors'>Luanti</a> and
+					<a href='https://github.com/luanti-org/minetest_game/graphs/contributors'>Minetest Game</a>
+					contributors." | i18n }}
+				</p>
+
+				<h3>{{ "Active" | i18n }}</h3>
+				{% include "credits_list.html", people: credits.contributors %}
+
+				<h3>{{ "Previous" | i18n }}</h3>
+				{% include "credits_list.html", people: credits.previous_contributors %}
+
+				<p class="has-text-weight-bold">
+					{{ "More information can be found at
+					<a href='https://openhub.net/p/minetest-c55'>Open Hub</a>." | i18n }}
+				</p>
+				<p>
+					{{ "Want to <a href='/en/get-involved/#contribute'>contribute</a>?" | i18n | replace: '/en/', langPrefix }}
+				</p>
+
+			</div>
+		</div>
+	</div>
+</section>

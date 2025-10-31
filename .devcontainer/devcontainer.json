@@ -1,5 +1,0 @@
-{
-  "name": "Ruby Jekyll",
-  "image": "mcr.microsoft.com/devcontainers/jekyll:latest",
-  "forwardPorts": [4000]
-}

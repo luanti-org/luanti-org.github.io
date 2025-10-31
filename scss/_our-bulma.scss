@@ -1,0 +1,18 @@
+$blue: hsl(208, 55%, 45%);
+$green: hsl(122, 35%, 50%);
+$primary: $green;
+
+@use "bulma/sass" with (
+	$primary: $primary,
+	$info: $blue,
+	$link: hsl(122, 35%, 50%),
+	$footer-background-color: hsl(0, 0%, 16%),
+	$code: hsl(0, 0%, 16%),
+	$content-heading-weight: 600,
+
+	$family-sans-serif: '"Titillium Web", sans-serif',
+);
+
+.button.is-primary {
+	color: white !important;
+}

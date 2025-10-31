@@ -1,0 +1,25 @@
+---
+layout: base
+---
+
+<h1 class="title main-title">
+	{{ title }}
+</h1>
+
+<p class="subtitle has-text-centered mt-3 mb-4">
+	{{ description }}
+</p>
+
+{% if small %}
+<p class="has-text-centered">
+	<small>
+		{{ small }}
+	</small>
+</p>
+{% endif %}
+
+<section class="section">
+	<div class="container content">
+		{{ content }}
+	</div>
+</section>

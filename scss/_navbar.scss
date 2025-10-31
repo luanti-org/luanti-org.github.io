@@ -1,0 +1,21 @@
+@use "sass:color";
+@use "bulma-variables" as *;
+@use "bulma/sass/components/navbar" as nb;
+
+// Navigation bar
+
+.navbar {
+  font-size: 1.05rem;
+  box-shadow: 0 2px 3px 0 color.adjust($black, $alpha: -0.8);
+  border-top: 3px solid $primary;
+}
+
+// Replicate the hovered navbar item style on the brand,
+// as it's also a navigation item
+.navbar-brand:hover {
+  background-color: nb.$navbar-tab-hover-background-color;
+}
+
+.navbar-brand-text {
+  margin-left: 1rem;
+}

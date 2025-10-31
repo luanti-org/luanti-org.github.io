@@ -1,0 +1,365 @@
+---
+title: Get Involved
+description: >-
+  Learn how to get involved with the community or contribute to development.
+layout: base
+---
+{% assign langPrefix = "/" | append: lang | append: "/" %}
+
+<h1 class="is-sr-only">{{ "Get Involved" | i18n }}</h1>
+
+<section class="section">
+	<div class="container">
+		<div class="columns is-multiline is-centered iconlist">
+			{% assign rows = "community,social" | split: "," %}
+			{% for row in rows %}
+			{% for link in get_involved[row] %}
+			<a class="column is-narrow has-text-centered no-underline hover-enlarge" href='{{ link.url }}'>
+				<div class="image">
+					<img src="{{ '/media/logos/' | append: link.icon }}" alt="{{ link.name }} logo">
+				</div>
+				<span class="title">{{ link.name | i18n }}</span>
+			</a>
+			{% endfor %}
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container">
+		<h2 id="contribute" class="title section-title">{{ "Contribute" | i18n }}</h2>
+		<div class="columns is-centered">
+			<div class="column">
+				<h3 id="everyone" class="is-size-3 mb-4">{{ "Everyone" | i18n }}</h3>
+				<div class="content">
+					<ul>
+						<li>
+							<a href='#reporting-issues'>{{ "Report bugs and request features" | i18n }}</a>.
+						</li>
+						<li>
+							{{ "Give support on the <a href='https://forum.luanti.org'>forums</a> and <a
+								href='https://docs.luanti.org/about/irc/'>IRC</a>." | i18n }}
+						</li>
+						<li>
+							{{ "Help translate Luanti using
+							<a href='https://hosted.weblate.org/projects/minetest/minetest/'>our web interface</a>." |
+							i18n }}
+						</li>
+						<li>
+							{{ "<a href='https://forum.luanti.org/viewtopic.php?f=7&t=19877'>Help us review and merge
+								pull requests</a>." | i18n }}
+						</li>
+						<li>
+							{{ "<a href='#donate'>Donate</a> money to pay for infrastructure, and
+							<a href='https://content.luanti.org/donate/'>support your favourite contributors</a>." |
+							i18n }}
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="column">
+				<h3 id="programmers" class="is-size-3 mb-4">{{ "Programmers" | i18n }}</h3>
+				<div class="content">
+					<ul>
+						<li>
+							{{ "Work on a <a href='https://docs.luanti.org/for-creators/'>game or mod</a>
+							and publish it to <a href='https://content.luanti.org'>ContentDB</a>." | i18n }}
+							{{ "The <a href='https://rubenwardy.com/minetest_modding_book/'>Luanti Modding Book</a>
+							provides an easy introduction to creating mods and games." | i18n }}
+						</li>
+						<li>
+							{{ "Report bugs and submit patches on
+							<a href='https://github.com/luanti-org'>GitHub</a> or <a
+								href='https://docs.luanti.org/about/irc/'>IRC</a>." | i18n }}
+						</li>
+						<li>
+							{{ "Read the <a href='https://docs.luanti.org/for-engine-devs/'>engine</a>
+							documentation." | i18n }}
+						</li>
+						<li>
+							{{ "For good first tasks, look out for the \"good first issue\" label on the
+							<a
+								href='https://github.com/luanti-org/luanti/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22'>engine</a>
+							or
+							<a
+								href='https://github.com/luanti-org/luanti-org.github.io/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22'>website</a>
+							repositories." | i18n }}
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="column">
+				<h3 id="artists" class="is-size-3 mb-4">{{ "Artists" | i18n }}</h3>
+				<div class="content">
+					<ul>
+						<li>
+							{{ "Team up and create a new game." | i18n }}
+						</li>
+						<li>
+							{{ "Create a
+							<a href='https://docs.luanti.org/for-players/texture-packs/'>Texture Pack</a>." | i18n }}
+						</li>
+						<li>
+							{{ "Hang around on the forums, and help with
+							<a href='https://forum.luanti.org/viewtopic.php?f=47&t=1585'>texture requests</a>." | i18n
+							}}
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="section">
+	<div class="container">
+		<h2 id="developed" class="title section-title">{{ "How is Luanti developed?" | i18n }}</h2>
+		<div class="content">
+			<h3 class="is-size-3">{{ "The Process" | i18n }}</h3>
+			<p>
+				{{ "Luanti is developed and maintained by a group of volunteers called
+				the <a href='https://github.com/orgs/minetest/people'>core team</a>,
+				consisting of a bunch of people who are trusted to keep Luanti
+				progressing in good condition." | i18n }}
+				{{ "The core team is formed of people who have made great
+				<a href='/en/credits/'>contributions</a> to Luanti.
+				Contributions are approved if two members of the core team agree on them." | i18n | replace: '/en/',
+				langPrefix }}
+			</p>
+			<p>
+				{{ "All development and decisions are made in public, on
+				<a href='https://github.com/luanti-org'>GitHub</a> and
+				<a href='https://docs.luanti.org/about/irc/'>Internet Relay Chat (IRC)</a>." | i18n }}
+				{{ "Meetings are occasionally held on IRC, with
+				<a href='https://docs.luanti.org/for-engine-devs/meetings/'>plans and notes made public</a>." | i18n }}
+			</p>
+			<p>
+				{{ "The core team is best contacted on
+				<a href='https://docs.luanti.org/about/irc/'>IRC</a> in
+				<code>#luanti-dev @ irc.libera.chat</code>." | i18n }}
+			</p>
+			<p>
+				{{ "For more information, take a look at
+				<a href='https://docs.luanti.org/for-engine-devs/'>
+					all the rules regarding to development
+				</a>." | i18n }}
+			</p>
+
+			<h3 class="is-size-3">{{ "Project Structure" | i18n }}</h3>
+			<p>
+				{{ "Luanti is distributed as an engine, combined with a couple of games.
+				Upstream repositories can be found at
+				<a href='https://github.com/luanti-org/'>https://github.com/luanti-org/</a>." | i18n }}
+			</p>
+
+			<ul>
+				<li>
+					{{ "<strong>The engine</strong> (core) is the base for everything.
+					C++ is used for housekeeping and performance-critical stuff,
+					Lua for extensible things." | i18n }}
+				</li>
+				<li>
+					{{ "<strong>Games</strong> define game content: nodes, entities,
+					textures, meshes, sounds and custom behavior implemented in Lua.
+					Games consist of mods that plug into the engine using the
+					<a href='https://docs.luanti.org/for-creators/'>Modding API</a>." | i18n }}
+				</li>
+			</ul>
+
+			<p>
+				{{ "For more information, see the
+				<a href='https://docs.luanti.org/about/glossary/'>glossary</a> or
+				<a href='https://docs.luanti.org/for-engine-devs'>engine overview</a>
+				developer wiki pages." | i18n }}
+			</p>
+
+			<h3 class="is-size-3">{{ "Roadmaps and Future Plans" | i18n }}</h3>
+			<p>
+				{{ "As an open source project developed by volunteers, Luanti is
+				mostly iteratively developed rather than formally planned." | i18n }}
+				{{ "However,
+				there are some overarching goals, both medium-term and long-term, that
+				have been agreed upon by core developers:" | i18n }}
+			</p>
+			<p>
+				<a class="button is-primary" href='https://github.com/luanti-org/luanti/blob/master/doc/direction.md'>
+					{{ "Roadmap" | i18n }}
+				</a>
+			</p>
+		</div>
+	</div>
+</section>
+
+
+<section class="section">
+	<div class="container">
+		<h2 id="reporting-issues" class="title section-title">{{ "Reporting Issues" | i18n }}</h2>
+		<div class="content">
+			<h3 class="is-size-3">Where?</h3>
+			<p>
+				{{ "Different things related to Luanti are maintained by different people,
+				contacted in different ways." | i18n }}
+				{{ "Here you can find where to report issues, bugs and any other kinds of problems regarding to each
+				“product”." | i18n }}
+			</p>
+			<p>
+				{{ "People are generally available on Libera <abbr title='Internet Relay Chat'>IRC</abbr>, Discord, the
+				Luanti Forums, GitHub and/or via email." | i18n }}
+			</p>
+			<table class="table is-striped">
+				<tr>
+					<th>{{ "Program" | i18n }}</th>
+					<th>{{ "People Responsible" | i18n }}</th>
+					<th>{{ "Source" | i18n }}</th>
+					<th>{{ "Issue Tracker" | i18n }}</th>
+				</tr>
+				<tr>
+					<td>{{ "Luanti Engine" | i18n }}</td>
+					<td>{{ "Core developers" | i18n }}</td>
+					<td>
+						<a href='https://github.com/luanti-org/luanti'>{{ "Source" | i18n }}</a>
+					</td>
+					<td>
+						<a href='https://github.com/luanti-org/luanti/issues'>{{ "Issues" | i18n }}</a>
+					</td>
+				</tr>
+				<tr>
+					<td>{{ "Minetest Game" | i18n }}</td>
+					<td>{{ "Core developers" | i18n }}</td>
+					<td>
+						<a href='https://github.com/luanti-org/minetest_game'>{{ "Source" | i18n }}</a>
+					</td>
+					<td>
+						<a href='https://github.com/luanti-org/minetest_game/issues'>{{ "Issues" | i18n }}</a>
+					</td>
+				</tr>
+				<tr>
+					<td>{{ "Minetestmapper" | i18n }}</td>
+					<td>{{ "Core developers" | i18n }}</td>
+					<td>
+						<a href='https://github.com/luanti-org/minetestmapper'>{{ "Source" | i18n }}</a>
+					</td>
+					<td>
+						<a href='https://github.com/luanti-org/minetestmapper/issues'>{{ "Issues" | i18n }}</a>
+					</td>
+				</tr>
+				<tr>
+					<td>{{ "Blender B3DExport" | i18n }}</td>
+					<td>{{ "Core developers" | i18n }}</td>
+					<td>
+						<a href='https://github.com/minetest/B3DExport'>{{ "Source" | i18n }}</a>
+					</td>
+					<td>
+						<a href='https://github.com/minetest/B3DExport/issues'>{{ "Issues" | i18n }}</a>
+					</td>
+				</tr>
+				<tr>
+					<th>{{ "Service" | i18n }}</th>
+					<th>{{ "People Responsible" | i18n }}</th>
+					<th>{{ "Source" | i18n }}</th>
+					<th>{{ "Issue Tracker" | i18n }}</th>
+				</tr>
+				<tr>
+					<td>{{ "*.luanti.org DNS" | i18n }}</td>
+					<td>celeron55</td>
+					<td>{{ "n/a" | i18n }}</td>
+					<td>{{ "Contact celeron55. His approval is needed to host under luanti.org" | i18n }}</td>
+				</tr>
+				<tr>
+					<td>www.luanti.org</td>
+					<td>{{ "Docs Team" | i18n }}</td>
+					<td><a href='https://github.com/luanti-org/luanti-org.github.io'>{{ "Source" | i18n }}</a></td>
+					<td><a href='https://github.com/luanti-org/luanti-org.github.io/issues'>{{ "Issues" | i18n }}</a>
+					</td>
+				</tr>
+				<tr>
+					<td>forum.luanti.org</td>
+					<td>celeron55</td>
+					<td><a href='https://github.com/luanti-org/forum.luanti.org_template1'>{{ "Theme" | i18n }}</a></td>
+					<td>{{ "Contact a moderator for concerns about content (Use \"report this post\" if possible)" | i18n }}</td>
+				</tr>
+				<tr>
+					<td>docs.luanti.org</td>
+					<td>{{ "Docs Team" | i18n }}</td>
+					<td><a href='https://github.com/luanti-org/docs.luanti.org'>{{ "Source" | i18n }}</a></td>
+					<td><a href='https://github.com/luanti-org/docs.luanti.org/issues'>{{ "Issues" | i18n }}</a></td>
+				</tr>
+				<tr>
+					<td>servers.luanti.org</td>
+					<td>sfan5</td>
+					<td><a href='https://github.com/luanti-org/serverlist'>{{ "Source" | i18n }}</a></td>
+					<td><a href='https://github.com/luanti-org/serverlist/issues'>{{ "Issues" | i18n }}</a></td>
+				</tr>
+				<tr>
+					<td>content.luanti.org</td>
+					<td>rubenwardy</td>
+					<td><a href='https://github.com/luanti-org/contentdb'>{{ "Source" | i18n }}</a></td>
+					<td><a href='https://github.com/luanti-org/contentdb/issues'>{{ "Issues" | i18n }}</a></td>
+				</tr>
+				<tr>
+					<td>irc.luanti.org</td>
+					<td>sfan5</td>
+					<td><a href='https://github.com/moritz/ilbot'>{{ "Source" | i18n }}</a></td>
+					<td>{{ "Contact sfan5" | i18n }}</td>
+				</tr>
+				<tr>
+					<td><a href='https://play.google.com/store/apps/details?id=net.minetest.minetest'>Google Play</a>
+					</td>
+					<td>nerzhul aka. nrzkt</td>
+					<td>{{ "n/a" | i18n }}</td>
+					<td>{{ "Contact nerzhul" | i18n }}</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</section>
+
+
+<section class="section">
+	<div class="container">
+		<h2 id="donate" class="title section-title">{{ "Donate" | i18n }}</h2>
+		<div class="content">
+			<p>
+				{{ "Luanti doesn't have a legal body to accept donations, and most core
+				developers do not wish to accept donations
+				<a href='https://github.com/luanti-org/luanti-org.github.io/issues/222'>themselves</a>." | i18n }}
+			</p>
+
+			<h3 class="is-size-3">{{ "Luanti" | i18n }} <span class="is-size-5 has-text-grey has-text-weight-normal">{{
+					"(team)" | i18n }}</span></h3>
+			<p>
+				{{ "The Liberapay team allows you to support multiple members at the same
+				time." | i18n }}
+			</p>
+			<p>
+				<a class="button is-primary" href='https://liberapay.com/luanti/'>Liberapay</a>
+			</p>
+
+			<h3 class="is-size-3">celeron55 <span class="is-size-5 has-text-grey has-text-weight-normal">{{ "(founder)"
+					| i18n }}</span></h3>
+			<p>
+				{{ "You can tip money to celeron55.
+				He is the original creator of Luanti, and hosts the forums and wikis." | i18n }}
+				{{ "While he isn't involved in active development, he plays an advisory
+				role and breaks ties." | i18n }}
+			</p>
+			<p>
+				<a class="button is-primary" href='https://liberapay.com/celeron55/'>Liberapay</a>
+				<a class="button is-secondary" href='https://paypal.me/celeron55'>Paypal</a>
+			</p>
+
+			<h3 class="is-size-3">{{ "Other" | i18n }}</h3>
+			<p>
+				{{ "Your favourite server or content creator might accept tips too; make sure to
+				check those out." | i18n }}
+			</p>
+			<p>
+				<a class="button is-primary" href='https://content.luanti.org/donate/'>
+					{{ "Find packages to support on ContentDB" | i18n }}
+				</a>
+			</p>
+		</div>
+	</div>
+</section>

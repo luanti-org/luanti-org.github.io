@@ -1,9 +1,0 @@
-{{ include.date | date: "%B" }}
-{% assign day = include.date | date: "%-d" %}
-{% case day %}
-  {% when '1' or '21' or '31' %}{{ day }}<sup>st</sup>
-  {% when '2' or '22' %}{{ day }}<sup>nd</sup>
-  {% when '3' or '23' %}{{ day }}<sup>rd</sup>
-  {% else %}{{ day }}<sup>th</sup>
-{% endcase %}
-{{ include.date | date: "%Y" }}

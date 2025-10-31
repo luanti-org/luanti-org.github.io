@@ -1,0 +1,103 @@
+---
+title: Luanti | Open source voxel game engine
+description: >-
+  An open source voxel game engine. Play one of our many games, mod a game to
+  your liking, make your own game, or play on a multiplayer server.
+title_append: false
+image: /media/favicon/194x194.png
+layout: base
+homepage: true
+---
+
+{% assign langPrefix = "/" | append: lang | append: "/" %}
+
+<section class="section section-home">
+	<div class="container">
+		<div class="columns is-centered">
+			<div class="column is-10 is-9-desktop is-8-widescreen is-7-fullhd">
+				<h1 class="title mb-0">{{ "Luanti" | i18n }}</h1>
+				<i>{{ "(formerly Minetest)" | i18n }}</i>
+				<p class="home-paragraph">
+					{{ "An open source voxel game engine." | i18n }}
+					{{ "Play one of our many games, mod a game to your liking, make your own game,
+					or play on a multiplayer server." | i18n }}
+				</p>
+				<p class="home-paragraph">
+					{{ "Available for Windows, macOS, GNU/Linux, FreeBSD, OpenBSD, DragonFly BSD, and Android." | i18n
+					}}
+				</p>
+				<div class="home-buttons">
+					<a class="button is-info is-size-5" href="#features">{{ "Tell me more" | i18n }}</a>
+					<a class="button is-primary is-size-5" href="{{ '/downloads/' | locale_url }}">{{ "Download" | i18n
+						}}</a>
+				</div>
+				<p class="is-size-6">
+					<span class="has-text-weight-bold">{{ "News:" | i18n }}</span>
+					{% assign latest_version = release.latest %}
+					{{ "[[version]] released." | i18n: "version", latest_version.version }}
+
+					({{ latest_version.date | format_date }})
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container">
+		<h2 id="features" class="title section-title">{{ "Features" | i18n }}</h2>
+		<div class="columns is-centered">
+			{% for category_hash in features %}
+			{% comment %}
+			The assignment below is required to be able to iterate on the nested hash.
+			{% endcomment %}
+			{% assign category = category_hash[1] %}
+
+			<div class="column is-6 is-5-widescreen is-4-fullhd">
+				<h3 class="title is-size-3 has-text-centered">{{ category.title | i18n }}</h3>
+
+				{% for feature in category.features %}
+				<h4 class="title feature-title">{{ feature.title | i18n }}</h4>
+				{{ feature.description | i18n | markdownify | replace: "/en/", langPrefix }}
+				{% endfor %}
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container is-max-desktop blog-embed">
+		<h2 id="blog" class="title section-title">{{ "Blog" | i18n }}</h2>
+		<iframe src="https://blog.luanti.org/embed_latest/" title="Latest Luanti Blog Post" frameborder="0"></iframe>
+		<p>
+			<a class="button is-primary" href="https://blog.luanti.org/">
+				{{ "View more blog posts" | i18n }}
+			</a>
+		</p>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container">
+		<h2 id="gallery" class="title section-title">{{ "Gallery" | i18n }}</h2>
+		<div class="columns is-multiline">
+			{% comment %}
+			Thumbnail file names are inferred from the image name.
+			For example, the thumbnail for `foo.jpg` will be `foo-thumb.jpg`.
+			{% endcomment %}
+
+			{% for image in gallery %}
+			<figure class="column is-half">
+				<a class="image is-16by9" href="{{ image.image | locale_url }}">
+					<img style="background-color: #ccc" src="{{ image.image | replace: " .", "-thumb." | locale_url }}"
+						alt="{{ image.title | i18n }}">
+				</a>
+				{% if image.title %}
+				<figcaption>{{ image.title | i18n | markdownify }}</figcaption>
+				{% endif %}
+			</figure>
+			{% endfor %}
+		</div>
+	</div>
+</section>
