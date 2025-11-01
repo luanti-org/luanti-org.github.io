@@ -1,6 +1,8 @@
 # [Luanti Website](https://www.luanti.org)
 
-[![Build status](https://github.com/luanti-org/luanti-org.github.io/workflows/build/badge.svg)](https://github.com/luanti-org/luanti-org.github.io/actions) [![Translation status](https://hosted.weblate.org/widget/minetest/luanti-website/svg-badge.svg)](https://hosted.weblate.org/engage/minetest/)
+[![Build status](https://github.com/luanti-org/luanti-org.github.io/workflows/build/badge.svg)](https://github.com/luanti-org/luanti-org.github.io/actions)
+
+<!-- [![Translation status](https://hosted.weblate.org/widget/minetest/luanti-website/svg-badge.svg)](https://hosted.weblate.org/engage/minetest/) -->
 
 The official Luanti website, living at [www.luanti.org](https://www.luanti.org).
 
@@ -34,7 +36,34 @@ When working on new features, keep in mind this website only supports
 
 Internet Explorer isn't supported.
 
-### Translation
+## Translation
+
+### For translators
+
+Unfortunately, Weblate is not yet available. In the meantime, you can translate
+by GitHub Pull Request.
+
+* Clone the Git repo
+* Find out your language code https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes
+* Copy locales/en/translation.json file to your language. For example, locales/fr/translation.json for French.
+* Update the _values_ of the JSON file, leaving the keys in English. So it should be of the form `"English": "Translated"` so:
+
+  ```json
+  {
+      "Hello {{name}}": "Bonjour {{name}}"
+  }
+  ```
+
+  You can use a desktop application like [PoEdit](https://poedit.net/) to easily edit this JSON file.
+
+  In case you need to know, this is the [i18next](https://www.i18next.com/) JSON format.
+* (Optional) If you've 100% completed your translation, you can enable it like so:
+  * Copy `content/fr` to `content/LANG_CODE` where LANG_CODE is your language code.
+  * Rename `content/LANG_CODE/fr.json` to `content/LANG_CODE/LANG_CODE.json`.
+  * Edit `content/LANG_CODE/LANG_CODE.json` to have `"lang": "LANG_CODE"`.
+* Create a PR for your updates. Alternatively, send the translation.json to rubenwardy.
+
+### For developers
 
 Luanti.org uses [i18next](https://www.i18next.com/) for translations. This is
 exposed to liquid templates by a custom i18n filter:
