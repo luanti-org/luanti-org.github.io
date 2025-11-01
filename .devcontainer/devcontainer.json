@@ -1,0 +1,28 @@
+{
+	"name": "Luanti Website",
+	"image": "mcr.microsoft.com/devcontainers/base:noble",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"nodeGypDependencies": true,
+			"version": "lts/krypton",
+			"nvmVersion": "latest"
+		}
+	},
+	"forwardPorts": [
+		8080
+	],
+	"portsAttributes": {
+		"8080": {
+			"label": "Development Server"
+		}
+	},
+	"postCreateCommand": "npm install",
+	"customizations": {
+		"codespaces": {
+			"openFiles": [
+				"README.md"
+			]
+		},
+		"vscode": {}
+	}
+}
