@@ -88,6 +88,13 @@ match i18next's interpolation syntax:
 }
 ```
 
+### Updating translations
+
+* Stop the site if it is running locally.
+* Edit `locales/en/translation.json` to `{}` and save.
+* Run `npm start`.
+* Commit changes to `locales/en/translation.json`.
+
 ## Brand icons
 
 - [Discord](https://discord.com/branding)
