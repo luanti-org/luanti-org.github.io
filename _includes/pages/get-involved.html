@@ -321,45 +321,54 @@ layout: base
 	<div class="container">
 		<h2 id="donate" class="title section-title">{{ "Donate" | i18n }}</h2>
 		<div class="content">
+			<h3 class="is-size-3">Luanti</span></h3>
 			<p>
-				{{ "Luanti doesn't have a legal body to accept donations, and most core
-				developers do not wish to accept donations
-				<a href='https://github.com/luanti-org/luanti-org.github.io/issues/222'>themselves</a>." | i18n }}
-			</p>
-
-			<h3 class="is-size-3">{{ "Luanti" | i18n }} <span class="is-size-5 has-text-grey has-text-weight-normal">{{
-					"(team)" | i18n }}</span></h3>
-			<p>
-				{{ "The Liberapay team allows you to support multiple members at the same
-				time." | i18n }}
+				{{ "You can donate to Luanti's non-profit collective hosted by Open Collective Europe."}}
 			</p>
 			<p>
-				<a class="button is-primary" href='https://liberapay.com/luanti/'>Liberapay</a>
-			</p>
-
-			<h3 class="is-size-3">celeron55 <span class="is-size-5 has-text-grey has-text-weight-normal">{{ "(founder)"
-					| i18n }}</span></h3>
-			<p>
-				{{ "You can tip money to celeron55.
-				He is the original creator of Luanti, and hosts the forums and wikis." | i18n }}
-				{{ "While he isn't involved in active development, he plays an advisory
-				role and breaks ties." | i18n }}
-			</p>
-			<p>
-				<a class="button is-primary" href='https://liberapay.com/celeron55/'>Liberapay</a>
-				<a class="button is-secondary" href='https://paypal.me/celeron55'>Paypal</a>
-			</p>
-
-			<h3 class="is-size-3">{{ "Other" | i18n }}</h3>
-			<p>
-				{{ "Your favourite server or content creator might accept tips too; make sure to
-				check those out." | i18n }}
-			</p>
-			<p>
-				<a class="button is-primary" href='https://content.luanti.org/donate/'>
-					{{ "Find packages to support on ContentDB" | i18n }}
+				<a class="button is-large is-primary" href='https://opencollective.com/luanti/'>
+					{{ "Support Luanti" | i18n }}
 				</a>
 			</p>
+
+			<h3 class="is-size-3">{{ "Donate to Individuals" | i18n }}</span></h3>
+
+			<div class="columns is-multiline">
+				{% for point in donate %}
+					<div class="column is-one-third">
+						<article class="card" style="display: flex; flex-direction: column; min-height: 100%;">
+							<div class="card-content">
+								<h3 class="title is-4">
+									{% if point.i18n_name %}
+										{{ point.name | i18n }}
+									{% else %}
+										{{ point.name }}
+									{% endif %}
+									{% if point.title %}
+										<span class="is-size-5 has-text-grey has-text-weight-normal">
+											({{ point.title | i18n }})
+										</span>
+									{% endif %}
+								</h3>
+								<p>
+									{{ point.description | i18n }}
+								</p>
+							</div>
+							<footer class="card-footer" style="margin-top: auto;">
+								{% for pair in point.links %}
+									<a class="card-footer-item" href="{{ pair[1] }}">
+										{% if point.i18n_links %}
+											{{ pair[0] | i18n }}
+										{% else %}
+											{{ pair[0] }}
+										{% endif %}
+									</a>
+								{% endfor %}
+							</footer>
+						</article>
+					</div>
+				{% endfor %}
+			</div>
 		</div>
 	</div>
 </section>

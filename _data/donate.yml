@@ -1,0 +1,25 @@
+- name: Luanti Staff Tips
+  i18n_name: true
+  description: >-
+     The Liberapay team allows you to support multiple members at the same time.
+  links:
+    Liberapay: https://liberapay.com/Luanti/
+
+- name: celeron55
+  title: founder
+  description: >-
+    You can tip money to celeron55. He is the original creator of Luanti,
+    and hosts the forums and wikis. While he isn't involved in active
+    development, he plays an advisory role and breaks ties.
+  links:
+    Liberapay: https://liberapay.com/celeron55/
+    PayPal: https://paypal.me/celeron55
+
+- name: Other
+  i18n_name: true
+  i18n_links: true
+  description: >-
+    Your favourite server or content creator might accept tips too; make sure
+    to check those out.
+  links:
+    "Find packages to support on ContentDB": https://content.luanti.org/donate/

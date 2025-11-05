@@ -1,0 +1,108 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "maintainer",
+    "name": "Luanti",
+    "email": "rw@rubenwardy.com",
+    "description": "Luanti (formerly Minetest) is an open-source voxel game creation platform",
+    "webpageUrl": {
+      "url": "https://www.luanti.org"
+    }
+  },
+  "projects": [
+    {
+      "guid": "luanti",
+      "name": "Luanti",
+      "description": "Luanti (formerly Minetest) is an open-source voxel game creation platform",
+      "webpageUrl": {
+        "url": "https://www.luanti.org"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/luanti-org/luanti"
+      },
+      "licenses": [
+        "spdx:LGPL-2.1",
+        "spdx:CC-BY-SA-3.0",
+        "spdx:MIT",
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "lua",
+        "game engine",
+        "voxel",
+        "game"
+      ]
+    },
+    {
+      "guid": "contentdb",
+      "name": "Luanti ContentDB",
+      "description": "A content database for Luanti mods, games, and more.",
+      "webpageUrl": {
+        "url": "https://content.luanti.org/about/"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/luanti-org/contentdb"
+      },
+      "licenses": [
+        "spdx:AGPL-3.0",
+        "spdx:CC-BY-SA-4.0"
+      ],
+      "tags": [
+        "python",
+        "flask",
+        "luanti",
+        "minetest"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "open-collective",
+        "type": "other",
+        "address": "https://opencollective.com/luanti",
+        "description": "Recurring and one-time donations to Luanti"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "oc-eur-backer",
+        "status": "active",
+        "name": "Luanti backer",
+        "description": "Become a backer for €5 per month and help Luanti development",
+        "amount": 5,
+        "currency": "EUR",
+        "frequency": "monthly",
+        "channels": [
+          "open-collective"
+        ]
+      },
+      {
+        "guid": "oc-eur-supporter",
+        "status": "active",
+        "name": "Luanti supporter",
+        "description": "Become a supporter for €5 per month and help Luanti development",
+        "amount": 100,
+        "currency": "EUR",
+        "frequency": "monthly",
+        "channels": [
+          "open-collective"
+        ]
+      },
+      {
+        "guid": "oc-eur-custom",
+        "status": "active",
+        "name": "Luanti custom one-off",
+        "description": "You may donate any amount you're comfortable with",
+        "amount": 0,
+        "currency": "EUR",
+        "frequency": "one-time",
+        "channels": [
+          "open-collective"
+        ]
+      }
+    ],
+    "history": []
+  }
+}
