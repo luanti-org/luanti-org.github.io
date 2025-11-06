@@ -100,6 +100,18 @@
         "channels": [
           "open-collective"
         ]
+      },
+      {
+        "guid": "fosdem",
+        "status": "active",
+        "name": "FOSDEM",
+        "description": "It costs us €3000 to attend FOSDEM",
+        "amount": 3000,
+        "currency": "EUR",
+        "frequency": "one-time",
+        "channels": [
+          "open-collective"
+        ]
       }
     ],
     "history": []
