@@ -96,7 +96,7 @@
   "Use <a href='https://brew.sh/'>Homebrew</a> to get the stable version:": "Använd <a href='https://brew.sh/'>Homebrew</a> för att få den stabila versionen:",
   "Make a Game": "Skapa ett spel",
   "<a href='https://www.macports.org/'>MacPorts</a> also contains a port of the outdated\n\t\t\t\t\t\tversion:": "<a href='https://www.macports.org/'>MacPorts</a> innehåller en port av den föråldrade\n\t\t\t\t\t\tversionen:",
-  "Source code": "Källkod",
+  "Community builds and Source code": "Community builds and Källkod",
   "Create your own voxel game using our [Lua API](https://docs.luanti.org/for-creators/). No need to worry about tricky voxel rendering or networking; instead, write scripts to add items and control game play.\n": "Skapa ditt eget voxel-spel med vår [Lua API](https://docs.luanti.org/for-creators/). Du behöver inte oroa dig om komplicerad voxelrendering eller nätverk; istället kan du skriva skript för att lägga till saker och kontrollera spelet.",
   "Get the latest <a href='https://github.com/luanti-org/luanti/tree/stable-5'>stable</a>\n\t\t\t\t\tor <a href='https://github.com/luanti-org/luanti'>development</a> source code from\n\t\t\t\t\t<a href='https://github.com/luanti-org'>GitHub</a>.": "Hämta den senaste <a href='https://github.com/luanti-org/luanti/tree/stable-5'>stabila</a> eller <a href='https://github.com/luanti-org/luanti'>utvecklings</a>-källkoden från\n\t\t\t\t\t<a href='https://github.com/luanti-org'>GitHub</a>.",
   "See the <a href='https://github.com/luanti-org/luanti/blob/master/README.md'>README</a>\n\t\t\t\t\tfor details on how to compile Luanti from source.": "Se <a href='https://github.com/luanti-org/luanti/blob/master/README.md'>README</a>\n\t\t\t\t\tför detaljer om hur man kompilerar Luanti från källkoden.",
