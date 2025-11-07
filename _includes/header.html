@@ -26,9 +26,13 @@
 				{% for item in navbar %}
 				<a class="navbar-item" href="{{ item.url | replace: '/en/', langPrefix }}">{{ item.title | i18n }}</a>
 				{% endfor %}
+				<div class="navbar-item">
+					<a href="{{ '/en/get-involved/' | locale_url }}#donate" class="button is-primary">
+						{{ "Donate" | i18n }}
+					</a>
+				</div>
 			</div>
 			<div class="navbar-end">
-
 				<div class="navbar-item has-dropdown is-hoverable">
 					<a class="navbar-link">
 						{{ lang | default: "en" | langName }}
