@@ -1,11 +1,10 @@
 import UserConfig from "@11ty/eleventy";
 import { EleventyHtmlBasePlugin, I18nPlugin, IdAttributePlugin } from "@11ty/eleventy";
-import i18next from 'i18next';
-import Backend from 'i18next-fs-backend';
-import { join } from 'path';
-import { readdirSync, lstatSync } from 'fs';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
+import i18next from "i18next";
+import Backend from "i18next-fs-backend";
+import { join, dirname } from "path";
+import { readdirSync, lstatSync } from "fs";
+import { fileURLToPath } from "url";
 import YAML from "yaml";
 import { DateTime } from "luxon";
 import markdownIt from "markdown-it";
@@ -25,21 +24,18 @@ export default function (eleventyConfig) {
 		// debug: true,
 
 		saveMissing: true,
-
-		// allow keys to be phrases having `:`, `.`
 		nsSeparator: false,
 		keySeparator: false,
-
-		// do not load a fallback
+		returnEmptyString: false,
 		fallbackLng: "en",
 
 		backend: {
-			loadPath: join(__dirname, 'locales/{{lng}}/{{ns}}.json'),
-			addPath: join(__dirname, 'locales/{{lng}}/{{ns}}.json'),
+			loadPath: join(__dirname, "locales/{{lng}}/{{ns}}.json"),
+			addPath: join(__dirname, "locales/{{lng}}/{{ns}}.json"),
 		},
 
-		preload: readdirSync(join(__dirname, 'locales')).filter((fileName) => {
-			const joinedPath = join(join(__dirname, 'locales'), fileName)
+		preload: readdirSync(join(__dirname, "locales")).filter((fileName) => {
+			const joinedPath = join(join(__dirname, "locales"), fileName)
 			const isDirectory = lstatSync(joinedPath).isDirectory()
 			return isDirectory;
 		}),
@@ -96,6 +92,7 @@ export default function (eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("i18n", function(msg, ...args) {
+		msg = msg.trim().replaceAll(/\s{2,}/g, " ");
 		const t = i18next.getFixedT(this.page.lang ?? "en");
 
 		if (args.length % 2 !== 0) {
