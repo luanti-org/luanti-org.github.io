@@ -123,7 +123,4 @@ async function load() {
 	}
 }
 
-document.getElementById("noscript").style.display = "none";
-document.getElementById("credits-loading").style.display = "block";
-
 window.addEventListener("load", load());

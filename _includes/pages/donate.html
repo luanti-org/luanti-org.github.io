@@ -36,14 +36,16 @@ layout: base
 	<section class="section">
 		<div class="container">
 			<h3 class="title is-size-3" id="credits">{{ "Supporters" | i18n }}</h3>
-			<!-- to reduce translator burden, not making this translatable -->
-			<p id="noscript">
-				JavaScript is required to see supporters here.
-				Alternatively, you can view them on <a href="https://opencollective.com/luanti">Open Collective</a>.
-			</p>
-			<p id="credits-loading" style="display: none;">{{ "Loading…" | i18n }}</p>
+			<noscript>
+				<!-- to reduce translator burden, not making this translatable -->
+				<p>
+					JavaScript is required to see supporters here.
+					Alternatively, you can view them on <a href="https://opencollective.com/luanti">Open Collective</a>.
+				</p>
+			</noscript>
+			<p id="credits-loading">{{ "Loading…" | i18n }}</p>
 			<div id="credits-container" class="columns is-multiline"></div>
-			<script src="/assets/js/opencollective.js?v=2"></script>
+			<script src="/assets/js/opencollective.js"></script>
 		</div>
 	</section>
 
