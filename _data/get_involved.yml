@@ -2,7 +2,7 @@ community:
 
   - name: Docs
     url: https://docs.luanti.org/
-    icon: wiki.svg
+    icon: docs.svg
 
   - name: Forum
     url: https://forum.luanti.org
