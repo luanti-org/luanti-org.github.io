@@ -1,3 +1,5 @@
+community:
+
 - name: Luanti Staff Tips
   i18n_name: true
   description: >-
@@ -8,14 +10,13 @@
 - name: celeron55
   title: founder
   description: >-
-    You can tip money to celeron55. He is the original creator of Luanti,
-    and hosts the forums and wikis. While he isn't involved in active
-    development, he plays an advisory role and breaks ties.
+    While he isn't involved in active development, he hosts the forums and plays
+    an advisory role.
   links:
     Liberapay: https://liberapay.com/celeron55/
     PayPal: https://paypal.me/celeron55
 
-- name: Other
+- name: Community
   i18n_name: true
   i18n_links: true
   description: >-
