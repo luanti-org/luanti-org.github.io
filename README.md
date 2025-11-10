@@ -79,7 +79,6 @@ match i18next's interpolation syntax:
 * Stop the site if it is running locally.
 * Edit `locales/en/translation.json` to `{}` and save.
 * Run `npm start`.
-* Run `npm run update_locales`
 * Commit changes to `locales`.
 
 ## Brand icons
