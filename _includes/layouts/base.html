@@ -11,11 +11,11 @@
 	<meta name="og:url" content="https://www.luanti.org{{ page.url }}">
 	<meta name="og:title" content="{{ title | i18n | escape }}">
 	<meta name="og:site_name" content="{{ 'Luanti' | i18n }}">
-	{% if page.description %}
+	{% if description %}
 	<meta name="og:description" content="{{ description | i18n | escape | strip }}">
 	<meta name="description" content="{{ description | i18n | escape | strip }}">
 	{% endif %}
-	{% if page.image %}
+	{% if image %}
 	<meta name="og:image" content="{{ image | absolute_url }}">
 	{% endif %}
 	<link rel="alternate" hreflang="{{ lang }}" href="{{ page.url | absolute_url }}">
@@ -24,6 +24,7 @@
 	<link rel="alternate" hreflang="{{ link.lang }}" href="{{ link.url | absolute_url }}">
 	{%- endfor %}
 	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="/assets/css/all.min.css">
 	<link rel="apple-touch-icon" sizes="57x57" href="/media/favicon/57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/media/favicon/60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/media/favicon/72x72.png">

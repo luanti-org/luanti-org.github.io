@@ -7,6 +7,7 @@
 		"build": "npx sass --style=compressed scss/main.scss:_site/assets/css/main.css && npx @11ty/eleventy",
 		"watch:sass": "npx sass scss/main.scss:_site/assets/css/main.css --watch",
 		"watch:eleventy": "npx @11ty/eleventy --serve --quiet",
+		"update_locales": "node update_locales.js",
 		"start": "npm run watch:eleventy & npm run watch:sass",
 		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
 		"debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",

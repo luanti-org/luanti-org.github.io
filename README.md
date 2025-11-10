@@ -1,8 +1,7 @@
 # [Luanti Website](https://www.luanti.org)
 
 [![Build status](https://github.com/luanti-org/luanti-org.github.io/workflows/build/badge.svg)](https://github.com/luanti-org/luanti-org.github.io/actions)
-
-<!-- [![Translation status](https://hosted.weblate.org/widget/minetest/luanti-website/svg-badge.svg)](https://hosted.weblate.org/engage/minetest/) -->
+[![Translation status](https://hosted.weblate.org/widget/minetest/website/svg-badge.svg)](https://hosted.weblate.org/engage/minetest/)
 
 The official Luanti website, living at [www.luanti.org](https://www.luanti.org).
 
@@ -40,28 +39,15 @@ Internet Explorer isn't supported.
 
 ### For translators
 
-Unfortunately, Weblate is not yet available. In the meantime, you can translate
-by GitHub Pull Request.
+Translate using Weblate: https://hosted.weblate.org/projects/minetest/website/
 
-* Clone the Git repo
-* Find out your language code https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes
-* Copy locales/en/translation.json file to your language. For example, locales/fr/translation.json for French.
-* Update the _values_ of the JSON file, leaving the keys in English. So it should be of the form `"English": "Translated"` so:
+### Enabling languages
 
-  ```json
-  {
-      "Hello {{name}}": "Bonjour {{name}}"
-  }
-  ```
-
-  You can use a desktop application like [PoEdit](https://poedit.net/) to easily edit this JSON file.
-
-  In case you need to know, this is the [i18next](https://www.i18next.com/) JSON format.
-* (Optional) If you've 100% completed your translation, you can enable it like so:
+* When a language is 100% completed, you can enable it like so:
   * Copy `content/fr` to `content/LANG_CODE` where LANG_CODE is your language code.
   * Rename `content/LANG_CODE/fr.json` to `content/LANG_CODE/LANG_CODE.json`.
   * Edit `content/LANG_CODE/LANG_CODE.json` to have `"lang": "LANG_CODE"`.
-* Create a PR for your updates. Alternatively, send the translation.json to rubenwardy.
+* Create a PR for your updates.
 
 ### For developers
 
@@ -93,7 +79,8 @@ match i18next's interpolation syntax:
 * Stop the site if it is running locally.
 * Edit `locales/en/translation.json` to `{}` and save.
 * Run `npm start`.
-* Commit changes to `locales/en/translation.json`.
+* Run `npm run update_locales`
+* Commit changes to `locales`.
 
 ## Brand icons
 

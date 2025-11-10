@@ -28,10 +28,9 @@
 				{% endfor %}
 			</div>
 			<div class="navbar-end">
-
 				<div class="navbar-item has-dropdown is-hoverable">
-					<a class="navbar-link">
-						{{ lang | default: "en" | langName }}
+					<a class="navbar-link" title="{{ 'Select language' | i18n }}" aria-label="{{ 'Select language' | i18n }}">
+						<i class="fas fa-language"></i>
 					</a>
 
 					<div class="navbar-dropdown is-right">
@@ -45,6 +44,12 @@
 							</a>
 						{%- endfor -%}
 					</div>
+				</div>
+				<div class="navbar-item">
+					<a href="{{ '/en/donate/' | locale_url }}" class="button is-primary">
+						<i class="fas fa-heart mr-2"></i>
+						{{ "Donate" | i18n }}
+					</a>
 				</div>
 			</div>
 		</div>
