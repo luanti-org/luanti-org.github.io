@@ -169,7 +169,6 @@
 	"Service": "Сервіс",
 	"[Steampunk Blimp](https://content.luanti.org/packages/apercy/steampunk_blimp/) mod for Minetest Game": "Модифікація [Steampunk Blimp](https://content.luanti.org/packages/apercy/steampunk_blimp/) для Minetest Game",
 	"*.luanti.org DNS": "*.luanti.org DNS",
-	"n/a": "",
 	"Contact celeron55. His approval is needed to host under luanti.org": "Зв'яжіться з celeron55. Його згода потрібна для розміщення на luanti.org",
 	"Docs Team": "Команда документації",
 	"Theme": "Тема",
@@ -215,7 +214,6 @@
 	"Font Awesome icons under <a href='https://fontawesome.com/license'>CC-BY 4.0</a>.": "Іконки Font Awesome за ліцензією <a href='https://fontawesome.com/license'>CC-BY 4.0</a>.",
 	"Video game screenshot. 7 natural stone pillars rise from the banks of multiple rivers joining together.": "Знімок екрана з відеогри. 7 природних кам'яних стовпів підносяться з берегів кількох річок, що зливаються разом.",
 	"Canada": "Канада",
-	"Minetest Classroom": "",
 	"University – Digital Twin": "Університет – Цифровий двійник",
 	"A project funded by the University of British Columbia around the use of Luanti as a learning tool and for the production of digital twins of natural and human built environments. It has been used to organize virtual field trips in the context of Covid 19.": "Проєкт, фінансуваний Університетом Британської Колумбії, присвячений використанню Luanti як навчального інструменту та для створення цифрових двійників природних і штучних середовищ. Він використовувався для організації віртуальних екскурсій в умовах пандемії COVID-19.",
 	"Contributors": "Учасники",
@@ -290,13 +288,5 @@
 	"Loading…": "Завантаження…",
 	"Support staff and the community": "Підтримати персонал та спільноту",
 	"While he isn't involved in active development, he hosts the forums and plays an advisory role.": "Хоча він не бере активної участі в розробці, він є адміністратором форумів і виконує консультативну роль.",
-	"<a href='/en/donate/'>Donate</a> money to pay for infrastructure, and <a href='https://content.luanti.org/donate/'>support your favourite contributors</a>.": "<a href='/en/donate/'>Пожертвуйте</a> гроші на оплату інфраструктури та <a href='https://content.luanti.org/donate/'>підтримайте своїх улюблених творців</a>.",
-	"A list of public servers, as shown inside Luanti": "",
-	"Privacy policy for the Luanti application.": "",
-	"Download the latest version of Luanti": "",
-	"Support Luanti with a financial contribution.": "",
-	"Learn how to get involved with the community or contribute to development.": "",
-	"An open source voxel game engine. Play one of our many games, mod a game to your liking, make your own game, or play on a multiplayer server.": "",
-	"Key contributors and developers behind the Luanti project": "",
-	"Reasons and resources for using Luanti in education": ""
+	"<a href='/en/donate/'>Donate</a> money to pay for infrastructure, and <a href='https://content.luanti.org/donate/'>support your favourite contributors</a>.": "<a href='/en/donate/'>Пожертвуйте</a> гроші на оплату інфраструктури та <a href='https://content.luanti.org/donate/'>підтримайте своїх улюблених творців</a>."
 }
