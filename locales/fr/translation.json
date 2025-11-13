@@ -169,5 +169,19 @@
 	"<a href='https://forum.luanti.org/viewtopic.php?f=7&t=19877'>Help us review and merge pull requests</a>.": "<a href='https://forum.luanti.org/viewtopic.php?f=7&t=19877'>Nous aider à vérifier et fusionner les Pull Requests</a>.",
 	"Download the latest version of Luanti": "Télécharger la dernière version de Luanti",
 	"Open Source": "Open Source",
-	"Programmers": "Développeur·ses"
+	"Programmers": "Développeur·ses",
+	"Work on a <a href='https://docs.luanti.org/for-creators/'>game or mod</a> and publish it to <a href='https://content.luanti.org'>ContentDB</a>.": "Œuvrez sur un <a href='https://docs.luanti.org/for-creators/'>jeu ou mod</a> et publiez-le dans <a href='https://content.luanti.org'>ContentDB</a>.",
+	"The <a href='https://rubenwardy.com/minetest_modding_book/'>Luanti Modding Book</a> provides an easy introduction to creating mods and games.": "Le livre <a href='https://rubenwardy.com/minetest_modding_book/'>Luanti Modding Book</a> est une introduction facile à la création de jeux et de mods",
+	"Report bugs and submit patches on <a href='https://github.com/luanti-org'>GitHub</a> or <a href='https://docs.luanti.org/about/irc/'>IRC</a>.": "Signalez les bogues et soumettez des correctifs via <a href='https://github.com/luanti-org'>GitHub</a> ou <a href='https://docs.luanti.org/about/irc/'>l'IRC</a>.",
+	"Read the <a href='https://docs.luanti.org/for-engine-devs/'>engine</a> documentation.": "Lisez la documentation du <a href='https://docs.luanti.org/for-engine-devs/'>moteur de jeu</a>.",
+	"Support Luanti with a financial contribution.": "Soutenez Luanti par un don en numéraire.",
+	"Artists": "Artistes",
+	"Team up and create a new game.": "Faites équipe et créez un nouveau jeu.",
+	"Create a <a href='https://docs.luanti.org/for-players/texture-packs/'>Texture Pack</a>.": "Créez un <a href='https://docs.luanti.org/for-players/texture-packs/'>Paquet de textures</a>.",
+	"Hang around on the forums, and help with <a href='https://forum.luanti.org/viewtopic.php?f=47&t=1585'>texture requests</a>.": "Participez aux forums et répondez au <a href='https://forum.luanti.org/viewtopic.php?f=47&t=1585'>demandes de textures</a>.",
+	"How is Luanti developed?": "Comment Luanti est-il développé ?",
+	"The Process": "Le processus",
+	"Luanti is developed and maintained by a group of volunteers called the <a href='https://github.com/orgs/minetest/people'>core team</a>, consisting of a bunch of people who are trusted to keep Luanti progressing in good condition.": "Luanti est développé et maintenu par un groupe de bénévoles appelé <a href='https://github.com/orgs/minetest/people'>Équipe de Base</a>, constitué d'un collectif de personnes dignes de confiance pour assurer la progression de Luanti dans les meilleures conditions.",
+	"The core team is formed of people who have made great <a href='/en/credits/'>contributions</a> to Luanti. Contributions are approved if two members of the core team agree on them.": "L'Équipe de Base est formée de personnes ayant apporté d'importantes <a href='/en/credits/'>contributions</a> à Luanti. Les nouvelles contributions doivent être approuvées par au moins deux membres de l'Équipe de Base.",
+	"[Backrooms Test](https://content.luanti.org/packages/Sumianvoice/backroomtest/), a game about liminal spaces": "[Backrooms Test](https://content.luanti.org/packages/Sumianvoice/backroomtest/), un jeux en espaces liminaux"
 }
