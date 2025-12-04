@@ -285,5 +285,18 @@
 	"Loading…": "Завантаження…",
 	"Support staff and the community": "Підтримати персонал та спільноту",
 	"While he isn't involved in active development, he hosts the forums and plays an advisory role.": "Хоча він не бере активної участі в розробці, він є адміністратором форумів і виконує консультативну роль.",
-	"<a href='/en/donate/'>Donate</a> money to pay for infrastructure, and <a href='https://content.luanti.org/donate/'>support your favourite contributors</a>.": "<a href='/en/donate/'>Пожертвуйте</a> гроші на оплату інфраструктури та <a href='https://content.luanti.org/donate/'>підтримайте своїх улюблених творців</a>."
+	"<a href='/en/donate/'>Donate</a> money to pay for infrastructure, and <a href='https://content.luanti.org/donate/'>support your favourite contributors</a>.": "<a href='/en/donate/'>Пожертвуйте</a> гроші на оплату інфраструктури та <a href='https://content.luanti.org/donate/'>підтримайте своїх улюблених творців</a>.",
+	"A list of public servers, as shown inside Luanti": "Список публічних серверів, як показано в Luanti",
+	"Privacy policy for the Luanti application.": "Політика приватності для застосунку Luanti.",
+	"Community builds and Source code": "Збірки спільноти та початковий код",
+	"Download the latest version of Luanti": "Завантажте найновішу версію Luanti",
+	"Support Luanti with a financial contribution.": "Підтримайте Luanti фінансово.",
+	"n/a": "н/з",
+	"Learn how to get involved with the community or contribute to development.": "Дізнайтеся, як долучитися до спільноти або сприяти розвитку.",
+	"An open source voxel game engine. Play one of our many games, mod a game to your liking, make your own game, or play on a multiplayer server.": "Воксельний рушій з відкритим кодом. Зіграйте в одну з наших багатьох ігор, модифікуйте гру до своїх вподобань, створіть свою гру або грайте на багатокористувацькому сервері.",
+	"<a href='https://github.com/luanti-org/luanti-org.github.io/blob/master/LICENSE.md'>MIT</a> for code, <a href='https://github.com/luanti-org/minetest_game/blob/master/LICENSE.txt'>CC BY-SA 3.0</a> for content, media under <a href='https://github.com/luanti-org/luanti-org.github.io/#license'>various licenses</a>.": "<a href='https://github.com/luanti-org/luanti-org.github.io/blob/master/LICENSE.md'>MIT</a> для коду, <a href='https://github.com/luanti-org/minetest_game/blob/master/LICENSE.txt'>CC BY-SA 3.0</a> для вмісту, медіа за <a href='https://github.com/luanti-org/luanti-org.github.io/#license'>різними ліцензіями</a>.",
+	"Font Awesome icons under <a href='https://fontawesome.com/license'>CC BY 4.0</a>.": "Іконки Font Awesome за ліцензією <a href='https://fontawesome.com/license'>CC BY 4.0</a>.",
+	"Minetest Classroom": "Minetest Classroom",
+	"Key contributors and developers behind the Luanti project": "Основні учасники та розробники проєкту Luanti",
+	"Reasons and resources for using Luanti in education": "Причини та ресурси для використання Luanti в освіті"
 }
