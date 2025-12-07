@@ -226,7 +226,6 @@
 	"People are generally available on Libera <abbr title='Internet Relay Chat'>IRC</abbr>, Discord, the Luanti Forums, GitHub and/or via email.": "As pessoas geralmente estão disponíveis no Libera <abbr title='Internet Relay Chat'>IRC</abbr>, Discord, nos Fóruns Luanti, no GitHub e/ou por e-mail.",
 	"People Responsible": "Pessoas Responsáveis",
 	"Customized inventory screen from the [i3](https://content.luanti.org/packages/jp/i3/) mod": "Tela de inventário personalizada do mod [i3](https://content.luanti.org/packages/jp/i3/)",
-	"[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), a platformer puzzle game with a story": "[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), um jogo de quebra-cabeças de plataforma com história",
 	"Docs Team": "Equipe de Documentação",
 	"ContentDB": "ContentDB",
 	"France": "França",
@@ -296,7 +295,5 @@
 	"Need a print version of this page? See the \"Minetest in Education\" leaflet.": "Precisa de uma versão impressa desta página? Veja o folheto \"Minetest na Educação\".",
 	"\"Minetest in Education\" leaflet": "Folheto \"Minetest na Educação\"",
 	"Then, <a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'> create an issue</a> or <a href='https://rubenwardy.com/contact/'>contact rubenwardy</a>.": "Em seguida, <a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'>crie um tópico</a> ou <a href='https://rubenwardy.com/contact/'>entre em contato com rubenwardy</a>.",
-	"Community builds and Source code": "Builds da comunidade e Código-fonte",
-	"<a href='https://github.com/luanti-org/luanti-org.github.io/blob/master/LICENSE.md'>MIT</a> for code, <a href='https://github.com/luanti-org/minetest_game/blob/master/LICENSE.txt'>CC BY-SA 3.0</a> for content, media under <a href='https://github.com/luanti-org/luanti-org.github.io/#license'>various licenses</a>.": "<a href='https://github.com/luanti-org/luanti-org.github.io/blob/master/LICENSE.md'>MIT</a> para o código, <a href='https://github.com/luanti-org/minetest_game/blob/master/LICENSE.txt'>CC BY-SA 3.0</a> para o conteúdo, mídia sob <a href='https://github.com/luanti-org/luanti-org.github.io/#license'>várias licenças</a>.",
-	"Font Awesome icons under <a href='https://fontawesome.com/license'>CC BY 4.0</a>.": "Ícones do Font Awesome sob a licença <a href='https://fontawesome.com/license'>CC BY 4.0</a>."
+	"Community builds and Source code": "Builds da comunidade e Código-fonte"
 }

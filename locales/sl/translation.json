@@ -186,7 +186,6 @@
 	"Issues": "Težave",
 	"Minetest Game": "Minetest Game",
 	"Minetestmapper": "Minetestmapper",
-	"[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), a platformer puzzle game with a story": "Platforemska igra sestavljanke z zgodbo [Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), a platformer puzzle game with a story",
 	"Blender B3DExport": "Blender B3DExport",
 	"Service": "Storitve",
 	"[Steampunk Blimp](https://content.luanti.org/packages/apercy/steampunk_blimp/) mod for Minetest Game": "[Steampunk Blimp](https://content.luanti.org/packages/apercy/steampunk_blimp/), mod za igro Minetest",
@@ -296,7 +295,5 @@
 	"Contribute back to the community by writing about your project and/or making your learning resources publicly available.": "Prispevajte k skupnosti tako, da pišete o svojem projektu in/ali javno objavite svoja učna gradiva.",
 	"Then, <a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'> create an issue</a> or <a href='https://rubenwardy.com/contact/'>contact rubenwardy</a>.": "Nato <a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'>odprite zadevo</a> ali <a href='https://rubenwardy.com/contact/'>stopite v stik z rubenwardyjem</a>.",
 	"Reasons and resources for using Luanti in education": "Razlogi in gradiva za uporabo Luantija v izobraževanju",
-	"Community builds and Source code": "Gradnje skupnost in izvorna koda",
-	"<a href='https://github.com/luanti-org/luanti-org.github.io/blob/master/LICENSE.md'>MIT</a> for code, <a href='https://github.com/luanti-org/minetest_game/blob/master/LICENSE.txt'>CC BY-SA 3.0</a> for content, media under <a href='https://github.com/luanti-org/luanti-org.github.io/#license'>various licenses</a>.": "Koda je lincencirana pod licenco <a href='https://github.com/luanti-org/luanti-org.github.io/blob/master/LICENSE.md'>MIT</a>, vsebina pod licenco <a href='https://github.com/luanti-org/minetest_game/blob/master/LICENSE.txt'>CC BY-SA 3.0</a> in grafika pod <a href='https://github.com/luanti-org/luanti-org.github.io/#license'>različnimi licencami</a>.",
-	"Font Awesome icons under <a href='https://fontawesome.com/license'>CC BY 4.0</a>.": "Pisava Awesome icons je pod licenco <a href='https://fontawesome.com/license'>CC BY 4.0</a>."
+	"Community builds and Source code": "Gradnje skupnost in izvorna koda"
 }

@@ -163,7 +163,6 @@
 	"Issues": "Probleme",
 	"Minetest Game": "Minetest Game",
 	"Minetestmapper": "Minetestmapper",
-	"[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), a platformer puzzle game with a story": "[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), ein Plattform-Knobelspiel mit einer Geschichte",
 	"Blender B3DExport": "Blender B3DExport",
 	"Service": "Dienst",
 	"*.luanti.org DNS": "*.luanti.org DNS",
@@ -296,7 +295,5 @@
 	"An open source voxel game engine. Play one of our many games, mod a game to your liking, make your own game, or play on a multiplayer server.": "Eine Open-Source-Voxel-Spiel-Engine. Spielen Sie eines unserer vielen Spiele, modifizieren Sie ein Spiel nach Ihren Wünschen, erstellen Sie Ihr eigenes Spiel oder spielen Sie auf einem Multiplayer-Server.",
 	"Key contributors and developers behind the Luanti project": "Wichtige Mitwirkende und Entwickler hinter dem Luanti-Projekt",
 	"Reasons and resources for using Luanti in education": "Gründe und Ressourcen für den Einsatz von Luanti im Bildungsbereich",
-	"Community builds and Source code": "Community-Builds und Quellcode",
-	"<a href='https://github.com/luanti-org/luanti-org.github.io/blob/master/LICENSE.md'>MIT</a> for code, <a href='https://github.com/luanti-org/minetest_game/blob/master/LICENSE.txt'>CC BY-SA 3.0</a> for content, media under <a href='https://github.com/luanti-org/luanti-org.github.io/#license'>various licenses</a>.": "<a href='https://github.com/luanti-org/luanti-org.github.io/blob/master/LICENSE.md'>MIT</a> für den Code, <a href='https://github.com/luanti-org/minetest_game/blob/master/LICENSE.txt'>CC BY-SA 3.0</a> für Inhalte, Medien unter <a href='https://github.com/luanti-org/luanti-org.github.io/#license'>verschiedenen Lizenzen</a>.",
-	"Font Awesome icons under <a href='https://fontawesome.com/license'>CC BY 4.0</a>.": "„Font Awesome“-Icons unter <a href='https://fontawesome.com/license'>CC BY 4.0</a>."
+	"Community builds and Source code": "Community-Builds und Quellcode"
 }
