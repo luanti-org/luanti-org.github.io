@@ -295,5 +295,8 @@
 	"Contribute back to the community by writing about your project and/or making your learning resources publicly available.": "Prispevajte k skupnosti tako, da pišete o svojem projektu in/ali javno objavite svoja učna gradiva.",
 	"Then, <a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'> create an issue</a> or <a href='https://rubenwardy.com/contact/'>contact rubenwardy</a>.": "Nato <a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'>odprite zadevo</a> ali <a href='https://rubenwardy.com/contact/'>stopite v stik z rubenwardyjem</a>.",
 	"Reasons and resources for using Luanti in education": "Razlogi in gradiva za uporabo Luantija v izobraževanju",
-	"Community builds and Source code": "Gradnje skupnost in izvorna koda"
+	"Community builds and Source code": "Gradnje skupnost in izvorna koda",
+	"[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), a platformer game in cyberspace with a story": "[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), platforemska igra kiberprostora z zgodbo",
+	"<a href='https://spdx.org/licenses/MIT.html'>MIT</a> for code, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> for content, media under various licenses.": "Licenca <a href='https://spdx.org/licenses/MIT.html'>MIT</a> za kodo, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> za vsebino in za medijske datoteke pa različne licence.",
+	"Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.": "Pisava Awesome Icons je pod licenco <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>."
 }
