@@ -11,7 +11,7 @@ layout: base
 		<p class="mt-5">
 			{{ "Are you a new user? Have a look at the
 			<a href='https://docs.luanti.org/for-players/getting-started/'>Getting Started</a>
-			guide in our docs." | i18n }}
+			guide." | i18n }}
 			{{ "Otherwise, feel free to look at the
 			<a href='https://docs.luanti.org/changelog/'>changelog</a>." | i18n }}
 		</p>
@@ -27,8 +27,20 @@ layout: base
 				</p>
 				<ul>
 					<li class="has-text-weight-bold">
+						<a href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0.exe'>
+							{{ "Luanti [[version]] - installer, 64-bit (recommended)" | i18n: "version", "5.14.0" }}
+						</a>
+					</li>
+				</ul>
+				<p>
+					{{ "If you have used the portable installation before, find out
+						<a href='https://docs.luanti.org/for-players/migrate-portable-data/'>how to copy over your data</a>." | i18n }}<br>
+					{{ "Alternatively:" | i18n }}
+				</p>
+				<ul>
+					<li>
 						<a href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-win64.zip'>
-							{{ "Luanti [[version]] - portable, 64-bit (recommended)" | i18n: "version", "5.14.0" }}
+							{{ "Luanti [[version]] - portable, 64-bit" | i18n: "version", "5.14.0" }}
 						</a>
 					</li>
 					<li>
@@ -36,19 +48,17 @@ layout: base
 							{{ "Luanti [[version]] - portable, 32-bit" | i18n: "version", "5.14.0" }}
 						</a>
 					</li>
-				</ul>
-				<p>
-					{{ "Luanti is distributed as a portable .zip archive on Windows." | i18n }}
-					{{ "Extract it to a folder you have write permissions, and run <code>luanti.exe</code>
-					which can be found in the <code>bin</code> folder." | i18n }}
-				</p>
-				<ul>
 					<li>
 						<a href='https://packages.msys2.org/base/mingw-w64-luanti'>
 							{{ "Luanti MSYS2 package (community-maintained)" | i18n }}
 						</a>
 					</li>
 				</ul>
+				<p>
+					{{ "If using the portable downloads extract the entire Luanti
+						folder to your user folder, desktop or similar and
+						run <code>luanti.exe</code> inside the <code>bin</code> folder." | i18n }}
+				</p>
 			</div>
 
 			<div class="column is-12-tablet is-6-desktop">
@@ -95,7 +105,7 @@ layout: base
 			</div>
 
 			<div class="column is-12-tablet is-6-desktop">
-				<h2>Linux</h2>
+				<h2>{{ "Linux" | i18n }}</h2>
 				<h3>{{ "Packages" | i18n }}</h3>
 				<p>{{ "These may be out of date at times. If they are too out of date, consider building from source." |
 					i18n }}</p>
@@ -104,8 +114,8 @@ layout: base
 					<li class="has-text-weight-bold">{{ "Flatpak (all distributions)" | i18n }} -
 						<a href='https://flathub.org/apps/org.luanti.luanti'>{{ "Stable" | i18n }}</a>
 					</li>
-					<!-- <li class="has-text-weight-bold">Snap (all distributions)" | i18n }} -
-						<a href='https://snapcraft.io/luanti'>Stable" | i18n }}</a></li> -->
+					<!-- <li class="has-text-weight-bold">{{ "Snap (all distributions)" | i18n }} -
+						<a href='https://snapcraft.io/luanti'>{{ "Stable" | i18n }}</a></li> -->
 					<li>
 						{{ "Ubuntu and derivatives" | i18n }} -
 					</li>
@@ -173,22 +183,7 @@ sudo apt install minetest
 			</div>
 
 			<div class="column is-12-tablet is-6-desktop">
-				<h2>FreeBSD</h2>
-				<h3>{{ "Package manager" | i18n }}</h3>
-				<p>{{ "On FreeBSD 9.1 and newer, you can use the official pre-built packages:" | i18n }}
-					<code>pkg install luanti</code>
-				</p>
-				<h3>{{ "Compile using ports" | i18n }}</h3>
-				<p>{{ "You can also compile Luanti and choose build options easily using the FreeBSD port dialogs." |
-					i18n }}</p>
-				<pre>
-cd /usr/ports/games/minetest
-make install
-</pre>
-			</div>
-
-			<div class="column is-12-tablet is-6-desktop">
-				<h2>macOS</h2>
+				<h2>{{ "macOS" | i18n }}</h2>
 				<p>{{ "macOS 11.3 or later is recommended. May work on older versions when built from source." | i18n }}
 				</p>
 				<p>
@@ -226,16 +221,35 @@ make install
 							"version", "5.14.0" }}
 						</a>
 					</li>
+				</ul>
+				<p>
+					{{ "Alternatively:" | i18n }}
+				</p>
+				<ul>
 					<li>
 						{{ "Use <a href='https://brew.sh/'>Homebrew</a> to get the stable version:" | i18n }}<br>
 						<code>brew install --cask luanti</code>
 					</li>
 					<li>
-						{{ "<a href='https://www.macports.org/'>MacPorts</a> also contains a port of the outdated
-						version:" | i18n }}<br>
-						<code>sudo port install minetest</code>
+						{{ "<a href='https://www.macports.org/'>MacPorts</a> also contains a port:" | i18n }}<br>
+						<code>sudo port install luanti</code>
 					</li>
 				</ul>
+			</div>
+
+			<div class="column is-12-tablet is-6-desktop">
+				<h2>{{ "FreeBSD" | i18n }}</h2>
+				<h3>{{ "Package manager" | i18n }}</h3>
+				<p>{{ "On FreeBSD 9.1 and newer, you can use the official pre-built packages:" | i18n }}
+					<code>pkg install luanti</code>
+				</p>
+				<h3>{{ "Compile using ports" | i18n }}</h3>
+				<p>{{ "You can also compile Luanti and choose build options easily using the FreeBSD port dialogs." |
+					i18n }}</p>
+				<pre>
+cd /usr/ports/games/luanti
+make install
+</pre>
 			</div>
 
 			<div class="column is-12-tablet is-6-desktop">
