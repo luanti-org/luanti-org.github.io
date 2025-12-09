@@ -95,7 +95,7 @@ layout: base
 			</div>
 
 			<div class="column is-12-tablet is-6-desktop">
-				<h2>Linux</h2>
+				<h2>{{ "Linux" | i18n }}</h2>
 				<h3>{{ "Packages" | i18n }}</h3>
 				<p>{{ "These may be out of date at times. If they are too out of date, consider building from source." |
 					i18n }}</p>
@@ -104,8 +104,8 @@ layout: base
 					<li class="has-text-weight-bold">{{ "Flatpak (all distributions)" | i18n }} -
 						<a href='https://flathub.org/apps/org.luanti.luanti'>{{ "Stable" | i18n }}</a>
 					</li>
-					<!-- <li class="has-text-weight-bold">Snap (all distributions)" | i18n }} -
-						<a href='https://snapcraft.io/luanti'>Stable" | i18n }}</a></li> -->
+					<!-- <li class="has-text-weight-bold">{{ "Snap (all distributions)" | i18n }} -
+						<a href='https://snapcraft.io/luanti'>{{ "Stable" | i18n }}</a></li> -->
 					<li>
 						{{ "Ubuntu and derivatives" | i18n }} -
 					</li>
@@ -173,22 +173,7 @@ sudo apt install minetest
 			</div>
 
 			<div class="column is-12-tablet is-6-desktop">
-				<h2>FreeBSD</h2>
-				<h3>{{ "Package manager" | i18n }}</h3>
-				<p>{{ "On FreeBSD 9.1 and newer, you can use the official pre-built packages:" | i18n }}
-					<code>pkg install luanti</code>
-				</p>
-				<h3>{{ "Compile using ports" | i18n }}</h3>
-				<p>{{ "You can also compile Luanti and choose build options easily using the FreeBSD port dialogs." |
-					i18n }}</p>
-				<pre>
-cd /usr/ports/games/minetest
-make install
-</pre>
-			</div>
-
-			<div class="column is-12-tablet is-6-desktop">
-				<h2>macOS</h2>
+				<h2>{{ "macOS" | i18n }}</h2>
 				<p>{{ "macOS 11.3 or later is recommended. May work on older versions when built from source." | i18n }}
 				</p>
 				<p>
@@ -231,11 +216,25 @@ make install
 						<code>brew install --cask luanti</code>
 					</li>
 					<li>
-						{{ "<a href='https://www.macports.org/'>MacPorts</a> also contains a port of the outdated
-						version:" | i18n }}<br>
-						<code>sudo port install minetest</code>
+						{{ "<a href='https://www.macports.org/'>MacPorts</a> also contains a port:" | i18n }}<br>
+						<code>sudo port install luanti</code>
 					</li>
 				</ul>
+			</div>
+
+			<div class="column is-12-tablet is-6-desktop">
+				<h2>{{ "FreeBSD" | i18n }}</h2>
+				<h3>{{ "Package manager" | i18n }}</h3>
+				<p>{{ "On FreeBSD 9.1 and newer, you can use the official pre-built packages:" | i18n }}
+					<code>pkg install luanti</code>
+				</p>
+				<h3>{{ "Compile using ports" | i18n }}</h3>
+				<p>{{ "You can also compile Luanti and choose build options easily using the FreeBSD port dialogs." |
+					i18n }}</p>
+				<pre>
+cd /usr/ports/games/luanti
+make install
+</pre>
 			</div>
 
 			<div class="column is-12-tablet is-6-desktop">
