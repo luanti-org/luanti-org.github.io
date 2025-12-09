@@ -11,7 +11,7 @@ layout: base
 		<p class="mt-5">
 			{{ "Are you a new user? Have a look at the
 			<a href='https://docs.luanti.org/for-players/getting-started/'>Getting Started</a>
-			guide in our docs." | i18n }}
+			guide." | i18n }}
 			{{ "Otherwise, feel free to look at the
 			<a href='https://docs.luanti.org/changelog/'>changelog</a>." | i18n }}
 		</p>
@@ -27,8 +27,20 @@ layout: base
 				</p>
 				<ul>
 					<li class="has-text-weight-bold">
+						<a href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0.exe'>
+							{{ "Luanti [[version]] - installer, 64-bit (recommended)" | i18n: "version", "5.14.0" }}
+						</a>
+					</li>
+				</ul>
+				<p>
+					{{ "If you have used the portable installation before, see
+						<a href='https://docs.luanti.org/for-players/migrate-portable-data/'>here</a>
+						for how to copy over your data." | i18n }}
+				</p>
+				<ul>
+					<li>
 						<a href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-win64.zip'>
-							{{ "Luanti [[version]] - portable, 64-bit (recommended)" | i18n: "version", "5.14.0" }}
+							{{ "Luanti [[version]] - portable, 64-bit" | i18n: "version", "5.14.0" }}
 						</a>
 					</li>
 					<li>
@@ -36,19 +48,17 @@ layout: base
 							{{ "Luanti [[version]] - portable, 32-bit" | i18n: "version", "5.14.0" }}
 						</a>
 					</li>
-				</ul>
-				<p>
-					{{ "Luanti is distributed as a portable .zip archive on Windows." | i18n }}
-					{{ "Extract it to a folder you have write permissions, and run <code>luanti.exe</code>
-					which can be found in the <code>bin</code> folder." | i18n }}
-				</p>
-				<ul>
 					<li>
 						<a href='https://packages.msys2.org/base/mingw-w64-luanti'>
 							{{ "Luanti MSYS2 package (community-maintained)" | i18n }}
 						</a>
 					</li>
 				</ul>
+				<p>
+					{{ "If using the portable downloads extract the entire Luanti
+						folder to your user folder, desktop or similar and
+						run <code>luanti.exe</code> inside the <code>bin</code> folder." | i18n }}
+				</p>
 			</div>
 
 			<div class="column is-12-tablet is-6-desktop">
