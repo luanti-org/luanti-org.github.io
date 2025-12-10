@@ -15,11 +15,14 @@ layout: base
 			{{ "Otherwise, feel free to look at the
 			<a href='https://docs.luanti.org/changelog/'>changelog</a>." | i18n }}
 		</p>
+		<p class="is-hidden" id="show-all-dls">
+			<a>{{ "Show downloads for all platforms" | i18n }}</a>
+		</p>
 
 		<hr>
-		<div class="columns is-multiline">
+		<div class="columns is-multiline" id="dls-container">
 
-			<div class="column is-12-tablet is-6-desktop">
+			<div class="column is-12-tablet is-6-desktop" data-platform="win">
 				<h2>{{ "Windows" | i18n }}</h2>
 				<p>
 					{{ "Works on Windows 8, 8.1, 10 and 11." | i18n }}
@@ -61,7 +64,7 @@ layout: base
 				</p>
 			</div>
 
-			<div class="column is-12-tablet is-6-desktop">
+			<div class="column is-12-tablet is-6-desktop" data-platform="android">
 				<h2>{{ "Android" | i18n }}</h2>
 				<p>{{ "Android 6 or later is recommended." | i18n }}</p>
 				<a
@@ -104,7 +107,7 @@ layout: base
 				</p>
 			</div>
 
-			<div class="column is-12-tablet is-6-desktop">
+			<div class="column is-12-tablet is-6-desktop" data-platform="linux">
 				<h2>{{ "Linux" | i18n }}</h2>
 				<h3>{{ "Packages" | i18n }}</h3>
 				<p>{{ "These may be out of date at times. If they are too out of date, consider building from source." |
@@ -182,7 +185,7 @@ sudo apt install minetest
 				</ul>
 			</div>
 
-			<div class="column is-12-tablet is-6-desktop">
+			<div class="column is-12-tablet is-6-desktop" data-platform="mac">
 				<h2>{{ "macOS" | i18n }}</h2>
 				<p>{{ "macOS 11.3 or later is recommended. May work on older versions when built from source." | i18n }}
 				</p>
@@ -237,7 +240,7 @@ sudo apt install minetest
 				</ul>
 			</div>
 
-			<div class="column is-12-tablet is-6-desktop">
+			<div class="column is-12-tablet is-6-desktop" data-platform="none">
 				<h2>{{ "FreeBSD" | i18n }}</h2>
 				<h3>{{ "Package manager" | i18n }}</h3>
 				<p>{{ "On FreeBSD 9.1 and newer, you can use the official pre-built packages:" | i18n }}
@@ -252,7 +255,7 @@ make install
 </pre>
 			</div>
 
-			<div class="column is-12-tablet is-6-desktop">
+			<div class="column is-12-tablet is-6-desktop" data-platform="none">
 				<h2>{{ "Community builds and Source code" | i18n }}</h2>
 				<p>
 					{{ "You can also get the latest development version of Luanti from
@@ -271,6 +274,8 @@ make install
 					for details on how to compile Luanti from source." | i18n }}
 				</p>
 			</div>
+
+			<!-- Note that all columns must have an unique data-platform attribute (except 'none') -->
 		</div>
 		<div>
 			<hr>
@@ -280,4 +285,5 @@ make install
 			</p>
 		</div>
 	</div>
+	<script src="/assets/js/downloads.js"></script>
 </section>
