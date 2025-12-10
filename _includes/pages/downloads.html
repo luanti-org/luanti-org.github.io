@@ -28,13 +28,12 @@ layout: base
 					{{ "Works on Windows 8, 8.1, 10 and 11." | i18n }}
 					{{ "May work on older versions, but not officially supported." | i18n }}
 				</p>
-				<ul>
-					<li class="has-text-weight-bold">
-						<a href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0.exe'>
-							{{ "Luanti [[version]] - installer, 64-bit (recommended)" | i18n: "version", "5.14.0" }}
-						</a>
-					</li>
-				</ul>
+				<div class="my-2 px-5">
+					<a class="button is-primary has-text-weight-bold" href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0.exe'>
+						<i class="fas fa-download"></i>&nbsp;
+						{{ "Luanti [[version]] - installer, 64-bit (recommended)" | i18n: "version", "5.14.0" }}
+					</a>
+				</div>
 				<p>
 					{{ "If you have used the portable installation before, find out
 						<a href='https://docs.luanti.org/for-players/migrate-portable-data/'>how to copy over your data</a>." | i18n }}<br>
@@ -67,12 +66,12 @@ layout: base
 			<div class="column is-12-tablet is-6-desktop" data-platform="android">
 				<h2>{{ "Android" | i18n }}</h2>
 				<p>{{ "Android 6 or later is recommended." | i18n }}</p>
-				<a
+				<a class="m-1" target="_blank"
 					href='https://play.google.com/store/apps/details?id=net.minetest.minetest&utm_source=website&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
 					<img style="max-height: 7em;" alt="{{ 'Get it on Google Play' | i18n }}"
 						src="/media/google-play-badge.png" />
 				</a>
-				<a href='https://f-droid.org/packages/net.minetest.minetest'>
+				<a class="m-1" target="_blank" href='https://f-droid.org/packages/net.minetest.minetest'>
 					<img style="max-height: 7em;" alt="{{ 'Get it on F-Droid' | i18n }}"
 						src="/media/fdroid-badge.png" />
 				</a>
@@ -113,12 +112,18 @@ layout: base
 				<p>{{ "These may be out of date at times. If they are too out of date, consider building from source." |
 					i18n }}</p>
 
+				<div class="my-2 px-5">
+					<a class="button is-primary has-text-weight-bold" href='https://flathub.org/apps/org.luanti.luanti'>
+						<i class="fas fa-download"></i>&nbsp;
+						{{ "Flatpak (all distributions)" | i18n }} - {{ "Stable" | i18n }}
+					</a>
+				</div>
+
+				<p>{{ "Alternatively:" | i18n }}</p>
 				<ul>
-					<li class="has-text-weight-bold">{{ "Flatpak (all distributions)" | i18n }} -
-						<a href='https://flathub.org/apps/org.luanti.luanti'>{{ "Stable" | i18n }}</a>
+					<li>{{ "Snap (all distributions)" | i18n }} -
+						<a href='https://snapcraft.io/luanti'>{{ "Stable" | i18n }}</a>
 					</li>
-					<!-- <li class="has-text-weight-bold">{{ "Snap (all distributions)" | i18n }} -
-						<a href='https://snapcraft.io/luanti'>{{ "Stable" | i18n }}</a></li> -->
 					<li>
 						{{ "Ubuntu and derivatives" | i18n }} -
 					</li>
@@ -190,13 +195,12 @@ sudo apt install minetest
 				<p>{{ "macOS 11.3 or later is recommended. May work on older versions when built from source." | i18n }}
 				</p>
 				<p>
-					<b>
 						{{ "If you experience <a href='https://github.com/luanti-org/luanti/issues/16499'>sound problems
 							on macOS Tahoe 26</a>, try an experimental build with OpenAL-soft." | i18n }}
 						{{ "Please report any problems you find with the experimental builds <a
 							href='https://github.com/luanti-org/luanti/issues/16600'>here</a>." | i18n }}
-					</b>
 				</p>
+				<!-- TODO: we should have downloads buttons here. or not because having multiple is confusing? -->
 				<ul>
 					<li class="has-text-weight-bold">
 						<a
