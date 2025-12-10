@@ -289,11 +289,14 @@
 	"<a href='/en/donate/'>Donate</a> money to pay for infrastructure, and <a href='https://content.luanti.org/donate/'>support your favourite contributors</a>.": "<a href='/en/donate/'>Spenden Sie</a> Geld, um für die Infrastruktur zu zahlen und <a href='https://content.luanti.org/donate/'>Unterstützen Sie Ihre Lieblingsmitwirkenden</a>.",
 	"A list of public servers, as shown inside Luanti": "Eine Liste öffentlicher Server, wie in Luanti angezeigt",
 	"Privacy policy for the Luanti application.": "Datenschutzerklärung für die Luanti-Anwendung.",
-	"Download the latest version of Luanti": "Laden Sie die neueste Version von Luanti herunter",
+	"Download the latest version of Luanti": "Laden Sie die aktuellste Version von Luanti herunter",
 	"Support Luanti with a financial contribution.": "Unterstützt Luanti mit einer Spende.",
 	"Learn how to get involved with the community or contribute to development.": "Erfahren Sie, wie Sie sich in der Community engagieren oder zur Entwicklung beitragen können.",
 	"An open source voxel game engine. Play one of our many games, mod a game to your liking, make your own game, or play on a multiplayer server.": "Eine Open-Source-Voxel-Spiel-Engine. Spielen Sie eines unserer vielen Spiele, modifizieren Sie ein Spiel nach Ihren Wünschen, erstellen Sie Ihr eigenes Spiel oder spielen Sie auf einem Multiplayer-Server.",
 	"Key contributors and developers behind the Luanti project": "Wichtige Mitwirkende und Entwickler hinter dem Luanti-Projekt",
 	"Reasons and resources for using Luanti in education": "Gründe und Ressourcen für den Einsatz von Luanti im Bildungsbereich",
-	"Community builds and Source code": "Community-Builds und Quellcode"
+	"Community builds and Source code": "Community-Builds und Quellcode",
+	"[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), a platformer game in cyberspace with a story": "[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), ein Plattformspiel im Cyberspace mit einer Geschichte",
+	"<a href='https://spdx.org/licenses/MIT.html'>MIT</a> for code, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> for content, media under various licenses.": "<a href='https://spdx.org/licenses/MIT.html'>MIT</a> für Code, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> für Inhalte, Medien unter verschiedenen Lizenzen.",
+	"Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.": "Font Awesome Symbole unter <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>."
 }
