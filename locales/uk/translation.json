@@ -295,5 +295,8 @@
 	"An open source voxel game engine. Play one of our many games, mod a game to your liking, make your own game, or play on a multiplayer server.": "Воксельний рушій з відкритим кодом. Зіграйте в одну з наших багатьох ігор, модифікуйте гру до своїх вподобань, створіть свою гру або грайте на багатокористувацькому сервері.",
 	"Minetest Classroom": "Minetest Classroom",
 	"Key contributors and developers behind the Luanti project": "Основні учасники та розробники проєкту Luanti",
-	"Reasons and resources for using Luanti in education": "Причини та ресурси для використання Luanti в освіті"
+	"Reasons and resources for using Luanti in education": "Причини та ресурси для використання Luanti в освіті",
+	"[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), a platformer game in cyberspace with a story": "[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), платформер у кіберпросторі з історією",
+	"<a href='https://spdx.org/licenses/MIT.html'>MIT</a> for code, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> for content, media under various licenses.": "<a href='https://spdx.org/licenses/MIT.html'>MIT</a> для коду, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> для вмісту, медіа за різними ліцензіями.",
+	"Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.": "Іконки Font Awesome за ліцензією <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>."
 }
