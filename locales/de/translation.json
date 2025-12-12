@@ -293,5 +293,17 @@
 	"Community builds and Source code": "Community-Builds und Quellcode",
 	"[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), a platformer game in cyberspace with a story": "[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), ein Plattformspiel im Cyberspace mit einer Geschichte",
 	"<a href='https://spdx.org/licenses/MIT.html'>MIT</a> for code, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> for content, media under various licenses.": "<a href='https://spdx.org/licenses/MIT.html'>MIT</a> für Code, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> für Inhalte, Medien unter verschiedenen Lizenzen.",
-	"Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.": "Font Awesome Symbole unter <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>."
+	"Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.": "Font Awesome Symbole unter <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.",
+	"Are you a new user? Have a look at the <a href='https://docs.luanti.org/for-players/getting-started/'>Getting Started</a> guide.": "Sind Sie ein neuer Benutzer? Werfen Sie einen Blick auf die <a href='https://docs.luanti.org/for-players/getting-started/'>Einführung</a>.",
+	"Luanti {{version}} - installer, 64-bit (recommended)": "Luanti {{version}} – Installationsprogramm, 64-Bit (empfohlen)",
+	"If you have used the portable installation before, find out <a href='https://docs.luanti.org/for-players/migrate-portable-data/'>how to copy over your data</a>.": "Falls Sie vorher die portable Version verwendet haben, können Sie <a href='https://docs.luanti.org/for-players/migrate-portable-data/'>Ihre Daten mitnehmen</a>.",
+	"Alternatively:": "Alternativ:",
+	"Luanti {{version}} - portable, 64-bit": "Luanti {{version}} – portabel, 64-Bit",
+	"If using the portable downloads extract the entire Luanti folder to your user folder, desktop or similar and run <code>luanti.exe</code> inside the <code>bin</code> folder.": "Falls Sie die portable Version verwenden, entpacken Sie den ganzen Luanti-Ordner ins Benutzerverzeichnis, Desktop, o.ä. und führen Sie <code>luanti.exe</code> im Ordner <code>bin</code> aus.",
+	"Linux": "Linux",
+	"Snap (all distributions)": "Snap (alle Distributionen)",
+	"macOS": "macOS",
+	"<a href='https://www.macports.org/'>MacPorts</a> also contains a port:": "<a href='https://www.macports.org/'>MacPorts</a> enthält auch einen Port:",
+	"FreeBSD": "FreeBSD",
+	"Show downloads for all platforms": "Downloads für alle Plattformen anzeigen"
 }
