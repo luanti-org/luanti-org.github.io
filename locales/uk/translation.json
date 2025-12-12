@@ -293,5 +293,17 @@
 	"Reasons and resources for using Luanti in education": "Причини та ресурси для використання Luanti в освіті",
 	"[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), a platformer game in cyberspace with a story": "[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), платформер у кіберпросторі з історією",
 	"<a href='https://spdx.org/licenses/MIT.html'>MIT</a> for code, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> for content, media under various licenses.": "<a href='https://spdx.org/licenses/MIT.html'>MIT</a> для коду, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> для вмісту, медіа за різними ліцензіями.",
-	"Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.": "Іконки Font Awesome за ліцензією <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>."
+	"Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.": "Іконки Font Awesome за ліцензією <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.",
+	"Are you a new user? Have a look at the <a href='https://docs.luanti.org/for-players/getting-started/'>Getting Started</a> guide.": "Ви новий користувач? Ознайомтеся з посібником <a href='https://docs.luanti.org/for-players/getting-started/'>\"Початок роботи\"</a>.",
+	"Luanti {{version}} - installer, 64-bit (recommended)": "Luanti {{version}} - встановлювач, 64-біт (рекомендовано)",
+	"If you have used the portable installation before, find out <a href='https://docs.luanti.org/for-players/migrate-portable-data/'>how to copy over your data</a>.": "Якщо ви раніше використовували переносну версію, дізнайтеся <a href='https://docs.luanti.org/for-players/migrate-portable-data/'>як перенести свої дані</a>.",
+	"Alternatively:": "Або:",
+	"Luanti {{version}} - portable, 64-bit": "Luanti {{version}} - переносна версія, 64-біт",
+	"If using the portable downloads extract the entire Luanti folder to your user folder, desktop or similar and run <code>luanti.exe</code> inside the <code>bin</code> folder.": "Якщо використовуєте переносну версію, видобудьте усю теку Luanti до вашої теки користувача, робочого столу або подібної теки та запустіть <code>luanti.exe</code> всередині теки <code>bin</code>.",
+	"Linux": "Linux",
+	"Snap (all distributions)": "Snap (усі дистрибутиви)",
+	"macOS": "macOS",
+	"<a href='https://www.macports.org/'>MacPorts</a> also contains a port:": "<a href='https://www.macports.org/'>MacPorts</a> також має порт:",
+	"FreeBSD": "FreeBSD",
+	"Show downloads for all platforms": "Показати завантаження для усіх платформ"
 }
