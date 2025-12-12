@@ -293,5 +293,17 @@
 	"Community builds and Source code": "Gradnje skupnosti in izvorna koda",
 	"[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), a platformer game in cyberspace with a story": "[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), platformna igra v kibernetskem prostoru z zgodbo",
 	"<a href='https://spdx.org/licenses/MIT.html'>MIT</a> for code, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> for content, media under various licenses.": "<a href='https://spdx.org/licenses/MIT.html'>MIT</a> za kodo, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> za vsebino, medijske datoteke pod različnimi licencami.",
-	"Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.": "Ikone Font Awesome pod licenco <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>."
+	"Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.": "Ikone Font Awesome pod licenco <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.",
+	"Are you a new user? Have a look at the <a href='https://docs.luanti.org/for-players/getting-started/'>Getting Started</a> guide.": "Ste nov uporabnik? Poglejte si <a href='https://docs.luanti.org/for-players/getting-started/'>vodnik</a> za začetnike.",
+	"Luanti {{version}} - installer, 64-bit (recommended)": "Luanti {{version}} - namestitveni program, 64-bitna različica (priporočeno)",
+	"If you have used the portable installation before, find out <a href='https://docs.luanti.org/for-players/migrate-portable-data/'>how to copy over your data</a>.": "Če ste pre že uporabljali prenosno različico, preberite, <a href='https://docs.luanti.org/for-players/migrate-portable-data/'>kako kopirati podatke</a>.",
+	"Alternatively:": "Nadomestno:",
+	"Luanti {{version}} - portable, 64-bit": "Luanti {{version}} - prenosna različica, 64-bitna izdaja",
+	"If using the portable downloads extract the entire Luanti folder to your user folder, desktop or similar and run <code>luanti.exe</code> inside the <code>bin</code> folder.": "Če uporabljate prenosno različico, razpakirajte celotno mapo Luanti v uporabniško mapo, na namizje ali podobno in zaženite datoteko <code>luanti.exe</code> znotraj mape <code>bin</code>.",
+	"Linux": "Linux",
+	"Snap (all distributions)": "Snap (vse distribucije)",
+	"macOS": "macOS",
+	"<a href='https://www.macports.org/'>MacPorts</a> also contains a port:": "<a href='https://www.macports.org/'>MacPorts</a> vsebuje tudi vrata:",
+	"FreeBSD": "FreeBSD",
+	"Show downloads for all platforms": "Prikaži prenose za vse platforme"
 }
