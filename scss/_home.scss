@@ -20,12 +20,16 @@ $random-hero-image: list.nth($hero-images, math.random(list.length($hero-images)
   font-size: $size-5;
   text-align: center;
 
-  &, .title {
+  &, .title, .subtitle {
     color: $white;
   }
 
   .title {
-    font-size: 3.25rem;
+    font-size: 4rem;
+  }
+
+  .subtitle {
+    font-size: $size-6;
   }
 }
 
