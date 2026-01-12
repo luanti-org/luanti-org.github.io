@@ -43,11 +43,12 @@ Translate using Weblate: https://hosted.weblate.org/projects/minetest/website/
 
 ### Enabling languages
 
-* When a language is 100% completed, you can enable it like so:
-  * Copy `content/fr` to `content/LANG_CODE` where LANG_CODE is your language code.
-  * Rename `content/LANG_CODE/fr.json` to `content/LANG_CODE/LANG_CODE.json`.
-  * Edit `content/LANG_CODE/LANG_CODE.json` to have `"lang": "LANG_CODE"`.
-* Create a PR for your updates.
+When a language is reasonably complete, you can enable it like so:
+
+* Copy `content/fr` to `content/LANG_CODE` where LANG_CODE is your language code.
+* Rename `content/LANG_CODE/fr.json` to `content/LANG_CODE/LANG_CODE.json`.
+* Edit `content/LANG_CODE/LANG_CODE.json` to have `"lang": "LANG_CODE"`.
+* Create a PR for your updates (or ask a maintainer to directly do this).
 
 ### For developers
 
