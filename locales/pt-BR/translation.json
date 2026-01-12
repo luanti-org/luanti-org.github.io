@@ -290,5 +290,20 @@
 	"Need a print version of this page? See the \"Minetest in Education\" leaflet.": "Precisa de uma versão impressa desta página? Veja o folheto \"Minetest na Educação\".",
 	"\"Minetest in Education\" leaflet": "Folheto \"Minetest na Educação\"",
 	"Then, <a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'> create an issue</a> or <a href='https://rubenwardy.com/contact/'>contact rubenwardy</a>.": "Em seguida, <a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'>crie um tópico</a> ou <a href='https://rubenwardy.com/contact/'>entre em contato com rubenwardy</a>.",
-	"Community builds and Source code": "Builds da comunidade e Código-fonte"
+	"Community builds and Source code": "Builds da comunidade e Código-fonte",
+	"Are you a new user? Have a look at the <a href='https://docs.luanti.org/for-players/getting-started/'>Getting Started</a> guide.": "Você é um novo usuário? Confira o guia <a href='https://docs.luanti.org/for-players/getting-started/'>Primeiros passos</a>.",
+	"Luanti {{version}} - installer, 64-bit (recommended)": "Luanti {{version}} - instalador, 64 bits (recomendado)",
+	"If you have used the portable installation before, find out <a href='https://docs.luanti.org/for-players/migrate-portable-data/'>how to copy over your data</a>.": "Se você já utilizou a instalação portável anteriormente, descubra <a href='https://docs.luanti.org/for-players/migrate-portable-data/'>como copiar seus dados</a>.",
+	"Alternatively:": "Alternativamente:",
+	"Luanti {{version}} - portable, 64-bit": "Luanti {{version}} - portável, 64 bits",
+	"If using the portable downloads extract the entire Luanti folder to your user folder, desktop or similar and run <code>luanti.exe</code> inside the <code>bin</code> folder.": "Se estiver usando os downloads portáveis, extraia toda a pasta Luanti para sua pasta de usuário, área de trabalho ou similar e execute <code>luanti.exe</code> dentro da pasta <code>bin</code>.",
+	"Linux": "Linux",
+	"Snap (all distributions)": "Snap (todas as distribuições)",
+	"macOS": "macOS",
+	"<a href='https://www.macports.org/'>MacPorts</a> also contains a port:": "<a href='https://www.macports.org/'>MacPorts</a> também contém um porte:",
+	"FreeBSD": "FreeBSD",
+	"[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), a platformer game in cyberspace with a story": "[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), um jogo de plataforma no ciberespaço com uma história",
+	"<a href='https://spdx.org/licenses/MIT.html'>MIT</a> for code, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> for content, media under various licenses.": "<a href='https://spdx.org/licenses/MIT.html'>MIT</a> para o código, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> para o conteúdo e mídia sob diversas licenças.",
+	"Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.": "Ícones do Font Awesome sob a licença <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.",
+	"Show downloads for all platforms": "Mostrar downloads para todas as plataformas"
 }
