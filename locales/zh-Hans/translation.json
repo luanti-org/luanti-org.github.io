@@ -100,7 +100,7 @@
 	"Previous Core Developers": "前核心开发者",
 	"Games": "子游戏",
 	"On FreeBSD 9.1 and newer, you can use the official pre-built packages:": "如果你使用FreeBSD 9.1或更新的版本，你可以使用官方软件仓库提供的软件包：",
-	"Use the same Lua API to make mods for any Luanti-based game. Publish your mods on [ContentDB](https://content.luanti.org), and contribute to others' mods.": "你可以使用同样的Lua API为任何子游戏开发mod并将其发布到[ContentDB](https;//content.luanti.org)。你也可以为他人的mod做出贡献。",
+	"Use the same Lua API to make mods for any Luanti-based game. Publish your mods on [ContentDB](https://content.luanti.org), and contribute to others' mods.": "你可以使用同样的Lua API为任何子游戏开发mod并将其发布到[ContentDB](https://content.luanti.org)。你也可以为他人的mod做出贡献。",
 	"You can also get the latest development version of Luanti from <a href='https://forum.luanti.org/viewforum.php?f=42'>builds made by community members</a>.": "你也可以下载<a href='https://forum.luanti.org/viewforum.php?f=42'>社区成员编译的</a>开发版本。",
 	"Get the latest <a href='https://github.com/luanti-org/luanti/tree/stable-5'>stable</a> or <a href='https://github.com/luanti-org/luanti'>development</a> source code from <a href='https://github.com/luanti-org'>GitHub</a>.": "你可以从<a href='https://github.com/luanti-org'>GitHub</a>下载最新<a href='https://github.com/luanti-org/luanti/tree/stable-5'>稳定版</a>或<a href='https://github.com/luanti-org/luanti'>开发版</a>的源代码。",
 	"Reddit": "Reddit",
