@@ -293,5 +293,17 @@
 	"\"Minetest in Education\" leaflet": "Брошюра «Minetest в образовании»",
 	"[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), a platformer game in cyberspace with a story": "[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), платформер в киберпространстве с сюжетом",
 	"<a href='https://spdx.org/licenses/MIT.html'>MIT</a> for code, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> for content, media under various licenses.": "<a href='https://spdx.org/licenses/MIT.html'>MIT</a> для кода, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> для контента, медиафайлы под разными лицензиями.",
-	"Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.": "Иконки Font Awesome под <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>."
+	"Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.": "Иконки Font Awesome под <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.",
+	"Are you a new user? Have a look at the <a href='https://docs.luanti.org/for-players/getting-started/'>Getting Started</a> guide.": "Вы новый пользователь? Посмотрите на руководство <a href='https://docs.luanti.org/for-players/getting-started/'>\"Начало работы\"</a>.",
+	"Luanti {{version}} - installer, 64-bit (recommended)": "Luanti {{version}} - установщик 64-бит (рекомендуется)",
+	"If you have used the portable installation before, find out <a href='https://docs.luanti.org/for-players/migrate-portable-data/'>how to copy over your data</a>.": "Если вы уже пользовались портативной установкой, узнайте <a href='https://docs.luanti.org/for-players/migrate-portable-data/'> как скопировать ваши данные</a>.",
+	"Alternatively:": "Альтернатива:",
+	"Luanti {{version}} - portable, 64-bit": "Luanti {{version}} - портативный, 64-бит",
+	"If using the portable downloads extract the entire Luanti folder to your user folder, desktop or similar and run <code>luanti.exe</code> inside the <code>bin</code> folder.": "Если вы используете портативную версию, извлеките всю папку Luanti в папку пользователя, на рабочий стол или в аналогичное место и запустите <code>luanti.exe</code> в папке <code>bin</code>.",
+	"Linux": "Linux",
+	"Snap (all distributions)": "Snap (все дистрибутивы)",
+	"macOS": "macOS",
+	"<a href='https://www.macports.org/'>MacPorts</a> also contains a port:": "<a href='https://www.macports.org/'>MacPorts</a> так же содержат порт:",
+	"FreeBSD": "FreeBSD",
+	"Show downloads for all platforms": "Показать загрузки для всех платформ"
 }
