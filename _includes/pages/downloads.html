@@ -29,9 +29,9 @@ layout: base
 					{{ "May work on older versions, but not officially supported." | i18n }}
 				</p>
 				<div class="my-2 px-5">
-					<a class="button is-primary has-text-weight-bold" href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0.exe'>
+					<a class="button is-primary has-text-weight-bold" href='https://github.com/luanti-org/luanti/releases/download/5.15.0/luanti-5.15.0.exe'>
 						<i class="fas fa-download"></i>&nbsp;
-						{{ "Luanti [[version]] - installer, 64-bit (recommended)" | i18n: "version", "5.14.0" }}
+						{{ "Luanti [[version]] - installer, 64-bit (recommended)" | i18n: "version", "5.15.0" }}
 					</a>
 				</div>
 				<p>
@@ -41,13 +41,13 @@ layout: base
 				</p>
 				<ul>
 					<li>
-						<a href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-win64.zip'>
-							{{ "Luanti [[version]] - portable, 64-bit" | i18n: "version", "5.14.0" }}
+						<a href='https://github.com/luanti-org/luanti/releases/download/5.15.0/luanti-5.15.0-win64.zip'>
+							{{ "Luanti [[version]] - portable, 64-bit" | i18n: "version", "5.15.0" }}
 						</a>
 					</li>
 					<li>
-						<a href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-win32.zip'>
-							{{ "Luanti [[version]] - portable, 32-bit" | i18n: "version", "5.14.0" }}
+						<a href='https://github.com/luanti-org/luanti/releases/download/5.15.0/luanti-5.15.0-win32.zip'>
+							{{ "Luanti [[version]] - portable, 32-bit" | i18n: "version", "5.15.0" }}
 						</a>
 					</li>
 					<li>
@@ -83,18 +83,18 @@ layout: base
 					<li>
 						{{ "ARM (for most devices):" | i18n }}
 						<a
-							href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-arm64-v8a.apk'>{{
+							href='https://github.com/luanti-org/luanti/releases/download/5.15.0/luanti-5.15.0-arm64-v8a.apk'>{{
 							"64-bit" | i18n }}</a> -
 						<a
-							href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-armeabi-v7a.apk'>{{
+							href='https://github.com/luanti-org/luanti/releases/download/5.15.0/luanti-5.15.0-armeabi-v7a.apk'>{{
 							"32-bit" | i18n }}</a>
 					</li>
 					<li>
 						x86:
 						<a
-							href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-x86_64.apk'>{{
+							href='https://github.com/luanti-org/luanti/releases/download/5.15.0/luanti-5.15.0-x86_64.apk'>{{
 							"64-bit" | i18n }}</a> -
-						<a href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-x86.apk'>{{
+						<a href='https://github.com/luanti-org/luanti/releases/download/5.15.0/luanti-5.15.0-x86.apk'>{{
 							"32-bit" | i18n }}</a>
 					</li>
 				</ul>
@@ -194,7 +194,7 @@ sudo apt install minetest
 
 			<div class="column is-12-tablet is-6-desktop" data-platform="mac">
 				<h2>{{ "macOS" | i18n }}</h2>
-				<p>{{ "macOS 11.3 or later is recommended. May work on older versions when built from source." | i18n }}
+				<p>{{ "macOS 12.3 or later is recommended. May work on older versions when built from source." | i18n }}
 				</p>
 				<p>
 						{{ "If you experience <a href='https://github.com/luanti-org/luanti/issues/16499'>sound problems
@@ -202,32 +202,18 @@ sudo apt install minetest
 						{{ "Please report any problems you find with the experimental builds <a
 							href='https://github.com/luanti-org/luanti/issues/16600'>here</a>." | i18n }}
 				</p>
-				<!-- TODO: we should have downloads buttons here. or not because having multiple is confusing? -->
+				<!-- TODO: we should have download buttons here. or not because having multiple is confusing? -->
 				<ul>
 					<li class="has-text-weight-bold">
 						<a
-							href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti_5.14.0-macos11.3_arm64.zip'>
-							{{ "Luanti [[version]] - App (Signed Apple Silicon, stable)" | i18n: "version", "5.14.0" }}
+							href='https://github.com/luanti-org/luanti/releases/download/5.15.0/luanti_5.15.0-macos12.3_arm64.zip'>
+							{{ "Luanti [[version]] - App (Signed Apple Silicon, stable)" | i18n: "version", "5.15.0" }}
 						</a>
 					</li>
 					<li class="has-text-weight-bold">
 						<a
-							href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti_5.14.0_arm64_experimental_openal-soft.zip'>
-							{{ "Luanti [[version]] - App (Signed Apple Silicon, experimental OpenAL-soft)" | i18n:
-							"version", "5.14.0" }}
-						</a>
-					</li>
-					<li class="has-text-weight-bold">
-						<a
-							href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti_5.14.0-macos11.3_x86_64_flag_O1.zip'>
-							{{ "Luanti [[version]] - App (Signed Intel 64-bit, stable)" | i18n: "version", "5.14.0" }}
-						</a>
-					</li>
-					<li class="has-text-weight-bold">
-						<a
-							href='https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti_5.14.0_x86_64_experimental_openal-soft.zip'>
-							{{ "Luanti [[version]] - App (Signed Intel 64-bit, experimental OpenAL-soft)" | i18n:
-							"version", "5.14.0" }}
+							href='https://github.com/luanti-org/luanti/releases/download/5.15.0/luanti_5.15.0-macos12.3_x86_64.zip'>
+							{{ "Luanti [[version]] - App (Signed Intel 64-bit, stable)" | i18n: "version", "5.15.0" }}
 						</a>
 					</li>
 				</ul>
