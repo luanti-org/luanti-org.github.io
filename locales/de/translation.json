@@ -292,5 +292,10 @@
 	"macOS": "macOS",
 	"<a href='https://www.macports.org/'>MacPorts</a> also contains a port:": "<a href='https://www.macports.org/'>MacPorts</a> enthält auch einen Port:",
 	"FreeBSD": "FreeBSD",
-	"Show downloads for all platforms": "Downloads für alle Plattformen anzeigen"
+	"Show downloads for all platforms": "Downloads für alle Plattformen anzeigen",
+	"An open-source voxel game creation platform.": "Eine quelloffene Voxel-Spielplattform.",
+	"Play one of our many games solo or together. Mod a game as you see fit, or make your own.": "Spiele eines unserer vielen Spiele, modifiziere es nach deinen Wünschen oder erstelle dein ganz eigenes. Du kannst auch einfach online mit anderen spielen.",
+	"There are many games to choose from. Explore exotic lands,\njump into action, solve puzzles, survive and build, and more.\n\nYou can customise your adventures by downloading content directly from\nthe client. Or, if you want to play online, Luanti will automagically\ndownload all the resources needed to play on the server you've chosen.": "Es stehen viele Spiele zur Auswahl. Erkunde exotische Landschafter,\nstürz dich ins Geschehen, löse Rätsel, überlebe, baue und noch viel mehr.\n\nDu kannst dein Abenteuer individuell gestalten, indem du Inhalte direkt vom\nClient herunterlädst. Wenn du online spielen willst,\nlädt Luanti automatisch alle benötigten Ressourcen herunter.",
+	"Creators": "Entwickler",
+	"There are over 2500 open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "Auf [ContentDB](https://content.luanti.org) gibt es über 2500 Open-Source-Mods, die verwendet, angepasst oder zum Lernen genutzt werden können."
 }
