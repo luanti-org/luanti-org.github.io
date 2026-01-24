@@ -2,11 +2,13 @@ players:
   title: Players
   features:
     - title: Choose from Multiple Games
-      description: >
-        There are many games to choose from. You could survive in a harsh
-        environment, build creatively, or fight other players.
-        Just [download a game](https://content.luanti.org/packages/?type=game)
-        or connect to a server.
+      description: |
+        There are many games to choose from. Explore exotic lands,
+        jump into action, solve puzzles, survive and build, and more.
+
+        You can customise your adventures by downloading content directly from
+        the client. Or, if you want to play online, Luanti will automagically
+        download all the resources needed to play on the server you've chosen.
 
     - title: Enormous Maps
       description: >
@@ -29,7 +31,7 @@ players:
         or install one as a mod.
 
 developers:
-  title: Developers
+  title: Creators
   features:
     - title: Make a Game
       description: >
@@ -46,7 +48,7 @@ developers:
 
     - title: Large Collection of Existing Mods
       description: >
-        There are over 1100 open source mods on
+        There are over 2500 open source mods on
         [ContentDB](https://content.luanti.org/),
         which are ready to be used, adapted or learned from.
 

@@ -61,7 +61,7 @@ export default function (eleventyConfig) {
 
 	const md = markdownIt({
 		html: true,
-		breaks: true,
+		breaks: false,
 		linkify: true,
 		typographer: true
 	});
@@ -92,7 +92,7 @@ export default function (eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("i18n", function(msg, ...args) {
-		msg = msg.trim().replaceAll(/\s{2,}/g, " ");
+		msg = msg.trim().replaceAll("\n\n", "[para]").replaceAll(/\s{2,}/g, " ").replaceAll("[para]", "\n\n");
 		const t = i18next.getFixedT(this.page.lang ?? "en");
 
 		if (args.length % 2 !== 0) {

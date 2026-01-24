@@ -1,8 +1,8 @@
 ---
 title: Luanti | Open source voxel game engine
 description: >-
-  An open source voxel game engine. Play one of our many games, mod a game to
-  your liking, make your own game, or play on a multiplayer server.
+  Play one of our many games solo or together.
+  Mod a game as you see fit, or make your own.
 title_append: false
 image: /media/favicon/194x194.png
 layout: base
@@ -18,9 +18,8 @@ homepage: true
 				<h1 class="title mb-0">{{ "Luanti" | i18n }}</h1>
 				<i class="subtitle">{{ "(formerly Minetest)" | i18n }}</i>
 				<p class="home-paragraph">
-					{{ "An open source voxel game engine." | i18n }}
-					{{ "Play one of our many games, mod a game to your liking, make your own game,
-					or play on a multiplayer server." | i18n }}
+					{{ "An open-source voxel game creation platform." | i18n }}
+					{{ "Play one of our many games solo or together. Mod a game as you see fit, or make your own." | i18n }}
 				</p>
 				<p class="home-paragraph">
 					{{ "Available for Windows, macOS, GNU/Linux, BSDs, and Android." | i18n }}
@@ -57,7 +56,9 @@ homepage: true
 
 				{% for feature in category.features %}
 				<h4 class="title feature-title">{{ feature.title | i18n }}</h4>
-				{{ feature.description | i18n | markdownify | replace: "/en/", langPrefix }}
+				<div class="content">
+					{{ feature.description | i18n | markdownify | replace: "/en/", langPrefix }}
+				</div>
 				{% endfor %}
 			</div>
 			{% endfor %}
