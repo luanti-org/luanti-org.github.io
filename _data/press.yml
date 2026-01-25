@@ -1,32 +1,43 @@
 resources:
-  - title: Flyer / Poster
-    author: Zughy
-    img: flyer.png
+  - title: Flyer
+    author: GreenXenith
+    img: flyer.jpg
     para: A flyer to promote Luanti.
+    url: https://codeberg.org/luanti/fosdem_materials/src/branch/main/fosdem26/flyer
+
+  - title: Roller banner
+    author: GreenXenith
+    img: roller_banner.png
+    para: A rollup banner to use at conferences.
+    url: https://codeberg.org/luanti/fosdem_materials/src/branch/main/fosdem26/roller_banner
+
+  - title: Game Jam 2025 Postcard
+    author: rubenwardy and GreenXenith
+    img: gamejam_postcard.png
+    para: A postcard to promote the Luanti Game Jam.
+    url: https://codeberg.org/luanti/fosdem_materials/src/branch/main/fosdem26/flyer
+
+  - title: Support Luanti sign
+    author: rubenwardy
+    img: donate_sign.png
+    para: A sign to promote donations to Luanti.
+    url: https://codeberg.org/luanti/fosdem_materials/src/branch/main/fosdem26/donate_sign
+
+  - title: Stickers
+    author: erlehmann and Lemente
+    img: sticker.png
+    para: A Luanti sticker.
+    url: https://codeberg.org/luanti/fosdem_materials/src/branch/main/fosdem24/stickers
+
+  - title: Illustrated Flyer / Poster
+    author: Zughy
+    img: zughy_flyer.png
+    para: An illustrated poster/flyer to promote Luanti.
     url: https://gitlab.com/marco_a/luanti-flyer-poster
 
   - title: Education Leaflet
     author: Lemente and Thomate
     img: edu_leaflet.png
     fit: cover
-    para: A leaflet to promote Minetest in Education.
-    url: https://gitlab.com/rubenwardy/fosdem24/-/tree/main/edu_leaflet?ref_type=heads
-
-  - title: Roller banner
-    author: Thomate and Lemente
-    img: roller_banner.jpg
-    fit: cover
-    para: A rollup banner to use at conferences
-    url: https://gitlab.com/rubenwardy/fosdem24/-/tree/main/rollup_banner?ref_type=heads
-
-  - title: Stickers
-    author: erlehmann and Lemente
-    img: sticker.png
-    para: A Luanti sticker.
-    url: https://gitlab.com/rubenwardy/fosdem24/-/tree/main/stickers?ref_type=heads
-
-  - title: Presentation Flipbook
-    author: rubenwardy
-    img: showcase.png
-    para: A showcase of the content Minetest has to offer.
-    url: https://gitlab.com/rubenwardy/fosdem24/-/tree/main/flipbook?ref_type=heads
+    para: A leaflet to promote Luanti in Education.
+    url: https://codeberg.org/luanti/fosdem_materials/src/branch/main/fosdem25/edu_leaflet
