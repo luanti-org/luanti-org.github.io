@@ -15,7 +15,7 @@ resources:
     author: rubenwardy and GreenXenith
     img: gamejam_postcard.png
     para: A postcard to promote the Luanti Game Jam.
-    url: https://codeberg.org/luanti/fosdem_materials/src/branch/main/fosdem26/flyer
+    url: https://codeberg.org/luanti/fosdem_materials/src/branch/main/fosdem26/postcards/gamejam
 
   - title: Support Luanti sign
     author: rubenwardy
