@@ -292,5 +292,13 @@
 	"macOS": "macOS",
 	"<a href='https://www.macports.org/'>MacPorts</a> also contains a port:": "<a href='https://www.macports.org/'>MacPorts</a> vsebuje tudi vrata:",
 	"FreeBSD": "FreeBSD",
-	"Show downloads for all platforms": "Prikaži prenose za vse platforme"
+	"Show downloads for all platforms": "Prikaži prenose za vse platforme",
+	"An open-source voxel game creation platform.": "Odprtokodna platforma za ustvarjanje vokselnih iger.",
+	"Play one of our many games solo or together. Mod a game as you see fit, or make your own.": "Igrajte eno od naših številnih iger sami ali skupaj. Prilagodite igro po svoji presoji ali pa ustvarite svojo.",
+	"Available for Windows, macOS, GNU/Linux, BSDs, and Android.": "Na voljo za Windows, macOS, GNU/Linux, BSD-je in Android.",
+	"There are many games to choose from. Explore exotic lands,\njump into action, solve puzzles, survive and build, and more.\n\nYou can customise your adventures by downloading content directly from\nthe client. Or, if you want to play online, Luanti will automagically\ndownload all the resources needed to play on the server you've chosen.": "Na voljo je veliko iger. Raziskujte eksotične dežele,\nskočite v akcijo, rešujte uganke, preživite in gradite ter še več.\n\nSvoje pustolovščine lahko prilagodite tako, da vsebino prenesete neposredno iz\nodjemalca. Če pa želite igrati na spletu, bo Luanti samodejno\nprenesel vse vire, potrebne za igranje na izbranem strežniku.",
+	"macOS 12.3 or later is recommended. May work on older versions when built from source.": "Priporočljiv je macOS 12.3 ali novejši. Lahko deluje tudi na starejših različicah, če je zgrajen iz izvorne kode.",
+	"Creators": "Ustvarjalci",
+	"There are over 2500 open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "Na [ContentDB-ju](https://content.luanti.org/) je več kot 2500 odprtokodnih modov, ki so pripravljeni za uporabo, prilagajanje ali učenje iz njih.",
+	"Help translate Luanti using <a href='https://hosted.weblate.org/engage/minetest/'>Weblate</a>.": "Pomagajte prevesti Luanti z <a href='https://hosted.weblate.org/engage/minetest/'>Weblate</a>."
 }
