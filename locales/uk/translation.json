@@ -292,5 +292,13 @@
 	"macOS": "macOS",
 	"<a href='https://www.macports.org/'>MacPorts</a> also contains a port:": "<a href='https://www.macports.org/'>MacPorts</a> також має порт:",
 	"FreeBSD": "FreeBSD",
-	"Show downloads for all platforms": "Показати завантаження для усіх платформ"
+	"Show downloads for all platforms": "Показати завантаження для усіх платформ",
+	"An open-source voxel game creation platform.": "Відкрита платформа для створення воксельних ігор.",
+	"Play one of our many games solo or together. Mod a game as you see fit, or make your own.": "Зіграйте в одну з багатьох наших ігор самому або разом з кимось. Модифікуйте гру до своїх уподобань, або створіть свою.",
+	"Available for Windows, macOS, GNU/Linux, BSDs, and Android.": "Доступно для Windows, macOS, GNU/Linux, BSD та Android.",
+	"There are many games to choose from. Explore exotic lands,\njump into action, solve puzzles, survive and build, and more.\n\nYou can customise your adventures by downloading content directly from\nthe client. Or, if you want to play online, Luanti will automagically\ndownload all the resources needed to play on the server you've chosen.": "Є багато ігор на вибір. Досліджуйте екзотичні краї,\nпориньте в вир подій, розв'язуйте головоломки, виживайте і будуйте, і багато іншого.\n\nВи можете налаштувати свої пригоди завантажуючи вміст безпосередньо з\nклієнта. Або, якщо хочете грати онлайн, Luanti автоматично\nзавантажить усі ресурси потрібні для гри на сервері, який ви вибрали.",
+	"macOS 12.3 or later is recommended. May work on older versions when built from source.": "Рекомендується macOS 12.3 або новіше. Може працювати на старіших версіях, якщо зібрано з початкового коду.",
+	"Creators": "Творці",
+	"There are over 2500 open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "На [ContentDB](https://content.luanti.org/) є понад 2500 відкритих модифікацій, які готові до використання, адаптації або вивчення.",
+	"Help translate Luanti using <a href='https://hosted.weblate.org/engage/minetest/'>Weblate</a>.": "Допоможіть перекласти Luanti використовуючи <a href='https://hosted.weblate.org/engage/minetest/'>Weblate</a>."
 }
