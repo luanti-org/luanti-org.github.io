@@ -48,7 +48,7 @@ developers:
 
     - title: Large Collection of Existing Mods
       description: >
-        There are over 2500 open source mods on
+        There are over {{contentdb_mod_count}} open source mods on
         [ContentDB](https://content.luanti.org/),
         which are ready to be used, adapted or learned from.
 

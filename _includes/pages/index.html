@@ -10,6 +10,8 @@ homepage: true
 ---
 
 {% assign langPrefix = "/" | append: lang | append: "/" %}
+{% assign cdbModCount = contentdb_mod_count | default: 2500 %}
+
 
 <section class="section section-home">
 	<div class="container">
@@ -57,7 +59,7 @@ homepage: true
 				{% for feature in category.features %}
 				<h4 class="title feature-title">{{ feature.title | i18n }}</h4>
 				<div class="content">
-					{{ feature.description | i18n | markdownify | replace: "/en/", langPrefix }}
+					{{ feature.description | i18n: "contentdb_mod_count", cdbModCount | markdownify | replace: "/en/", langPrefix }}
 				</div>
 				{% endfor %}
 			</div>
