@@ -9,7 +9,7 @@ export default async function () {
 		const count = data.length;
 		return Math.floor(count / 100) * 100;
 	} catch (err) {
-		console.error("contentdb_mod_count fetch failed:", err && err.message ? err.message : err);
+		console.error("contentdb_mod_count fetch failed:", err);
 		return null;
 	}
 }
