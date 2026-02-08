@@ -1,4 +1,4 @@
-resources:
+print:
   - title: Flyer
     author: GreenXenith
     img: flyer.jpg
@@ -29,15 +29,16 @@ resources:
     para: A Luanti sticker.
     url: https://codeberg.org/luanti/fosdem_materials/src/branch/main/fosdem24/stickers
 
-  - title: Illustrated Flyer / Poster
-    author: Zughy
-    img: zughy_flyer.png
-    para: An illustrated poster/flyer to promote Luanti.
-    url: https://gitlab.com/marco_a/luanti-flyer-poster
-
   - title: Education Leaflet
     author: Lemente and Thomate
     img: edu_leaflet.png
     fit: cover
     para: A leaflet to promote Luanti in Education.
     url: https://codeberg.org/luanti/fosdem_materials/src/branch/main/fosdem25/edu_leaflet
+
+posters:
+  - title: Illustrated Poster / Flyer
+    author: Zughy
+    img: zughy_flyer.png
+    para: An illustrated poster/flyer to promote Luanti.
+    url: https://gitlab.com/marco_a/luanti-flyer-poster

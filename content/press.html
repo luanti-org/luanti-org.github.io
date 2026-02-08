@@ -8,7 +8,7 @@ lang: en
 
 <section class="section">
 	<div class="container">
-		<h2 id="branding" class="title">Branding</h2>
+		<h2 id="branding" class="title is-2">Branding</h2>
 		<div class="columns">
 			<div class="column content">
 				<h3 id="colors">Colors</h3>
@@ -33,10 +33,12 @@ lang: en
 
 <section class="section" style="background-color: #f0f0f0;">
 	<div class="container">
-		<h2 id="resources" class="title">Print Materials</h2>
+		<h2 id="resources" class="title is-2">Resources</h2>
+
+		<h3 id="print-materials" class="title is-3">Print Materials</h3>
 
 		<div class="columns is-multiline">
-			{% for point in press.resources %}
+			{% for point in press.print %}
 			<a class="column is-one-third hover-enlarge" href="{{ point.url }}" rel="nofollow">
 				<div class="card">
 					{% assign fit = point.fit | default: 'contain' %}
@@ -58,5 +60,44 @@ lang: en
 			</a>
 			{% endfor %}
 		</div>
+
+		<h3 id="posters" class="title is-3">Posters</h3>
+
+		<div class="columns is-multiline">
+			{% for point in press.posters %}
+			<a class="column is-one-third hover-enlarge" href="{{ point.url }}" rel="nofollow">
+				<div class="card">
+					{% assign fit = point.fit | default: 'contain' %}
+					<div class="card-image">
+						<figure class="image is-4by3">
+							<img src="/media/press/{{ point.img }}" class="{% if fit == 'contain' %}p-4{% endif %}"
+								style="object-fit: {{ fit }}; background: #333;"
+								alt="{{ point.img_alt | default: point.title }}">
+						</figure>
+					</div>
+					<div class="card-content">
+						<h3 class="title is-4">{{ point.title }}</h3>
+						<h6 class="subtitle is-6">{{ point.author }}</h6>
+						<p>
+							{{ point.para }}
+						</p>
+					</div>
+				</div>
+			</a>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+
+<section class="section">
+	<div class="container">
+		<h2 id="contribute" class="title is-2">Contribute</h2>
+		<p>
+			Have you made something to add here?
+			<a href="https://github.com/luanti-org/luanti-org.github.io/issues/new">
+				Share them with us!
+			</a>
+		</p>
 	</div>
 </section>
