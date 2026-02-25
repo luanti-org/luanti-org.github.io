@@ -227,18 +227,45 @@ sudo apt install minetest
 			</div>
 
 			<div class="column is-12-tablet is-6-desktop" data-platform="none">
-				<h2>{{ "FreeBSD" | i18n }}</h2>
-				<h3>{{ "Package manager" | i18n }}</h3>
-				<p>{{ "On FreeBSD 9.1 and newer, you can use the official pre-built packages:" | i18n }}
-					<code>pkg install luanti</code>
+
+				<h2>{{ "*BSD" | i18n }}</h2>
+				<h3>{{ "Packages" | i18n }}</h3>
+
+				<p>
+				{{ "Install Luanti using your system package manager, or build from ports/pkgsrc." | i18n }}
 				</p>
-				<h3>{{ "Compile using ports" | i18n }}</h3>
-				<p>{{ "You can also compile Luanti and choose build options easily using the FreeBSD port dialogs." |
-					i18n }}</p>
-				<pre>
-cd /usr/ports/games/luanti
-make install
-</pre>
+
+				<ul>
+					<li>
+						FreeBSD -
+						<br>
+						{{ "Install using:" | i18n }}
+						<code>pkg install luanti</code>
+						<br>
+						{{ "Or compile from ports at:" | i18n }}
+						<code>/usr/ports/games/luanti</code>
+					</li>
+
+					<li>
+						OpenBSD -
+						<br>
+						{{ "Install using:" | i18n }}
+						<code>pkg_add luanti</code>
+						<br>
+						{{ "Or compile from ports at:" | i18n }}
+						<code>/usr/ports/games/luanti</code>
+					</li>
+
+					<li>
+						NetBSD -
+						<br>
+						{{ "Install using:" | i18n }}
+						<code>pkgin in luanti</code>
+						<br>
+						{{ "Or compile from pkgsrc at:" | i18n }}
+						<code>/usr/pkgsrc/games/luanti</code>
+					</li>
+				</ul>
 			</div>
 
 			<div class="column is-12-tablet is-6-desktop" data-platform="none">
