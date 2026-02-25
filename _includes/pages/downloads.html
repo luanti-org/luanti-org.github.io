@@ -242,6 +242,21 @@ make install
 			</div>
 
 			<div class="column is-12-tablet is-6-desktop" data-platform="none">
+				<h2>{{ "OpenBSD" | i18n }}</h2>
+				<h3>{{ "Package manager" | i18n }}</h3>
+				<p>{{ "On OpenBSD 7.8 and newer, you can use the pre-built packages:" | i18n }}
+					<code>pkg_add luanti</code>
+				</p>
+				<h3>{{ "Compile using ports" | i18n }}</h3>
+				<p>{{ "You can also compile Luanti easily using the OpenBSD port system." |
+					i18n }}</p>
+				<pre>
+cd /usr/ports/games/luanti
+make install
+</pre>
+			</div>
+
+			<div class="column is-12-tablet is-6-desktop" data-platform="none">
 				<h2>{{ "Community builds and Source code" | i18n }}</h2>
 				<p>
 					{{ "You can also get the latest development version of Luanti from

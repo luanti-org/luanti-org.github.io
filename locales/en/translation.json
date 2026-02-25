@@ -302,5 +302,10 @@
   "Contribute back to the community by writing about your project and/or making your learning resources publicly available.": "Contribute back to the community by writing about your project and/or making your learning resources publicly available.",
   "Then, <a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'> create an issue</a> or <a href='https://rubenwardy.com/contact/'>contact rubenwardy</a>.": "Then, <a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'> create an issue</a> or <a href='https://rubenwardy.com/contact/'>contact rubenwardy</a>.",
   "Translate this site using Weblate": "Translate this site using Weblate",
-  "Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>."
+  "Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.",
+  "OpenBSD": "OpenBSD",
+  "On OpenBSD 7.8 and newer, you can use the official pre-built packages:": "On OpenBSD 7.8 and newer, you can use the official pre-built packages:",
+  "You can also compile Luanti easily using the OpenBSD port system.": "You can also compile Luanti easily using the OpenBSD port system.",
+  "There are over {{contentdb_mod_count}} open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "There are over {{contentdb_mod_count}} open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.",
+  "On OpenBSD 7.8 and newer, you can use the pre-built packages:": "On OpenBSD 7.8 and newer, you can use the pre-built packages:"
 }
