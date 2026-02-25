@@ -307,5 +307,10 @@
   "On OpenBSD 7.8 and newer, you can use the official pre-built packages:": "On OpenBSD 7.8 and newer, you can use the official pre-built packages:",
   "You can also compile Luanti easily using the OpenBSD port system.": "You can also compile Luanti easily using the OpenBSD port system.",
   "There are over {{contentdb_mod_count}} open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "There are over {{contentdb_mod_count}} open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.",
-  "On OpenBSD 7.8 and newer, you can use the pre-built packages:": "On OpenBSD 7.8 and newer, you can use the pre-built packages:"
+  "On OpenBSD 7.8 and newer, you can use the pre-built packages:": "On OpenBSD 7.8 and newer, you can use the pre-built packages:",
+  "*BSD": "*BSD",
+  "Install Luanti using your system package manager, or build from ports/pkgsrc.": "Install Luanti using your system package manager, or build from ports/pkgsrc.",
+  "Install using:": "Install using:",
+  "Or compile from ports at:": "Or compile from ports at:",
+  "Or compile from pkgsrc at:": "Or compile from pkgsrc at:"
 }
