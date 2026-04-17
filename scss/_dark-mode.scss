@@ -1,0 +1,383 @@
+@use "sass:color";
+@use "bulma-variables" as *;
+
+// Dark mode styles
+// Applied when data-theme="dark" is set on the html element
+
+[data-theme="dark"] {
+  // Core colors
+  --bulma-body-background-color: hsl(0, 0%, 11%);
+  --bulma-body-color: hsl(0, 0%, 86%);
+  --bulma-background-color: hsl(0, 0%, 14%);
+  --bulma-border-color: hsl(0, 0%, 20%);
+  --bulma-border-color-weak: hsl(0, 0%, 16%);
+  
+  // Text colors
+  --bulma-text-color: hsl(0, 0%, 86%);
+  --bulma-text-color-strong: hsl(0, 0%, 100%);
+  --bulma-text-color-weak: hsl(0, 0%, 70%);
+  
+  // Link colors
+  --bulma-link-color: hsl(122, 35%, 60%);
+  --bulma-link-color-hover: hsl(122, 35%, 70%);
+  --bulma-link-color-active: hsl(122, 35%, 50%);
+  
+  // Primary colors
+  --bulma-primary-color: hsl(122, 35%, 50%);
+  --bulma-primary-color-invert: hsl(0, 0%, 11%);
+  
+  // Box and card colors
+  --bulma-box-background-color: hsl(0, 0%, 14%);
+  --bulma-box-color: hsl(0, 0%, 86%);
+  
+  // Card colors
+  --bulma-card-color: hsl(0, 0%, 86%);
+  --bulma-card-background-color: hsl(0, 0%, 14%);
+  
+  // Dropdown colors
+  --bulma-dropdown-content-background-color: hsl(0, 0%, 14%);
+  --bulma-dropdown-content-color: hsl(0, 0%, 86%);
+  --bulma-dropdown-item-hover-background-color: hsl(0, 0%, 20%);
+  --bulma-dropdown-item-hover-color: hsl(0, 0%, 100%);
+  
+  // Input colors
+  --bulma-input-background-color: hsl(0, 0%, 14%);
+  --bulma-input-border-color: hsl(0, 0%, 20%);
+  --bulma-input-color: hsl(0, 0%, 86%);
+  --bulma-input-placeholder-color: hsl(0, 0%, 60%);
+  --bulma-input-hover-border-color: hsl(0, 0%, 30%);
+  --bulma-input-focus-border-color: hsl(122, 35%, 50%);
+  
+  // Table colors
+  --bulma-table-background-color: hsl(0, 0%, 14%);
+  --bulma-table-color: hsl(0, 0%, 86%);
+  --bulma-table-row-hover-background-color: hsl(0, 0%, 20%);
+  --bulma-table-striped-row-background-color: hsl(0, 0%, 16%);
+  
+  // Code colors
+  --bulma-code-color: hsl(0, 0%, 90%);
+  --bulma-code-background-color: hsl(0, 0%, 11%);
+  --bulma-pre-background-color: hsl(0, 0%, 11%);
+  
+  // Modal colors
+  --bulma-modal-background-background-color: rgba(0, 0, 0, 0.86);
+  --bulma-modal-card-head-background-color: hsl(0, 0%, 14%);
+  --bulma-modal-card-title-color: hsl(0, 0%, 100%);
+  --bulma-modal-card-body-background-color: hsl(0, 0%, 14%);
+  --bulma-modal-card-foot-background-color: hsl(0, 0%, 14%);
+  
+  // Navbar colors
+  --bulma-navbar-background-color: hsl(0, 0%, 14%);
+  --bulma-navbar-item-color: hsl(0, 0%, 86%);
+  --bulma-navbar-item-hover-background-color: hsl(0, 0%, 20%);
+  --bulma-navbar-item-hover-color: hsl(0, 0%, 100%);
+  --bulma-navbar-item-active-background-color: hsl(0, 0%, 20%);
+  --bulma-navbar-dropdown-background-color: hsl(0, 0%, 14%);
+  --bulma-navbar-dropdown-border-color: hsl(0, 0%, 20%);
+  --bulma-navbar-dropdown-item-hover-background-color: hsl(0, 0%, 20%);
+  --bulma-navbar-dropdown-item-hover-color: hsl(0, 0%, 100%);
+  --bulma-navbar-dropdown-arrow: hsl(0, 0%, 86%);
+  
+  // Hero colors
+  --bulma-hero-background-color: hsl(0, 0%, 14%);
+  
+  // Notification colors
+  --bulma-notification-background-color: hsl(0, 0%, 14%);
+  
+  // Progress colors
+  --bulma-progress-value-background-color: hsl(122, 35%, 50%);
+  
+  // Message colors
+  --bulma-message-background-color: hsl(0, 0%, 14%);
+  
+  // Panel colors
+  --bulma-panel-background-color: hsl(0, 0%, 14%);
+  --bulma-panel-heading-background-color: hsl(0, 0%, 20%);
+  --bulma-panel-heading-color: hsl(0, 0%, 100%);
+  --bulma-panel-block-hover-background-color: hsl(0, 0%, 20%);
+  
+  // Tabs colors
+  --bulma-tabs-border-color: hsl(0, 0%, 20%);
+  --bulma-tabs-link-active-border-bottom-color: hsl(122, 35%, 50%);
+  --bulma-tabs-link-active-color: hsl(122, 35%, 50%);
+  --bulma-tabs-link-hover-border-bottom-color: hsl(0, 0%, 86%);
+  --bulma-tabs-link-hover-color: hsl(0, 0%, 86%);
+  
+  // Breadcrumb colors
+  --bulma-breadcrumb-item-hover-color: hsl(0, 0%, 86%);
+  
+  // Timeline colors (if used)
+  --bulma-timeline-marker-fill: hsl(0, 0%, 20%);
+  
+  // Footer colors
+  --bulma-footer-background-color: hsl(0, 0%, 11%);
+  --bulma-footer-color: hsl(0, 0%, 86%);
+}
+
+// Apply dark mode CSS variables
+[data-theme="dark"] body {
+  background-color: var(--bulma-body-background-color);
+  color: var(--bulma-body-color);
+}
+
+[data-theme="dark"] .navbar {
+  background-color: var(--bulma-navbar-background-color);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+  border-top-color: var(--bulma-primary-color);
+}
+
+[data-theme="dark"] .navbar-item,
+[data-theme="dark"] .navbar-link {
+  color: var(--bulma-navbar-item-color);
+}
+
+[data-theme="dark"] .navbar-item:hover,
+[data-theme="dark"] .navbar-link:hover {
+  background-color: var(--bulma-navbar-item-hover-background-color);
+  color: var(--bulma-navbar-item-hover-color);
+}
+
+[data-theme="dark"] .navbar-dropdown {
+  background-color: var(--bulma-navbar-dropdown-background-color);
+  border-color: var(--bulma-navbar-dropdown-border-color);
+}
+
+[data-theme="dark"] .navbar-dropdown .navbar-item:hover {
+  background-color: var(--bulma-navbar-dropdown-item-hover-background-color);
+  color: var(--bulma-navbar-dropdown-item-hover-color);
+}
+
+[data-theme="dark"] .navbar-dropdown-arrow {
+  color: var(--bulma-navbar-dropdown-arrow);
+}
+
+[data-theme="dark"] a:not(.navbar-item, .no-underline, .card, .button) {
+  border-bottom-color: color.adjust($primary, $alpha: -0.5);
+  color: var(--bulma-link-color);
+  
+  &:hover {
+    background-color: color.adjust($primary, $alpha: -0.85);
+  }
+  
+  &:active {
+    background-color: color.adjust($primary, $alpha: -0.75);
+  }
+}
+
+[data-theme="dark"] .box,
+[data-theme="dark"] .card {
+  background-color: var(--bulma-box-background-color);
+  color: var(--bulma-box-color);
+}
+
+[data-theme="dark"] .content h1,
+[data-theme="dark"] .content h2,
+[data-theme="dark"] .content h3,
+[data-theme="dark"] .content h4,
+[data-theme="dark"] .content h5,
+[data-theme="dark"] .content h6 {
+  color: var(--bulma-text-color-strong);
+}
+
+[data-theme="dark"] .content p,
+[data-theme="dark"] .content li,
+[data-theme="dark"] .content dd {
+  color: var(--bulma-text-color);
+}
+
+[data-theme="dark"] .content code,
+[data-theme="dark"] .content pre {
+  background-color: var(--bulma-code-background-color);
+  color: var(--bulma-code-color);
+}
+
+[data-theme="dark"] .content table {
+  background-color: var(--bulma-table-background-color);
+  color: var(--bulma-table-color);
+}
+
+[data-theme="dark"] .content table td,
+[data-theme="dark"] .content table th {
+  border-color: var(--bulma-border-color);
+}
+
+[data-theme="dark"] .content table tr:hover {
+  background-color: var(--bulma-table-row-hover-background-color);
+}
+
+[data-theme="dark"] .footer {
+  background-color: var(--bulma-footer-background-color);
+  color: var(--bulma-footer-color);
+}
+
+[data-theme="dark"] .footer-title {
+  color: var(--bulma-text-color-strong);
+}
+
+[data-theme="dark"] .footer a {
+  color: var(--bulma-text-color-weak);
+  
+  &:hover {
+    color: var(--bulma-text-color);
+  }
+}
+
+[data-theme="dark"] .footer-copyright {
+  color: var(--bulma-text-color-weak);
+}
+
+[data-theme="dark"] .button {
+  background-color: var(--bulma-background-color);
+  color: var(--bulma-text-color);
+  border-color: var(--bulma-border-color);
+}
+
+[data-theme="dark"] .button:hover {
+  background-color: var(--bulma-background-color);
+  border-color: var(--bulma-border-color-hover, var(--bulma-border-color));
+}
+
+[data-theme="dark"] .button.is-primary {
+  background-color: var(--bulma-primary-color);
+  color: var(--bulma-primary-color-invert);
+}
+
+[data-theme="dark"] .button.is-primary:hover {
+  background-color: color.adjust($primary, $lightness: 5%);
+}
+
+[data-theme="dark"] .input,
+[data-theme="dark"] .textarea {
+  background-color: var(--bulma-input-background-color);
+  border-color: var(--bulma-input-border-color);
+  color: var(--bulma-input-color);
+  
+  &::placeholder {
+    color: var(--bulma-input-placeholder-color);
+  }
+  
+  &:hover {
+    border-color: var(--bulma-input-hover-border-color);
+  }
+  
+  &:focus {
+    border-color: var(--bulma-input-focus-border-color);
+  }
+}
+
+[data-theme="dark"] .title,
+[data-theme="dark"] .subtitle {
+  color: var(--bulma-text-color-strong);
+}
+
+[data-theme="dark"] .section-title,
+[data-theme="dark"] .main-title {
+  color: color.adjust($primary, $saturation: -17%, $lightness: 10%);
+}
+
+[data-theme="dark"] .iconlist .column {
+  color: var(--bulma-text-color);
+}
+
+[data-theme="dark"] .notification {
+  background-color: var(--bulma-notification-background-color);
+}
+
+[data-theme="dark"] .message {
+  background-color: var(--bulma-message-background-color);
+}
+
+[data-theme="dark"] .panel {
+  background-color: var(--bulma-panel-background-color);
+}
+
+[data-theme="dark"] .panel-heading {
+  background-color: var(--bulma-panel-heading-background-color);
+  color: var(--bulma-panel-heading-color);
+}
+
+[data-theme="dark"] .panel-block:hover {
+  background-color: var(--bulma-panel-block-hover-background-color);
+}
+
+[data-theme="dark"] .tabs a {
+  border-bottom-color: var(--bulma-tabs-border-color);
+  color: var(--bulma-text-color);
+}
+
+[data-theme="dark"] .tabs a:hover {
+  border-bottom-color: var(--bulma-tabs-link-hover-border-bottom-color);
+  color: var(--bulma-tabs-link-hover-color);
+}
+
+[data-theme="dark"] .tabs li.is-active a {
+  border-bottom-color: var(--bulma-tabs-link-active-border-bottom-color);
+  color: var(--bulma-tabs-link-active-color);
+}
+
+[data-theme="dark"] .breadcrumb a {
+  color: var(--bulma-text-color);
+}
+
+[data-theme="dark"] .breadcrumb a:hover {
+  color: var(--bulma-breadcrumb-item-hover-color);
+}
+
+[data-theme="dark"] .modal-background {
+  background-color: var(--bulma-modal-background-background-color);
+}
+
+[data-theme="dark"] .modal-card-head,
+[data-theme="dark"] .modal-card-body,
+[data-theme="dark"] .modal-card-foot {
+  background-color: var(--bulma-modal-card-body-background-color);
+}
+
+[data-theme="dark"] .modal-card-title {
+  color: var(--bulma-modal-card-title-color);
+}
+
+[data-theme="dark"] .hero {
+  background-color: var(--bulma-hero-background-color);
+}
+
+[data-theme="dark"] .progress {
+  background-color: var(--bulma-background-color);
+}
+
+[data-theme="dark"] .progress::-webkit-progress-value {
+  background-color: var(--bulma-progress-value-background-color);
+}
+
+[data-theme="dark"] .progress::-moz-progress-bar {
+  background-color: var(--bulma-progress-value-background-color);
+}
+
+[data-theme="dark"] .progress::-ms-fill {
+  background-color: var(--bulma-progress-value-background-color);
+}
+
+// Dark mode toggle button styles
+.theme-toggle {
+  background: none;
+  border: none;
+  color: var(--bulma-navbar-item-color, hsl(0, 0%, 86%));
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+  
+  &:hover {
+    background-color: var(--bulma-navbar-item-hover-background-color, hsl(0, 0%, 20%));
+  }
+  
+  i {
+    font-size: 1.2rem;
+  }
+}
+
+[data-theme="dark"] .theme-toggle {
+  color: var(--bulma-navbar-item-color);
+}
