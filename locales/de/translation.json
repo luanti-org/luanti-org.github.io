@@ -298,5 +298,7 @@
 	"There are over 2500 open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "Auf [ContentDB](https://content.luanti.org) gibt es über 2500 Open-Source-Mods, die verwendet, angepasst oder zum Lernen genutzt werden können.",
 	"Available for Windows, macOS, GNU/Linux, BSDs, and Android.": "Verfügbar für Windows, macOS, GNU/Linux, BSDs und Android.",
 	"macOS 12.3 or later is recommended. May work on older versions when built from source.": "macOS 12.3 oder später wird empfohlen. Könnte auch auf älteren Versionen laufen, wenn es aus dem Quellcode gebaut wird.",
-	"Help translate Luanti using <a href='https://hosted.weblate.org/engage/minetest/'>Weblate</a>.": "Helfen Sie bei der Übersetzung von Luanti mit <a href='https://hosted.weblate.org/engage/minetest/'>Weblate</a>."
+	"Help translate Luanti using <a href='https://hosted.weblate.org/engage/minetest/'>Weblate</a>.": "Helfen Sie bei der Übersetzung von Luanti mit <a href='https://hosted.weblate.org/engage/minetest/'>Weblate</a>.",
+	"Need a print version of this page? See the \"Luanti in Education\" leaflet.": "Benötigen Sie eine Druckversion dieser Seite? Siehe die Broschüre „Luanti in der Bildung“.",
+	"\"Luanti in Education\" leaflet": "Broschüre „Luanti in der Bildung“"
 }
