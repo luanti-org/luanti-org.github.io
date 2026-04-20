@@ -290,5 +290,17 @@
 	"[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), a platformer game in cyberspace with a story": "[Glitch](https://content.luanti.org/packages/Wuzzy/glitch/), um jogo de plataforma no ciberespaço com uma história",
 	"<a href='https://spdx.org/licenses/MIT.html'>MIT</a> for code, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> for content, media under various licenses.": "<a href='https://spdx.org/licenses/MIT.html'>MIT</a> para o código, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> para o conteúdo e mídia sob diversas licenças.",
 	"Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.": "Ícones do Font Awesome sob a licença <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.",
-	"Show downloads for all platforms": "Mostrar downloads para todas as plataformas"
+	"Show downloads for all platforms": "Mostrar downloads para todas as plataformas",
+	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "Crie cartazes, artes e trailers em vídeo para o Luanti ou seus jogos, e <a href='/press/'>compartilhe</a>.",
+	"Translate this site using Weblate": "Traduza esta página usando Weblate",
+	"An open-source voxel game creation platform.": "Uma plataformas de criação de jogos em voxels de código-aberto.",
+	"Play one of our many games solo or together. Mod a game as you see fit, or make your own.": "Jogue um de nossos jogos sozinho ou em grupo. Modifique o jogo como quizer, ou faça um você mesmo.",
+	"Available for Windows, macOS, GNU/Linux, BSDs, and Android.": "Disponível para Windows, MacOS, GNU/Linux, BSDs, e Android.",
+	"There are many games to choose from. Explore exotic lands,\njump into action, solve puzzles, survive and build, and more.\n\nYou can customise your adventures by downloading content directly from\nthe client. Or, if you want to play online, Luanti will automagically\ndownload all the resources needed to play on the server you've chosen.": "Há muitos jogos para escolher. Esplore lugares exóticos,\npule pra ação, resolva quebra-cabeças, sobreviva e construa, e muito mais.\n\nVocê pode customizar suas aventuras baixando conteúdo diretamente do cliente.\nOu, se deseja jogar online, o Luanti automaticamente\nbaixa todos os recursos necessários para jogar no servidor desejado.",
+	"macOS 12.3 or later is recommended. May work on older versions when built from source.": "Recomendado o macOS 12.3 ou posteriores. Pode funcionar em versões antigas quando buildado do código-fonte.",
+	"Creators": "Criadores",
+	"There are over 2500 open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "Exustem em torno de 2500 mods de código aberto no [ContentDB](https://content.luanti.org/), já disponíveis para jogar, adaptar ou apendê-los.",
+	"Help translate Luanti using <a href='https://hosted.weblate.org/engage/minetest/'>Weblate</a>.": "Ajude a traduzir o Luanti usando <a href='https://hosted.weblate.org/engage/minetest/'>Weblate</a>.",
+	"Need a print version of this page? See the \"Luanti in Education\" leaflet.": "Precisa de uma versão impressa dessa página? Veja o folheto \"Luanti in Education\".",
+	"\"Luanti in Education\" leaflet": "Folheto \"Luanti in Education\""
 }
