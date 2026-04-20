@@ -295,5 +295,11 @@
 	"Mods": "Mods",
 	"Forums": "Forums",
 	"Lua API reference": "Référence de l'API Lua",
-	"<a href='https://spdx.org/licenses/MIT.html'>MIT</a> for code, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> for content, media under various licenses.": "<a href=’https://spdx.org/licenses/MIT.html’>MIT</a> pour le code, <a href=’https://spdx.org/licenses/CC-BY-SA-3.0.html’>CC BY-SA 3.0</a> pour le contenu, les médias étant soumis à diverses licences."
+	"<a href='https://spdx.org/licenses/MIT.html'>MIT</a> for code, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> for content, media under various licenses.": "<a href=’https://spdx.org/licenses/MIT.html’>MIT</a> pour le code, <a href=’https://spdx.org/licenses/CC-BY-SA-3.0.html’>CC BY-SA 3.0</a> pour le contenu, les médias étant soumis à diverses licences.",
+	"Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.": "Icônes \"Font Awesome\" sous <a href='https://spdx.org/licenses/CC-BY-4.0.html'>",
+	"Also see the complete lists of <a href='https://github.com/luanti-org/luanti/graphs/contributors'>Luanti</a> and <a href='https://github.com/luanti-org/minetest_game/graphs/contributors'>Minetest Game</a> contributors.": "Voir également les listes complètes des contributeurs de <a href='https://github.com/luanti-org/luanti/graphs/contributors'>Luanti</a> et <a href='https://github.com/luanti-org/minetest_game/graphs/contributors'>Minetest Game</a>.",
+	"Key contributors and developers behind the Luanti project": "Principaux contributeurs et développeurs du projet Luanti",
+	"Guide": "Guide",
+	"Mining for Education": "L'exploitation minière au service de l'éducation",
+	"Guide – post-mortem": "Guide – post-mortem"
 }
