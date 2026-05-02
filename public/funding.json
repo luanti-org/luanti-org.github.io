@@ -112,6 +112,66 @@
         "channels": [
           "open-collective"
         ]
+      },
+      {
+        "guid": "part-time-dev",
+        "status": "active",
+        "name": "Part-time dev",
+        "description": "We'd like to hire a developer to work part-time on the engine",
+        "amount": 1000,
+        "currency": "EUR",
+        "frequency": "monthly",
+        "channels": [
+          "open-collective"
+        ]
+      },
+      {
+        "guid": "full-time-dev",
+        "status": "active",
+        "name": "Full-time dev",
+        "description": "We'd like to hire a developer to work full-time on the engine",
+        "amount": 4200,
+        "currency": "EUR",
+        "frequency": "monthly",
+        "channels": [
+          "open-collective"
+        ]
+      },
+      {
+        "guid": "part-time-dev-6m",
+        "status": "active",
+        "name": "Part-time dev for 6 months",
+        "description": "We'd like to hire a developer to work part-time on the engine",
+        "amount": 6000,
+        "currency": "EUR",
+        "frequency": "one-time",
+        "channels": [
+          "open-collective"
+        ]
+      },
+      {
+        "guid": "full-time-dev-6m",
+        "status": "active",
+        "name": "Full-time dev for 6 months",
+        "description": "We'd like to hire a developer to work full-time on the engine",
+        "amount": 25200,
+        "currency": "EUR",
+        "frequency": "one-time",
+        "channels": [
+          "open-collective"
+        ]
+      },
+      {
+        "guid": "full-time-dev-12m",
+        "status": "active",
+        "name": "Full-time dev for 12 months",
+        "description": "We'd like to hire a developer to work full-time on the engine",
+        "amount": 50400,
+        "currency": "EUR",
+        "frequency": "one-time",
+        "channels": [
+          "open-collective"
+        ]
       }
     ],
     "history": []
