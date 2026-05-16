@@ -296,5 +296,14 @@
 	"Need a print version of this page? See the \"Luanti in Education\" leaflet.": "Потрібна друкована версія цієї сторінки? Дивіться брошуру \"Luanti в освіті\".",
 	"\"Luanti in Education\" leaflet": "Брошура \"Luanti в освіті\"",
 	"Translate this site using Weblate": "Перекладіть цей сайт за допомогою Weblate",
-	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "Створюйте плакати, ілюстрації та відеотрейлери для Luanti або її ігор та <a href='/press/'>діліться ними</a>."
+	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "Створюйте плакати, ілюстрації та відеотрейлери для Luanti або її ігор та <a href='/press/'>діліться ними</a>.",
+	"There are over {{contentdb_mod_count}} open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "Є понад {{contentdb_mod_count}} модів з відкритим кодом на [ContentDB](https://content.luanti.org/), які готові до використання, модифікування та вивчення.",
+	"Install using:": "Встановіть використовуючи:",
+	"*BSD": "*BSD",
+	"Or compile from pkgsrc at:": "Або скомпілюйте з pkgsrc у:",
+	"Install Luanti using your system package manager, or build from ports/pkgsrc.": "Встановіть Luanti використовуючи ваш системний менеджер пакунків, або збудуйте з портів/pkgsrc.",
+	"Or compile from ports at:": "Або скомпілюйте з портів у:",
+	"Goals": "Цілі",
+	"Infrastructure": "Інфраструктура",
+	"FOSDEM": "FOSDEM"
 }
