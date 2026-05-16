@@ -302,5 +302,11 @@
 	"Contribute back to the community by writing about your project and/or making your learning resources publicly available.": "உங்கள் திட்டத்தைப் பற்றி எழுதுவதன் மூலம் மற்றும்/அல்லது உங்கள் கற்றல் ஆதாரங்களை பொதுவில் கிடைக்கச் செய்வதன் மூலம் சமூகத்திற்கு மீண்டும் பங்களிக்கவும்.",
 	"Then, <a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'> create an issue</a> or <a href='https://rubenwardy.com/contact/'>contact rubenwardy</a>.": "பிறகு, <a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'> சிக்கலை உருவாக்கவும்</a> அல்லது <a href='https://rubenwardy.com/contact/'>ரூபன்வார்டியைத் தொடர்பு கொள்ளவும்</a>.",
 	"Translate this site using Weblate": "இந்த தளத்தை வலைபெயர்ப்பு பயன்படுத்தி மொழிபெயர்க்கவும்",
-	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "Luanti அல்லது அதன் கேம்களுக்கான போச்டர்கள், கலை மற்றும் வீடியோ டிரெய்லர்களை உருவாக்கி, <a href='/press/'>அவற்றைப் பகிரவும்</a>."
+	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "Luanti அல்லது அதன் கேம்களுக்கான போச்டர்கள், கலை மற்றும் வீடியோ டிரெய்லர்களை உருவாக்கி, <a href='/press/'>அவற்றைப் பகிரவும்</a>.",
+	"There are over {{contentdb_mod_count}} open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "",
+	"Install using:": "",
+	"*BSD": "",
+	"Or compile from pkgsrc at:": "",
+	"Install Luanti using your system package manager, or build from ports/pkgsrc.": "",
+	"Or compile from ports at:": ""
 }

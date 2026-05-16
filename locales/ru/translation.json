@@ -302,5 +302,11 @@
 	"Need a print version of this page? See the \"Luanti in Education\" leaflet.": "Требуется печатная версия? См. брошюру «Luanti в Образовании».",
 	"\"Luanti in Education\" leaflet": "Брошюра \"Luanti в Образовании\"",
 	"Translate this site using Weblate": "Переведите этот сайт используя Weblate",
-	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "Создавайте постеры, рисунки, и видео трейлеры для Luanti и его игр, и <a href='/press/'>делитесь ими</a>."
+	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "Создавайте постеры, рисунки, и видео трейлеры для Luanti и его игр, и <a href='/press/'>делитесь ими</a>.",
+	"There are over {{contentdb_mod_count}} open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "",
+	"Install using:": "",
+	"*BSD": "",
+	"Or compile from pkgsrc at:": "",
+	"Install Luanti using your system package manager, or build from ports/pkgsrc.": "",
+	"Or compile from ports at:": ""
 }
