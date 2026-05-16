@@ -36,7 +36,11 @@ layout: base
 					{% for goal in opencollective_goals %}
 						<div class="mb-2">
 							<label class="is-block mb-1" for="progress-{{ goal.id }}">
-								<strong>{{ goal.title | i18n }}</strong> -
+								<strong>{{ goal.title | i18n }}</strong>
+								{% if goal.description %}
+								<i class="fas fa-info-circle has-text-grey-light" title="{{ goal.description | i18n }}"></i>
+								{% endif %}
+								-
 								€ {{ goal.value | at_most: goal.target }} / € {{ goal.target}} {{ goal.suffix }}
 							</label>
 							<progress id="progress-{{ goal.id }}" class="progress is-primary" value="{{ goal.value | at_most: goal.target }}" max="{{ goal.target }}">

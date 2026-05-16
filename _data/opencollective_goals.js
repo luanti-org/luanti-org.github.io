@@ -53,6 +53,7 @@ export default async function () {
 		return {
 			id: goal.key,
 			title: goal.title,
+			description: goal.description,
 			value: Math.round(value),
 			target: Math.round(goal.amount / 100),
 			suffix: goal.type === "monthlyBudget" ? "per month" : "raised",
