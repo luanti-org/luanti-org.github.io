@@ -86,12 +86,8 @@
 	"Texture Packs": "Paczki tekstur",
 	"Not happy with the look of the textures? [Change them!](https://content.luanti.org/packages/?type=txp)": "Nie podoba ci się wygląd tekstur? [Zmień je!](https://content.luanti.org/packages/?type=txp)",
 	"Stable (SBo)": "Stabilny (SBo)",
-	"Package manager": "Menedżer pakietów",
-	"On FreeBSD 9.1 and newer, you can use the official pre-built packages:": "Na FreeBSD w wersji 9.1 i nowszej możesz użyć oficjalnie zbudowane pakiety:",
 	"Matrix": "Matrix",
 	"Beautiful Map Generators": "Generatory pięknych map",
-	"Compile using ports": "Skompiluj przy użyciu portów",
-	"You can also compile Luanti and choose build options easily using the FreeBSD port dialogs.": "Masz również możliwość skompilowania Luanti z wybranymi opcjami bezpośrednio przy pomocy FreeBSD ports.",
 	"Choose from many different fast map generators included in the engine, or install one as a mod.": "Wybierz jeden z wielu generatorów map dostępnych od razu w Luanti, albo zainstaluj inne w formie zewnętrznych modów.",
 	"Luanti {{version}} - App (Signed Apple Silicon, stable)": "Luanti {{version}} - Aplikacja (Podpisana Apple Silicon, stabilna)",
 	"Mastodon": "Mastodon",
@@ -285,6 +281,5 @@
 	"Snap (all distributions)": "Snap (wszystkie dystrybucje)",
 	"macOS": "macOS",
 	"<a href='https://www.macports.org/'>MacPorts</a> also contains a port:": "Na <a href='https://www.macports.org/'>MacPorts</a> również znajduje się port gry:",
-	"FreeBSD": "FreeBSD",
 	"Community builds and Source code": "Wersje gry od społeczności i kod źródłowy"
 }
