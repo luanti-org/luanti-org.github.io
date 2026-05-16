@@ -296,11 +296,5 @@
 	"A 3-part post-mortem based on the author's experience of using Minetest in a pre-school.": "Třídílná analýza zkušeností autora s využitím Minetestu při výuce v mateřské školce.",
 	"A dashboard to create worlds for future-oriented learning without hosting servers. Comes with support (in English/French/German), a wiki and workshops. It's currently free to use.": "Nástěnka pro vytváření světů s budoucím cílem učení bez nutnosti hostování serverů. Má podporu v Angličtině, Francouzštině a Němčině. Taktéž má wiki, seminář a momentálně je zdarma.",
 	"Contribute back to the community by writing about your project and/or making your learning resources publicly available.": "Přispějte do komunity psaním o svém projektu nebo pomocí zveřejnění vámi vytvořených zdrojů.",
-	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "Vytvořte plakáty, obrázky nebo upoutávky pro Luanti nebo její hry a <a href='/press/'>sdílejte je</a>.",
-	"There are over {{contentdb_mod_count}} open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "",
-	"Install using:": "",
-	"*BSD": "",
-	"Or compile from pkgsrc at:": "",
-	"Install Luanti using your system package manager, or build from ports/pkgsrc.": "",
-	"Or compile from ports at:": ""
+	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "Vytvořte plakáty, obrázky nebo upoutávky pro Luanti nebo její hry a <a href='/press/'>sdílejte je</a>."
 }

@@ -296,11 +296,5 @@
 	"Need a print version of this page? See the \"Luanti in Education\" leaflet.": "Butuh versi cetak halaman ini? Lihat brosur \"Luanti dalam Pendidikan\".",
 	"\"Luanti in Education\" leaflet": "Brosur \"Luanti dalam Pendidikan\"",
 	"Translate this site using Weblate": "Terjemahkan situs ini menggunakan Weblate",
-	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "Buat poster, karya seni, dan trailer video untuk Luanti atau game-nya, dan <a href='/press/'>bagikan</a>.",
-	"There are over {{contentdb_mod_count}} open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "",
-	"Install using:": "",
-	"*BSD": "",
-	"Or compile from pkgsrc at:": "",
-	"Install Luanti using your system package manager, or build from ports/pkgsrc.": "",
-	"Or compile from ports at:": ""
+	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "Buat poster, karya seni, dan trailer video untuk Luanti atau game-nya, dan <a href='/press/'>bagikan</a>."
 }

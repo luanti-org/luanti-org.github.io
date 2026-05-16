@@ -292,15 +292,5 @@
 	"Social": "Social",
 	"<a href='https://spdx.org/licenses/MIT.html'>MIT</a> for code, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> for content, media under various licenses.": "<a href='https://spdx.org/licenses/MIT.html'>MIT</a> para código, <a href='https://spdx.org/licenses/CC-BY-SA-3.0.html'>CC BY-SA 3.0</a> para contenido, medios bajo diversas licencias.",
 	"Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.": "Íconos de Font Awesome bajo <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>.",
-	"Key contributors and developers behind the Luanti project": "Principales contribuyentes y desarrolladores detrás del proyecto Luanti",
-	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "",
-	"Translate this site using Weblate": "",
-	"There are over {{contentdb_mod_count}} open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "",
-	"\"Luanti in Education\" leaflet": "",
-	"Install using:": "",
-	"*BSD": "",
-	"Need a print version of this page? See the \"Luanti in Education\" leaflet.": "",
-	"Or compile from pkgsrc at:": "",
-	"Install Luanti using your system package manager, or build from ports/pkgsrc.": "",
-	"Or compile from ports at:": ""
+	"Key contributors and developers behind the Luanti project": "Principales contribuyentes y desarrolladores detrás del proyecto Luanti"
 }

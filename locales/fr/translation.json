@@ -295,12 +295,5 @@
 	"Key contributors and developers behind the Luanti project": "Principaux contributeurs et développeurs du projet Luanti",
 	"Guide": "Guide",
 	"Mining for Education": "L'exploitation minière au service de l'éducation",
-	"Guide – post-mortem": "Guide – post-mortem",
-	"There are over {{contentdb_mod_count}} open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "",
-	"Active": "",
-	"Install using:": "",
-	"*BSD": "",
-	"Or compile from pkgsrc at:": "",
-	"Install Luanti using your system package manager, or build from ports/pkgsrc.": "",
-	"Or compile from ports at:": ""
+	"Guide – post-mortem": "Guide – post-mortem"
 }

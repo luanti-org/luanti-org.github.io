@@ -296,11 +296,5 @@
 	"Need a print version of this page? See the \"Luanti in Education\" leaflet.": "Potrebujete tiskano različico te strani? Glejte letak „Luanti v izobraževanju“.",
 	"\"Luanti in Education\" leaflet": "Letak „Luanti v izobraževanju“",
 	"Translate this site using Weblate": "Prevedi to spletno mesto z Weblate",
-	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "Ustvarite plakate, umetniška dela in video napovednike za Luanti ali njegove igre in jih <a href='/press/'>delite</a>.",
-	"There are over {{contentdb_mod_count}} open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "",
-	"Install using:": "",
-	"*BSD": "",
-	"Or compile from pkgsrc at:": "",
-	"Install Luanti using your system package manager, or build from ports/pkgsrc.": "",
-	"Or compile from ports at:": ""
+	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "Ustvarite plakate, umetniška dela in video napovednike za Luanti ali njegove igre in jih <a href='/press/'>delite</a>."
 }
