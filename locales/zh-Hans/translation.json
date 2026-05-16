@@ -290,5 +290,22 @@
 	"Contribute back to the community by writing about your project and/or making your learning resources publicly available.": "通过撰写项目介绍和/或公开您的学习资源，为社区做出贡献。",
 	"Then, <a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'> create an issue</a> or <a href='https://rubenwardy.com/contact/'>contact rubenwardy</a>.": "然后，<a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'> 创建一个议题</a> 或 <a href='https://rubenwardy.com/contact/'>联系 rubenwardy</a>。",
 	"Reasons and resources for using Luanti in education": "在教育中使用 Luanti 的理由与资源",
-	"Show downloads for all platforms": "显示所有平台的下载"
+	"Show downloads for all platforms": "显示所有平台的下载",
+	"macOS 12.3 or later is recommended. May work on older versions when built from source.": "",
+	"An open-source voxel game creation platform.": "",
+	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "",
+	"Translate this site using Weblate": "",
+	"There are over {{contentdb_mod_count}} open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "",
+	"\"Luanti in Education\" leaflet": "",
+	"Help translate Luanti using <a href='https://hosted.weblate.org/engage/minetest/'>Weblate</a>.": "",
+	"Install using:": "",
+	"There are many games to choose from. Explore exotic lands,\njump into action, solve puzzles, survive and build, and more.\n\nYou can customise your adventures by downloading content directly from\nthe client. Or, if you want to play online, Luanti will automagically\ndownload all the resources needed to play on the server you've chosen.": "",
+	"Available for Windows, macOS, GNU/Linux, BSDs, and Android.": "",
+	"*BSD": "",
+	"Creators": "",
+	"Need a print version of this page? See the \"Luanti in Education\" leaflet.": "",
+	"Or compile from pkgsrc at:": "",
+	"Play one of our many games solo or together. Mod a game as you see fit, or make your own.": "",
+	"Install Luanti using your system package manager, or build from ports/pkgsrc.": "",
+	"Or compile from ports at:": ""
 }
