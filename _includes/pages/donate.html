@@ -31,6 +31,20 @@ layout: base
 						</a>
 					</p>
 				</article>
+				<article class="column is-half content">
+					<h2 class="title is-size-2" id="goals">{{ "Goals" | i18n }}</h2>
+					{% for goal in opencollective_goals %}
+						<div class="mb-2">
+							<label class="is-block mb-1" for="progress-{{ goal.id }}">
+								<strong>{{ goal.title | i18n }}</strong> -
+								€ {{ goal.value | at_most: goal.target }} / € {{ goal.target}} {{ goal.suffix }}
+							</label>
+							<progress id="progress-{{ goal.id }}" class="progress is-primary" value="{{ goal.value | at_most: goal.target }}" max="{{ goal.target }}">
+								€ {{ goal.value | at_most: goal.target }} / € {{ goal.target}} {{ goal.suffix }}
+							</progress>
+						</div>
+					{% endfor %}
+				</article>
 			</div>
 		</div>
 	</section>
