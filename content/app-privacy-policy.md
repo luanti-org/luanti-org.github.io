@@ -89,8 +89,8 @@ shown for each package and release, and there are also view and download graphs
 available for each package.
 
 Whether an IP address has viewed or downloaded a package or release is cached to
-prevent downloads from being counted multiple times per IP address, but this
-information is deleted after 14 days.
+prevent views and downloads from being counted multiple times per IP address,
+but this information is deleted after 14 days.
 
 ### Who has access
 
