@@ -3,7 +3,7 @@ title: Luanti Privacy Policy
 description: Privacy policy for the Luanti application.
 lang: en
 small: |
-  Last updated: 2024-08-17
+  Last updated: 2026-05-26
   (<a href="https://github.com/luanti-org/luanti-org.github.io/commits/master/app-privacy-policy.md">View updates</a>)
 layout: page_subtitle
 ---
@@ -83,14 +83,14 @@ for example:
 HTTP requests are logged to aid with debugging, development, and aggregated
 statistics.
 
-Requests (such as downloads) are used for aggregated statistics and for
-calculating the popularity of packages. Download counts are shown for each
-package and release, and there are also download graphs available for each
-package.
+Requests (such as package views and downloads) are used for aggregated
+statistics and for calculating the popularity of packages. Download counts are
+shown for each package and release, and there are also view and download graphs
+available for each package.
 
-Whether an IP address has downloaded a package or release is cached to prevent
-downloads from being counted multiple times per IP address, but this information
-is deleted regularly.
+Whether an IP address has viewed or downloaded a package or release is cached to
+prevent downloads from being counted multiple times per IP address, but this
+information is deleted regularly.
 
 ### Who has access
 
