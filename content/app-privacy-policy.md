@@ -99,9 +99,9 @@ others to aid with debugging, user support, or combating abuse.
 
 ### Period of retention
 
-Logged HTTP requests are automatically deleted after 14 days.
-Whether an IP address has downloaded a package or release is automatically
-deleted after 14 days.
+Logged HTTP requests are automatically deleted after 14 days. Whether an IP
+address has viewed or downloaded a package or release is automatically deleted
+after 14 days.
 
 ### Location
 
