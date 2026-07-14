@@ -309,5 +309,9 @@
 	"The costs to keep Luanti running - websites and services": "Cena Luanti - webové stránky a služby",
 	"Help us hire a developer to work on the engine part time": "Pomozte nám najmout vývojáře co bude pracovat na Luanti enginu s částečným úvazkem",
 	"Every year, we run a stand at the world's largest open source conference": "Každým rokem máme stánek na světově největší konferenci o otevřeném kódu",
-	"We'd like to have some budget available to attend smaller events": "Rádi bychom mělo rozpočet na zúčastnění se i menších událostí"
+	"We'd like to have some budget available to attend smaller events": "Rádi bychom mělo rozpočet na zúčastnění se i menších událostí",
+	"Luanti is a member of Open Source Europe (OSE), a non-profit based in Belgium.": "Luanti je členem Open Source Europe (OSE) což je neziskovka z Belgie.",
+	"Other conferences and events": "Jiné konference a události",
+	"{{value}} / {{target}} per month": "{{value}} / {{target}} za měsíc",
+	"Estimated monthly income of {{amount}} based on active recurring supporters and the last 3 months of donations": "Předpokládaný měsíční příjem v hodnotě {{amount}} je vypočten na základě opakujících se příspěvků a darů za poslední 3 měsíce"
 }
