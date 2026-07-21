@@ -110,10 +110,14 @@ function addMember(member) {
 		</div>
 	`;
 	element.querySelector("img").setAttribute("src", member.member.imageUrl);
-	element.querySelectorAll(".title").forEach(e => e.textContent = member.member.name || "Anonymous");
-	const website = member.member.website ?? "https://opencollective.com/" + member.member.slug;
-	if (!member.member.slug.startsWith("guest-")) {
-		element.querySelector(".title").setAttribute("href", website);
+	const website =
+		!(member.member.slug.startsWith("guest-") || member.member.slug.startsWith("incognito-"))
+			? member.member.website ?? "https://opencollective.com/" + member.member.slug
+			: null;
+	const name = (((member.member.name == "Guest" || member.member.name == "Incognito") && !website) || member.member.name == "") ? "Anonymous" : member.member.name;
+	element.querySelectorAll(".title").forEach(e => e.textContent = name);
+	if (website) {
+		element.querySelector("a.title").setAttribute("href", website);
 		element.querySelector("p.title").remove();
 	} else {
 		element.querySelector("a.title").remove();
