@@ -74,8 +74,17 @@ layout: base
 				</p>
 			</noscript>
 			<p id="credits-loading">{{ "Loading…" | i18n }}</p>
-			<div id="credits-container" class="columns is-multiline"></div>
-			<script src="/assets/js/opencollective.js"></script>
+			<div class="columns is-flex-direction-row-reverse">
+				<div class="column is-narrow">
+					<h4 class="title is-size-4" id="org">{{ "Organizations" | i18n }}</h4>
+					<div id="credits-orgs"></div>
+				</div>
+				<div class="column">
+					<h4 class="title is-size-4" id="individuals">{{ "Individuals" | i18n }}</h4>
+					<div id="credits-users" class="columns is-multiline"></div>
+				</div>
+			</div>
+			<script src="/assets/js/opencollective.js?v=2"></script>
 		</div>
 	</section>
 

@@ -27,11 +27,10 @@ page.
 */
 
 const graphQL = `
-query Members($collectiveSlug: String!, $role: String, $type: String, $limit: Int, $offset: Int, $orderBy: String) {
+query Members($collectiveSlug: String!, $role: String, $limit: Int, $offset: Int, $orderBy: String) {
   allMembers(
     collectiveSlug: $collectiveSlug
     role: $role
-    type: $type
     limit: $limit
     offset: $offset
     orderBy: $orderBy
@@ -68,7 +67,6 @@ async function fetchMembers() {
 			variables: {
 				"collectiveSlug": "luanti",
 				"offset": 0,
-				"type": "USER",
 				"role": "BACKER",
 				"orderBy": "totalDonations",
 				"limit": 100
@@ -84,31 +82,42 @@ async function fetchMembers() {
 }
 
 function addMember(member) {
-	const container = document.getElementById("credits-container");
+	const isOrg = member.member.type === "ORGANIZATION" || member.member.name.includes("Teckids");
+	const container = document.getElementById(isOrg ? "credits-orgs" : "credits-users");
 	const element = document.createElement("div");
-	element.classList.add("column");
-	element.classList.add("is-one-quarter");
+	if (isOrg) {
+		element.classList.add("mb-5");
+	} else {
+		element.classList.add("column");
+		element.classList.add("is-one-quarter");
+	}
 	element.innerHTML = `
-		<div class="media">
+		<div class="media donate-credit">
 			<div class="media-left">
-				<figure class="image is-48x48">
-				<img
-					src="https://bulma.io/assets/images/placeholders/96x96.png"
-					alt="Profile picture"
-					loading="lazy"
-				/>
+				<figure class="image is-clipped is-48x48">
+					<img
+						src="https://bulma.io/assets/images/placeholders/96x96.png"
+						alt="Profile picture"
+						loading="lazy"
+					/>
 				</figure>
 			</div>
 			<div class="media-content">
 				<a class="title is-4" rel="ugc">John Smith</a>
+				<p class="title is-4" rel="ugc">John Smith</p>
 				<p class="subtitle is-6">€ 10</p>
 			</div>
 		</div>
 	`;
-	const website = member.member.website ?? "https://opencollective.com/" + member.member.slug;
 	element.querySelector("img").setAttribute("src", member.member.imageUrl);
-	element.querySelector(".title").textContent = member.member.name;
-	element.querySelector(".title").setAttribute("href", website);
+	element.querySelectorAll(".title").forEach(e => e.textContent = member.member.name || "Anonymous");
+	const website = member.member.website ?? "https://opencollective.com/" + member.member.slug;
+	if (!member.member.slug.startsWith("guest-")) {
+		element.querySelector(".title").setAttribute("href", website);
+		element.querySelector("p.title").remove();
+	} else {
+		element.querySelector("a.title").remove();
+	}
 	element.querySelector(".subtitle").innerHTML = "€&nbsp;" + (member.stats.totalDonations / 100).toFixed(0);
 	container.appendChild(element);
 }
