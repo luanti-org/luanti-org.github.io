@@ -66,14 +66,6 @@ layout: base
 	<section class="section">
 		<div class="container">
 			<h3 class="title is-size-3" id="credits">{{ "Supporters" | i18n }}</h3>
-			<noscript>
-				<!-- to reduce translator burden, not making this translatable -->
-				<p>
-					JavaScript is required to see supporters here.
-					Alternatively, you can view them on <a href="https://opencollective.com/luanti">Open Collective</a>.
-				</p>
-			</noscript>
-			<p id="credits-loading">{{ "Loading…" | i18n }}</p>
 			<div class="columns is-flex-direction-row-reverse">
 				<div class="column is-narrow">
 					<h4 class="title is-size-4" id="org">{{ "Organizations" | i18n }}</h4>
@@ -85,6 +77,14 @@ layout: base
 				</div>
 			</div>
 			<script src="/assets/js/opencollective.js?v=2"></script>
+			<noscript>
+				<!-- to reduce translator burden, not making this translatable -->
+				<p>
+					JavaScript is required to see supporters here.
+					Alternatively, you can view them on <a href="https://opencollective.com/luanti">Open Collective</a>.
+				</p>
+			</noscript>
+			<p id="credits-loading">{{ "Loading…" | i18n }}</p>
 		</div>
 	</section>
 

@@ -104,7 +104,7 @@ function addMember(member) {
 			</div>
 			<div class="media-content">
 				<a class="title is-4" rel="ugc">John Smith</a>
-				<p class="title is-4" rel="ugc">John Smith</p>
+				<p class="title is-4">John Smith</p>
 				<p class="subtitle is-6">€ 10</p>
 			</div>
 		</div>
