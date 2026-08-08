@@ -172,6 +172,18 @@
         "channels": [
           "open-collective"
         ]
+      },		
+      {
+        "guid": "new-ui-api",
+        "status": "active",
+        "name": "New GUI/HUD framework",
+        "description": "Luanti's current GUI framework is very limited. We'd like to introduce a new framework to improve capabilities",
+        "amount": 20000,
+        "currency": "EUR",
+        "frequency": "one-time",
+        "channels": [
+          "open-collective"
+        ]
       }
     ],
     "history": []
