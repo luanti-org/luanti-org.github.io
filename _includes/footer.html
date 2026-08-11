@@ -74,7 +74,7 @@
 		{% for sponsor in sponsors %}
 			<a href="{{ sponsor.url }}" rel="sponsored">
 				<img src="{{ sponsor.footer_logo }}" alt="{{ sponsor.title }}" class="footer-sponsor-logo" />
-				<span>{{ sponsor.description }}</span>
+				<span>{{ sponsor.description | i18n }}</span>
 			</a>
 		{% endfor %}
 	</div>

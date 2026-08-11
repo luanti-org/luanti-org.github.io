@@ -84,7 +84,7 @@ layout: base
 								</div>
 								<div class="media-content">
 									<a class="title is-4" href="{{ sponsor.url }}" rel="sponsored">{{ sponsor.title }}</a>
-									<p class="subtitle is-6">{{ sponsor.description }}</p>
+									<p class="subtitle is-6">{{ sponsor.description | i18n }}</p>
 								</div>
 							</div>
 						{% endfor %}
