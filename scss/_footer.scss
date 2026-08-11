@@ -49,5 +49,5 @@ $footer-link-color: $white-ter;
 .footer-sponsor-logo {
   height: 1.5rem;
   margin: 0.5rem;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+  filter: brightness(0) invert(1);
 }
