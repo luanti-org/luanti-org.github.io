@@ -313,5 +313,7 @@
 	"Help us hire a developer to work on the engine part time": "Pomagajte nam zaposliti razvijalca, ki bo delal na razvoju igre v okviru polovičnega delovnega časa",
 	"Other conferences and events": "Druge konference in dogodki",
 	"{{value}} / {{target}} per month": "{{value}} / {{target}} na mesec",
-	"Estimated monthly income of {{amount}} based on active recurring supporters and the last 3 months of donations": "Predvideni mesečni prihodek v višini {{amount}}, izračunan na podlagi aktivnih rednih podpornikov in donacij v zadnjih treh mesecih"
+	"Estimated monthly income of {{amount}} based on active recurring supporters and the last 3 months of donations": "Predvideni mesečni prihodek v višini {{amount}}, izračunan na podlagi aktivnih rednih podpornikov in donacij v zadnjih treh mesecih",
+	"Individuals": "Posamezniki",
+	"Organizations": "Organizacije"
 }
