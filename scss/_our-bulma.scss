@@ -20,3 +20,7 @@ $primary: $green;
 .media-content {
 	overflow-x: unset !important;
 }
+
+.image.is-48x48 img {
+	height: 100%;
+}

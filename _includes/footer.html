@@ -69,4 +69,13 @@
 		various licenses." | i18n }}
 		{{ "Font Awesome icons under <a href='https://spdx.org/licenses/CC-BY-4.0.html'>CC BY 4.0</a>." | i18n }}
 	</div>
+
+	<div class="footer-sponsors">
+		{% for sponsor in sponsors %}
+			<a href="{{ sponsor.url }}" rel="sponsored">
+				<img src="{{ sponsor.footer_logo }}" alt="{{ sponsor.title }}" class="footer-sponsor-logo" />
+				<span>{{ sponsor.description }}</span>
+			</a>
+		{% endfor %}
+	</div>
 </footer>

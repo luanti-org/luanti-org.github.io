@@ -27,3 +27,27 @@ $footer-link-color: $white-ter;
   margin-top: 2.25rem;
   text-align: center;
 }
+
+.footer-sponsors {
+  margin-top: 2.25rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  white-space-collapse: collapse;
+
+  & > a {
+    display: inline-flex;
+    text-decoration: none;
+    flex-direction: column;
+
+    span {
+      text-align: center;
+    }
+  }
+}
+
+.footer-sponsor-logo {
+  height: 1.5rem;
+  margin: 0.5rem;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
