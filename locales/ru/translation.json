@@ -313,5 +313,7 @@
 	"Help us hire a developer to work on the engine part time": "Помогите нам нанять разработчика для частичной занятости в работе над движком",
 	"Other conferences and events": "Другие конференции и мероприятия",
 	"{{value}} / {{target}} per month": "{{value}} / {{target}} в месяц",
-	"Estimated monthly income of {{amount}} based on active recurring supporters and the last 3 months of donations": "Предполагаемый ежемесячный доход в размере {{amount}}, основанный на активных постоянных спонсорах и пожертвованиях за последние 3 месяца"
+	"Estimated monthly income of {{amount}} based on active recurring supporters and the last 3 months of donations": "Предполагаемый ежемесячный доход в размере {{amount}}, основанный на активных постоянных спонсорах и пожертвованиях за последние 3 месяца",
+	"Individuals": "Лица",
+	"Organizations": "Организации"
 }
