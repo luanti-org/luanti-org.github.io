@@ -313,5 +313,7 @@
 	"Luanti is a member of Open Source Europe (OSE), a non-profit based in Belgium.": "Luanti є членом Open Source Europe (OSE), неприбуткової організації в Бельгії.",
 	"Other conferences and events": "Інші конференції та заходи",
 	"{{value}} / {{target}} per month": "{{value}} / {{target}} на місяць",
-	"Estimated monthly income of {{amount}} based on active recurring supporters and the last 3 months of donations": "Орієнтовний щомісячний дохід у {{amount}} на основі активних постійних прихильників та останніх 3 місяців пожертвувань"
+	"Estimated monthly income of {{amount}} based on active recurring supporters and the last 3 months of donations": "Орієнтовний щомісячний дохід у {{amount}} на основі активних постійних прихильників та останніх 3 місяців пожертвувань",
+	"Organizations": "Організації",
+	"Individuals": "Фізичні особи"
 }
