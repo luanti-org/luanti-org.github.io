@@ -72,19 +72,21 @@ layout: base
 					<div id="credits-orgs"></div>
 					<div id="credits-sponsors">
 						{% for sponsor in sponsors %}
-							<div class="media donate-credit">
-								<div class="media-left">
-									<figure class="image is-clipped is-48x48 p-1">
-										<img
-											src="{{ sponsor.donate_logo }}"
-											alt="{{ sponsor.title }}"
-											loading="lazy"
-										/>
-									</figure>
-								</div>
-								<div class="media-content">
-									<a class="title is-4" href="{{ sponsor.url }}" rel="sponsored">{{ sponsor.title }}</a>
-									<p class="subtitle is-6">{{ sponsor.description | i18n }}</p>
+							<div class="mb-5">
+								<div class="media donate-credit">
+									<div class="media-left">
+										<figure class="image is-clipped is-48x48 p-1">
+											<img
+												src="{{ sponsor.donate_logo }}"
+												alt="{{ sponsor.title }}"
+												loading="lazy"
+											/>
+										</figure>
+									</div>
+									<div class="media-content">
+										<a class="title is-4" href="{{ sponsor.url }}" rel="sponsored">{{ sponsor.title }}</a>
+										<p class="subtitle is-6">{{ sponsor.description | i18n }}</p>
+									</div>
 								</div>
 							</div>
 						{% endfor %}
