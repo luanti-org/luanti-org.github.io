@@ -42,7 +42,7 @@
 	"Players": "玩家",
 	"They may contain excessive advertisements or spyware, or be distributed under proprietary terms.": "这些版本可能广告泛滥、携带间谍软件，或者基于专有条款分发。",
 	"Luanti {{version}} - installer, 64-bit (recommended)": "Luanti {{version}} - 安装程序，64位（推荐使用）",
-	"The Luanti Engine is [developed](/get-involved/) by an independent community of [volunteer developers](/credits/). It is provided for everyone to use, modify, and redistribute freely.": "Luanti 引擎由一个独立的[志愿者](/credits/)社区(开发)[/get-involved/]。所有人可以自由使用、修改、分发 Luanti。",
+	"The Luanti Engine is [developed](/get-involved/) by an independent community of [volunteer developers](/credits/). It is provided for everyone to use, modify, and redistribute freely.": "Luanti 引擎由一个独立的[志愿者](/credits/)社区[开发](/get-involved/)。所有人可以自由使用、修改、分发 Luanti。",
 	"Active Core Developers": "活跃的核心开发者",
 	"Luanti {{version}} - portable, 64-bit": "Luanti {{version}} - 便携版，64位",
 	"Luanti Privacy Policy": "Luanti 隐私政策",
@@ -283,5 +283,14 @@
 	"Contribute back to the community by writing about your project and/or making your learning resources publicly available.": "通过撰写项目介绍和/或公开您的学习资源，为社区做出贡献。",
 	"Then, <a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'> create an issue</a> or <a href='https://rubenwardy.com/contact/'>contact rubenwardy</a>.": "然后，<a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'> 创建一个议题</a> 或 <a href='https://rubenwardy.com/contact/'>联系 rubenwardy</a>。",
 	"Reasons and resources for using Luanti in education": "在教育中使用 Luanti 的理由与资源",
-	"Show downloads for all platforms": "显示所有平台的下载"
+	"Show downloads for all platforms": "显示所有平台的下载",
+	"An open-source voxel game creation platform.": "开源像素游戏开发平台",
+	"Goals": "目标",
+	"The costs to keep Luanti running - websites and services": "维护Luanti网站和相关服务的费用",
+	"*BSD": "*BSD",
+	"FOSDEM": "FOSDEM",
+	"Every year, we run a stand at the world's largest open source conference": "我们每年都会在全球最大的开源软件会议设立摊位",
+	"Translate this site using Weblate": "使用Weblate翻译这个网站",
+	"Other conferences and events": "其他会议与活动",
+	"{{value}} / {{target}} per month": "每月{{value}} / {{target}}"
 }
