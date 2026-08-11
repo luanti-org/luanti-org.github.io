@@ -284,7 +284,7 @@
 	"Then, <a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'> create an issue</a> or <a href='https://rubenwardy.com/contact/'>contact rubenwardy</a>.": "然后，<a href='https://github.com/luanti-org/luanti-org.github.io/issues/new'> 创建一个议题</a> 或 <a href='https://rubenwardy.com/contact/'>联系 rubenwardy</a>。",
 	"Reasons and resources for using Luanti in education": "在教育中使用 Luanti 的理由与资源",
 	"Show downloads for all platforms": "显示所有平台的下载",
-	"An open-source voxel game creation platform.": "开源像素游戏开发平台",
+	"An open-source voxel game creation platform.": "一个开源像素游戏开发平台",
 	"Goals": "目标",
 	"The costs to keep Luanti running - websites and services": "维护Luanti网站和相关服务的费用",
 	"*BSD": "*BSD",
@@ -292,5 +292,18 @@
 	"Every year, we run a stand at the world's largest open source conference": "我们每年都会在全球最大的开源软件会议设立摊位",
 	"Translate this site using Weblate": "使用Weblate翻译这个网站",
 	"Other conferences and events": "其他会议与活动",
-	"{{value}} / {{target}} per month": "每月{{value}} / {{target}}"
+	"{{value}} / {{target}} per month": "每月{{value}} / {{target}}",
+	"Luanti is a member of Open Source Europe (OSE), a non-profit based in Belgium.": "Luanti 是Open Source Europe（OSE）的成员，该组织是一家总部位于比利时的非营利组织。",
+	"Play one of our many games solo or together. Mod a game as you see fit, or make your own.": "独自或组队畅玩我们众多游戏中的任意一款。如有需要，可以自行制作游戏模组，或者设计属于自己的游戏。",
+	"Available for Windows, macOS, GNU/Linux, BSDs, and Android.": "支持 Windows、macOS、GNU/Linux、BSD 以及 Android 系统。",
+	"Help translate Luanti using <a href='https://hosted.weblate.org/engage/minetest/'>Weblate</a>.": "请使用 <a href='https://hosted.weblate.org/engage/minetest/'>Weblate</a> 帮助翻译 Luanti。",
+	"There are over {{contentdb_mod_count}} open source mods on [ContentDB](https://content.luanti.org/), which are ready to be used, adapted or learned from.": "在 [ContentDB](https://content.luanti.org/) 上有超过 {{contentdb_mod_count}} 个开源模组，这些模组可供随时使用、改编或作为参考。",
+	"We'd like to have some budget available to attend smaller events": "我们希望预留一部分预算以便参加一些规模较小的活动",
+	"Help us hire a developer to work on the engine part time": "帮助我们招聘一个兼职的游戏引擎开发者",
+	"Create posters, art, and video trailers for Luanti or its games, and <a href='/press/'>share them</a>.": "创作Luanti及其相关游戏的海报、艺术作品、影片，并 <a href='/press/'>分享它们</a>。",
+	"Part-time dev": "兼职开发者",
+	"\"Luanti in Education\" leaflet": "“教育领域的Luanti”宣传册",
+	"Estimated monthly income of {{amount}} based on active recurring supporters and the last 3 months of donations": "根据活跃的定期捐助者以及过去3个月的捐款情况，预计月收入为{{amount}}",
+	"Install Luanti using your system package manager, or build from ports/pkgsrc.": "请使用系统的软件包管理器安装 Luanti，或者通过 ports/pkgsrc 进行编译。",
+	"macOS 12.3 or later is recommended. May work on older versions when built from source.": "推荐使用macOS 12.3或更高版本。如果从源代码编译，可能在较旧的版本上也能运行。"
 }
