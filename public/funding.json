@@ -4,7 +4,7 @@
     "type": "organisation",
     "role": "maintainer",
     "name": "Luanti",
-    "email": "rw@rubenwardy.com",
+    "email": "hello@luanti.org",
     "description": "Luanti (formerly Minetest) is an open-source voxel game creation platform",
     "webpageUrl": {
       "url": "https://www.luanti.org"
@@ -172,7 +172,7 @@
         "channels": [
           "open-collective"
         ]
-      },		
+      },
       {
         "guid": "new-ui-api",
         "status": "active",
