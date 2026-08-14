@@ -315,5 +315,11 @@
 	"{{value}} / {{target}} per month": "{{value}} / {{target}} na mesec",
 	"Estimated monthly income of {{amount}} based on active recurring supporters and the last 3 months of donations": "Predvideni mesečni prihodek v višini {{amount}}, izračunan na podlagi aktivnih rednih podpornikov in donacij v zadnjih treh mesecih",
 	"Individuals": "Posamezniki",
-	"Organizations": "Organizacije"
+	"Organizations": "Organizacije",
+	"Email": "E-pošta",
+	"Translation": "Prevodi",
+	"Get in touch": "Stopite v stik",
+	"Have questions about using Luanti in your classroom, or want to share your project on this page?": "Imate vprašanja o uporabi Luantija v razredu ali želite deliti svoj projekt na tej strani?",
+	"Get in touch with the Luanti Education team.": "Stopite v stik z ekipo Luanti Education.",
+	"Email education@luanti.org": "E-pošta: education@luanti.org"
 }
