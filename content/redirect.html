@@ -25,10 +25,6 @@
 		<link rel="canonical" href="{{ redirect.to | absolute_url }}" />
 		<meta http-equiv="refresh" content="0.1; url={{ redirect.to }}" />
 		<meta name="robots" content="noindex" />
-	</head>
-	<body>
-		<h1>Redirecting&hellip;</h1>
-		<a href="{{ redirect.to | url }}">Click here if you are not redirected.</a>
 		<script>
 			const targetURL = '{{ redirect.to }}';
 			const locales = {{ redirect.to | locale_links | map: "lang" | jsonify }};
@@ -42,5 +38,9 @@
 				window.location.replace(targetURL);
 			}
 		</script>
+	</head>
+	<body>
+		<h1>Redirecting&hellip;</h1>
+		<a href="{{ redirect.to | url }}">Click here if you are not redirected.</a>
 	</body>
 </html>
