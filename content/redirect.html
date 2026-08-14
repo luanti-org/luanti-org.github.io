@@ -27,11 +27,19 @@
 		<meta name="robots" content="noindex" />
 		<script>
 			const targetURL = '{{ redirect.to }}';
-			const locales = ({{ redirect.to | locale_links | map: "lang" | jsonify }}).map(x => x.toLowerCase());
+			const locales = ({{ redirect.to | locale_links | map: "lang" | jsonify }});
 			const userLanguages = navigator.languages ?? [navigator.language ?? "en"];
-			const desiredLang =
-				userLanguages.map(x => x.toLowerCase()).find(lang => locales.includes(lang));
-			if (desiredLang && targetURL.startsWith('/en/')) {
+
+			let desiredLang = "en";
+			for (const lang of userLanguages) {
+				const foundLocale = locales.find(l => l.toLowerCase() === lang.toLowerCase());
+				if (foundLocale) {
+					desiredLang = foundLocale;
+					break;
+				}
+			}
+
+			if (desiredLang !== "en" && targetURL.startsWith('/en/')) {
 				const newURL = `/${desiredLang}/` + targetURL.substring(4);
 				window.location.replace(newURL);
 			} else {
