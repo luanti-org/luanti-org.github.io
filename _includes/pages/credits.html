@@ -12,21 +12,21 @@ layout: base
 			<div class="column is-10 is-9-desktop is-8-widescreen is-7-fullhd content">
 				<h1>{{ "Credits" | i18n }}</h1>
 				<h2>{{ "Core Team" | i18n }}</h2>
+
 				<p>
-					{{ "The core team consists of contributors with special privileges and
-					responsibilities." | i18n }}
+					{{ "Contact the core team at <a href='mailto:hello@luanti.org'>hello@luanti.org</a>." | i18n }}
 				</p>
+
+				<h3>{{ "Core Developers" | i18n }}</h3>
 				<p>
 					{{ "Core developers decide what can be added to Luanti by voting for
 					and against pull requests. They also have commit access to the Luanti
 					team's repositories on GitHub." | i18n }}
 					<a href='https://docs.luanti.org/for-engine-devs/organization/'>{{ "Learn more." | i18n }}</a>
 				</p>
-
-				<h3>{{ "Active Core Developers" | i18n }}</h3>
 				{% include "credits_list.html", people: credits.core_developers %}
 
-				<h3>{{ "Active Core Team Members" | i18n }}</h3>
+				<h3>{{ "Other Team Members" | i18n }}</h3>
 				{% include "credits_list.html", people: credits.core_team %}
 
 				<h3>{{ "Previous Core Developers" | i18n }}</h3>

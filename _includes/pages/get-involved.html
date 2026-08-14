@@ -115,6 +115,36 @@ layout: base
 	</div>
 </section>
 
+<section class="section">
+	<div class="container">
+		<h2 id="contact-us" class="title section-title">{{ "Contact Us" | i18n }}</h2>
+		<div class="content">
+			<p>
+				{{ "Luanti is developed by a group of volunteers." | i18n }}
+				{{ "To save time, consider using one of the community channels listed at the top of this page before contacting us directly." | i18n }}
+			</p>
+			<ul>
+				<li>
+					<strong>{{ "For modding and game dev help" | i18n }}</strong>:
+					{{ "Use one of the community channels listed at the top of this page." | i18n }}
+				</li>
+				<li>
+					<strong>{{ "For teachers, schools, parents, and other educational users" | i18n }}</strong>:
+					{{ "Contact the education team at <a href='mailto:education@luanti.org'>education@luanti.org</a>." | i18n }}
+				</li>
+				<li>
+					<strong>{{ "For general enquiries including press and other institutions" | i18n }}</strong>:
+					{{ "Contact us at <a href='mailto:hello@luanti.org'>hello@luanti.org</a>, the forums, or IRC." | i18n }}
+				</li>
+				<li>
+					<strong>{{ "To report a bug or another issue" | i18n }}</strong>:
+					{{ "See <a href='#reporting-issues'>Reporting Issues</a> below." | i18n }}
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
 
 <section class="section">
 	<div class="container">
@@ -225,7 +255,8 @@ layout: base
 						<a href='https://github.com/luanti-org/luanti'>{{ "Source" | i18n }}</a>
 					</td>
 					<td>
-						<a href='https://github.com/luanti-org/luanti/issues'>{{ "Issues" | i18n }}</a>
+						<a href='https://github.com/luanti-org/luanti/issues'>{{ "Issues" | i18n }}</a> |
+						<a href='https://github.com/luanti-org/luanti/security/policy'>{{ "Security policy" | i18n }}</a>
 					</td>
 				</tr>
 				<tr>
@@ -299,7 +330,11 @@ layout: base
 					<td>content.luanti.org</td>
 					<td>rubenwardy</td>
 					<td><a href='https://github.com/luanti-org/contentdb'>{{ "Source" | i18n }}</a></td>
-					<td><a href='https://github.com/luanti-org/contentdb/issues'>{{ "Issues" | i18n }}</a></td>
+					<td>
+						<a href='https://github.com/luanti-org/contentdb/issues'>{{ "Issues" | i18n }}</a>
+						|
+						<a href='https://rubenwardy.com/contact/'>{{ "Contact rubenwardy" | i18n }}</a>
+					</td>
 				</tr>
 				<tr>
 					<td>irc.luanti.org</td>
@@ -310,9 +345,19 @@ layout: base
 				<tr>
 					<td><a href='https://play.google.com/store/apps/details?id=net.minetest.minetest'>Google Play</a>
 					</td>
-					<td>nerzhul aka. nrzkt</td>
+					<td>Core developers</td>
 					<td>{{ "n/a" | i18n }}</td>
-					<td>{{ "Contact nerzhul" | i18n }}</td>
+					<td>
+						<a href='https://github.com/luanti-org/luanti/issues'>{{ "Issues" | i18n }}</a>
+					</td>
+				</tr>
+				<tr>
+					<td>Email @luanti.org</td>
+					<td>rubenwardy</td>
+					<td>{{ "n/a" | i18n }}</td>
+					<td>
+						<a href='https://rubenwardy.com/contact/'>{{ "Contact rubenwardy" | i18n }}</a>
+					</td>
 				</tr>
 			</table>
 		</div>
