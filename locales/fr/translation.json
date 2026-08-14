@@ -299,7 +299,7 @@
 	"Outreach": "Relations publiques",
 	"We'd like to have some budget available to attend smaller events": "Nous aimerions avoir un budget pour assister à des événements plus petits",
 	"Infrastructure": "Infrastructure",
-	"The costs to keep Luanti running - websites and services": "Les coûts pour maintenir le fonctionnement - des sites internet et des services - de Luanti",
+	"The costs to keep Luanti running - websites and services": "Les coûts pour maintenir le fonctionnement - des sites internet et des services de Luanti",
 	"Install Luanti using your system package manager, or build from ports/pkgsrc.": "Installez Luanti en utilisant votre gestionnaire de packets systèmes, ou construisez depuis des ports/pkgsrc.",
 	"Install using:": "Installez en utilisant :",
 	"Or compile from ports at:": "Ou compilez depuis des ports à :",
@@ -313,5 +313,6 @@
 	"{{value}} / {{target}} per month": "{{value}} / {{target}} par mois",
 	"*BSD": "*BSD",
 	"FOSDEM": "FOSDEM",
-	"Estimated monthly income of {{amount}} based on active recurring supporters and the last 3 months of donations": "Revenu mensuel estimé de {{amount}} basé sur les soutiens actifs récurrents et sur les 3 derniers mois de donations"
+	"Estimated monthly income of {{amount}} based on active recurring supporters and the last 3 months of donations": "Revenu mensuel estimé de {{amount}} basé sur les soutiens actifs récurrents et sur les 3 derniers mois de donations",
+	"Email": "Email"
 }
