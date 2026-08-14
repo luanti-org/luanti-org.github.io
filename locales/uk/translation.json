@@ -311,5 +311,11 @@
 	"{{value}} / {{target}} per month": "{{value}} / {{target}} на місяць",
 	"Estimated monthly income of {{amount}} based on active recurring supporters and the last 3 months of donations": "Орієнтовний щомісячний дохід у {{amount}} на основі активних постійних прихильників та останніх 3 місяців пожертвувань",
 	"Organizations": "Організації",
-	"Individuals": "Фізичні особи"
+	"Individuals": "Фізичні особи",
+	"Email": "Електронна пошта",
+	"Translation": "Переклад",
+	"Get in touch": "Зв'язатися",
+	"Have questions about using Luanti in your classroom, or want to share your project on this page?": "Маєте запитання щодо використання Luanti в класі чи бажаєте поділитися своїм проєктом на цій сторінці?",
+	"Get in touch with the Luanti Education team.": "Зв'язатися.",
+	"Email education@luanti.org": "Електронна пошта education@luanti.org"
 }
