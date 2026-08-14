@@ -19,12 +19,28 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
-	<meta charset="utf-8" />
-	<title>Redirecting&hellip;</title>
-	<link rel="canonical" href="{{ redirect.to | absolute_url }}" />
-	<script>location = '{{ redirect.to | absolute_url }}';</script>
-	<meta http-equiv="refresh" content="0; url={{ redirect.to | absolute_url }}" />
-	<meta name="robots" content="noindex" />
-	<h1>Redirecting&hellip;</h1>
-	<a href="{{ redirect.to | url }}">Click here if you are not redirected.</a>
+	<head>
+		<meta charset="utf-8" />
+		<title>Redirecting&hellip;</title>
+		<link rel="canonical" href="{{ redirect.to | absolute_url }}" />
+		<meta http-equiv="refresh" content="0.1; url={{ redirect.to }}" />
+		<meta name="robots" content="noindex" />
+	</head>
+	<body>
+		<h1>Redirecting&hellip;</h1>
+		<a href="{{ redirect.to | url }}">Click here if you are not redirected.</a>
+		<script>
+			const targetURL = '{{ redirect.to }}';
+			const locales = {{ redirect.to | locale_links | map: "lang" | jsonify }};
+			const userLanguages = navigator.languages ?? [navigator.language ?? "en"];
+			const desiredLang =
+				userLanguages.map(x => x.split("-")[0]).find(lang => locales.includes(lang));
+			if (desiredLang && targetURL.startsWith('/en/')) {
+				const newURL = targetURL.replace('/en/', `/${desiredLang}/`);
+				window.location.replace(newURL);
+			} else {
+				window.location.replace(targetURL);
+			}
+		</script>
+	</body>
 </html>
