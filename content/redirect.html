@@ -26,18 +26,31 @@
 		<meta http-equiv="refresh" content="0.1; url={{ redirect.to }}" />
 		<meta name="robots" content="noindex" />
 		<script>
-			const targetURL = '{{ redirect.to }}';
+			function findLang(avail, user) {
+				let i = 999, ret;
+				// most preferred language wins, even if region mismatches
+				for (const lang of avail) {
+					const j = user.findIndex(a => a.toLowerCase() === lang.toLowerCase());
+					if (j != -1 && j < i) {
+						i = j;
+						ret = lang;
+					}
+				}
+				for (const lang of avail) {
+					const j = user.findIndex(a => a.split('-')[0].toLowerCase() === lang.split('-')[0].toLowerCase());
+					if (j != -1 && j < i) {
+						i = j;
+						ret = lang;
+					}
+				}
+				return ret;
+			}
+
+			const targetURL = {{ redirect.to | jsonify }};
 			const locales = ({{ redirect.to | locale_links | map: "lang" | jsonify }});
 			const userLanguages = navigator.languages ?? [navigator.language ?? "en"];
 
-			let desiredLang = "en";
-			for (const lang of userLanguages) {
-				const foundLocale = locales.find(l => l.toLowerCase() === lang.toLowerCase());
-				if (foundLocale) {
-					desiredLang = foundLocale;
-					break;
-				}
-			}
+			let desiredLang = findLang(locales, userLanguages) ?? "en";
 
 			if (desiredLang !== "en" && targetURL.startsWith('/en/')) {
 				const newURL = `/${desiredLang}/` + targetURL.substring(4);
