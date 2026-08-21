@@ -1,6 +1,6 @@
 latest:
-  version: "5.16.1"
-  version_code: 5016001
-  date: "2026-05-10"
-  protocol_version: 52
+  version: "5.17.0"
+  version_code: 5017000
+  date: "2026-08-20"
+  protocol_version: 53
   url: "https://www.luanti.org/downloads/"
