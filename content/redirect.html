@@ -47,7 +47,7 @@
 			}
 
 			const targetURL = {{ redirect.to | jsonify }};
-			const locales = ({{ redirect.to | locale_links | map: "lang" | jsonify }});
+			const locales = ["en"].concat({{ redirect.to | locale_links | map: "lang" | jsonify }});
 			const userLanguages = navigator.languages ?? [navigator.language ?? "en"];
 
 			let desiredLang = findLang(locales, userLanguages) ?? "en";
