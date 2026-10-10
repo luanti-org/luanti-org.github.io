@@ -27,7 +27,7 @@ social:
     icon: mastodon.svg
 
   - name: Discord
-    url: https://discord.gg/minetest
+    url: https://discord.luanti.org/
     icon: discord.svg
 
   - name: Reddit
