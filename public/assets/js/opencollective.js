@@ -63,8 +63,15 @@ const overrides = [
 		member: {
 			type: "ORGANIZATION",
 			name: "Teckids",
+			slug: "",
 			website: "https://teckids.org/",
 			imageUrl: "https://teckids.org/apple-touch-icon.png",
+		},
+	},
+	{
+		match: (member) => member.member.name === "FACTORFX",
+		member: {
+			type: "ORGANIZATION",
 		},
 	},
 ];
@@ -86,7 +93,7 @@ function applyOverrides(members) {
 			const combined = {
 				...member,
 				stats: { ...member.stats },
-				member: { ...member.member, ...override.member, slug: "" },
+				member: { ...member.member, ...override.member },
 			};
 			merged.set(override, combined);
 			result.push(combined);
