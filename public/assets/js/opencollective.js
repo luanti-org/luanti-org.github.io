@@ -55,6 +55,47 @@ query Members($collectiveSlug: String!, $role: String, $limit: Int, $offset: Int
 }
 `;
 
+// Donors that need manual fixes, such as organisations that donated using
+// guest accounts and so appear as multiple separate members.
+const overrides = [
+	{
+		match: (member) => member.member.name.includes("Teckids"),
+		member: {
+			type: "ORGANIZATION",
+			name: "Teckids",
+			website: "https://teckids.org/",
+			imageUrl: "https://teckids.org/apple-touch-icon.png",
+		},
+	},
+];
+
+function applyOverrides(members) {
+	const result = [];
+	const merged = new Map();
+	for (const member of members) {
+		const override = overrides.find(o => o.match(member));
+		if (!override) {
+			result.push(member);
+			continue;
+		}
+
+		const existing = merged.get(override);
+		if (existing) {
+			existing.stats.totalDonations += member.stats.totalDonations;
+		} else {
+			const combined = {
+				...member,
+				stats: { ...member.stats },
+				member: { ...member.member, ...override.member, slug: "" },
+			};
+			merged.set(override, combined);
+			result.push(combined);
+		}
+	}
+
+	return result.sort((a, b) => b.stats.totalDonations - a.stats.totalDonations);
+}
+
 async function fetchMembers() {
 	const req = await fetch("https://opencollective.com/api/graphql/v1", {
 		method: "POST",
@@ -82,7 +123,7 @@ async function fetchMembers() {
 }
 
 function addMember(member) {
-	const isOrg = member.member.type === "ORGANIZATION" || member.member.name.includes("Teckids");
+	const isOrg = member.member.type === "ORGANIZATION";
 	const container = document.getElementById(isOrg ? "credits-orgs" : "credits-users");
 	const element = document.createElement("div");
 	if (isOrg) {
@@ -129,7 +170,7 @@ function addMember(member) {
 async function load() {
 	try {
 		const members = await fetchMembers();
-		members.forEach(member => addMember(member));
+		applyOverrides(members).forEach(member => addMember(member));
 		document.getElementById("credits-loading").style.display = "none";
 	} catch {
 		document.getElementById("credits-loading").textContent = "Failed to load";
